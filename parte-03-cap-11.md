@@ -73,7 +73,7 @@ A China não aceitou passivamente. Está trabalhando em múltiplas frentes:
 
 ## O Choque DeepSeek
 
-Em janeiro de 2026, uma startup chinesa chamada DeepSeek causou pânico no Vale do Silício.
+Em janeiro de 2025, uma startup chinesa chamada DeepSeek causou pânico no Vale do Silício.
 
 ### O Que Aconteceu
 
@@ -95,7 +95,7 @@ Se a DeepSeek está mentindo (ou exagerando):
 
 ### A Reação do Mercado
 
-Após o choque DeepSeek, os maiores compradores de data centers — Microsoft, Google, Meta e Amazon — anunciaram que gastariam **centenas de bilhões de dólares** em chips de IA e data centers em 2026, um aumento de quase 50% sobre 2024.
+Após o choque DeepSeek, os maiores compradores de data centers — Microsoft, Google, Meta e Amazon — anunciaram que gastariam **centenas de bilhões de dólares** em chips de IA e data centers em 2025, um aumento de quase 50% sobre 2024.
 
 A mensagem? A corrida não está desacelerando. Está acelerando.
 

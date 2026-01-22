@@ -47,7 +47,7 @@ Físico do MIT explora cenários futuros para IA e humanidade, desde utópicos a
 ### World Economic Forum
 - **"The Future of Jobs Report"** (atualizado anualmente)
   Análise abrangente de como tecnologia está mudando mercado de trabalho globalmente.
-  [weforum.org/publications/the-future-of-jobs-report-2026](https://www.weforum.org/publications/the-future-of-jobs-report-2026)
+  [weforum.org/publications/the-future-of-jobs-report-2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025)
 
 ### McKinsey Global Institute
 - **"Jobs Lost, Jobs Gained"**
@@ -278,4 +278,4 @@ O objetivo não é saber tudo — é manter consciência suficiente para tomar b
 
 ---
 
-*Lista atualizada em 2026. Para recursos mais recentes, consulte as fontes mencionadas diretamente.*
+*Lista atualizada em 2025. Para recursos mais recentes, consulte as fontes mencionadas diretamente.*

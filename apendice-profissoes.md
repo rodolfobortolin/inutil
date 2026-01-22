@@ -8,7 +8,7 @@
 
 As probabilidades abaixo são baseadas em múltiplas fontes:
 - Estudo de Frey & Osborne (Oxford, 2013) — atualizado
-- Relatórios do World Economic Forum (2023-2026)
+- Relatórios do World Economic Forum (2023-2025)
 - Análises do McKinsey Global Institute
 - Avaliações de especialistas em IA
 
@@ -254,4 +254,4 @@ Estas probabilidades são **estimativas baseadas em conhecimento atual**. Fatore
 
 ---
 
-*Última atualização: 2026*
+*Última atualização: 2025*

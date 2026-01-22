@@ -62,7 +62,7 @@ Agendar reuniões. Organizar arquivos. Responder e-mails de rotina. Fazer reserv
 
 Todas essas tarefas já podem ser feitas por assistentes de IA. O Microsoft Copilot, o Google Workspace AI, o Claude — todos podem executar essas funções.
 
-**Segundo o WEF 2026:** Trabalhadores administrativos e de secretariado, incluindo caixas, atendentes de guichê e assistentes administrativos, terão o maior declínio em números absolutos.
+**Segundo o WEF 2025:** Trabalhadores administrativos e de secretariado, incluindo caixas, atendentes de guichê e assistentes administrativos, terão o maior declínio em números absolutos.
 
 ### 4. Operadores de Caixa (97% de risco)
 
@@ -106,7 +106,7 @@ O que sobra para analistas humanos? Formular as perguntas certas, interpretar re
 
 ### 8. Tradutores e Intérpretes (Risco Médio-Alto)
 
-O Google Translate de 2015 era piada. O Google Translate de 2026, alimentado por IA, é assustadoramente competente.
+O Google Translate de 2015 era piada. O Google Translate de 2025, alimentado por IA, é assustadoramente competente.
 
 Para traduções técnicas, comerciais e de rotina, a IA já é "boa o suficiente". Tradutores literários de alto nível, intérpretes simultâneos em contextos diplomáticos sensíveis — esses ainda são necessários. Mas eles representam uma fração do mercado.
 
@@ -221,11 +221,11 @@ Nos próximos capítulos, vamos explorar como a classe média será especialment
 
 ## Referências
 
-- [Research.com - Job Automation Risks 2026](https://research.com/careers/job-automation-risks)
-- [Final Round AI - White-Collar Jobs at Risk](https://www.finalroundai.com/blog/white-collar-jobs-most-at-risk-from-ai-in-2026)
+- [Research.com - Job Automation Risks 2025](https://research.com/careers/job-automation-risks)
+- [Final Round AI - White-Collar Jobs at Risk](https://www.finalroundai.com/blog/white-collar-jobs-most-at-risk-from-ai-in-2025)
 - [CNBC - AI Taking White-Collar Jobs](https://www.cnbc.com/2025/10/22/ai-taking-white-collar-jobs-economists-warn-much-more-in-the-tank.html)
 - [Oxford Internet Institute - Generative AI and Labor Markets](https://www.oii.ox.ac.uk/news-events/generative-ai-has-potential-to-disrupt-labour-markets-but-is-not-likely-to-cause-widespread-automation-and-job-displacement-say-oxford-ai-experts/)
-- [World Economic Forum - Future of Jobs 2026](https://www.weforum.org/publications/the-future-of-jobs-report-2026/)
+- [World Economic Forum - Future of Jobs 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/)
 
 ---
 

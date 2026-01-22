@@ -135,7 +135,7 @@ Em 2024, modelos passavam em exames profissionais e criavam imagens a partir de 
 
 Em 2025, o GPT-5 alcançou 94,6% em competições de matemática avançada e 74,9% em benchmarks de programação do mundo real.
 
-Em janeiro de 2026, temos modelos que podem:
+Em janeiro de 2025, temos modelos que podem:
 - Superar PhDs em raciocínio científico
 - Escrever código complexo e debugar repositórios inteiros
 - Criar websites, apps e jogos completos com um único prompt
@@ -190,7 +190,7 @@ Você não precisa entender como os Transformers funcionam ou o que significa RL
 
 ## Referências
 
-- [The Neuron - Three Years of ChatGPT: A Retrospective](https://www.theneuron.ai/explainer-articles/three-years-of-chatgpt-a-retrospective-2022-2026)
+- [The Neuron - Three Years of ChatGPT: A Retrospective](https://www.theneuron.ai/explainer-articles/three-years-of-chatgpt-a-retrospective-2022-2025)
 - [Data Science Dojo - Complete History of OpenAI Models](https://datasciencedojo.com/blog/the-complete-history-of-openai-models/)
 - [Nobel Prize - Geoffrey Hinton 2024](https://www.nobelprize.org/prizes/physics/2024/hinton/speech/)
 - [CBS News - Geoffrey Hinton AI Warning](https://www.cbsnews.com/news/godfather-of-ai-geoffrey-hinton-ai-warning/)

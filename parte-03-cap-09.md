@@ -74,7 +74,7 @@ A corrida armamentista de IA está criando demanda insaciável por infraestrutur
 
 ### Projeto Stargate
 
-Em janeiro de 2026, o presidente Trump anunciou que OpenAI, SoftBank e Oracle investiriam conjuntamente cerca de **US$ 500 bilhões** em um projeto de data centers em hiperescala chamado Stargate.
+Em janeiro de 2025, o presidente Trump anunciou que OpenAI, SoftBank e Oracle investiriam conjuntamente cerca de **US$ 500 bilhões** em um projeto de data centers em hiperescala chamado Stargate.
 
 Quinhentos bilhões de dólares. Em data centers. Para treinar IA.
 

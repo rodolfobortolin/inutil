@@ -86,7 +86,7 @@ A divisão fundamental do futuro não é entre "ricos e pobres", mas entre "dono
 
 Os números não mentem. O mercado global de IA para gestão de ativos foi avaliado em $84.85 bilhões em 2024 e deve crescer para $1.168 trilhão até 2035 — um CAGR de 26,92%.
 
-Os "Magnificent 7" (Apple, Microsoft, Google, Amazon, Nvidia, Meta, Tesla) aumentaram seus gastos anuais de investimento de aproximadamente $100 bilhões em 2023 para mais de $300 bilhões em 2026.
+Os "Magnificent 7" (Apple, Microsoft, Google, Amazon, Nvidia, Meta, Tesla) aumentaram seus gastos anuais de investimento de aproximadamente $100 bilhões em 2023 para mais de $300 bilhões em 2025.
 
 A Nvidia se tornou a primeira empresa a atingir capitalização de mercado de $5 trilhões. Em 2024, sua receita saltou 114% para $130,5 bilhões.
 
@@ -100,7 +100,7 @@ O recado é claro: quem está construindo a infraestrutura de IA está acumuland
 
 Se IA vai dominar a economia, investir em IA faz sentido.
 
-O índice Morningstar Global Next Generation Artificial Intelligence retornou 44,45% nos 12 meses terminando em janeiro de 2026.
+O índice Morningstar Global Next Generation Artificial Intelligence retornou 44,45% nos 12 meses terminando em janeiro de 2025.
 
 ### O Menos Óbvio
 

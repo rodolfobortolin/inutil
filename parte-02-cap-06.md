@@ -41,7 +41,7 @@ Os empregos que pagavam salários decentes para pessoas com educação média �
 
 ### Vagas em Colapso
 
-Em janeiro de 2026, os Estados Unidos registraram o **menor número de vagas em serviços profissionais desde 2013** — uma queda de 20% em relação ao ano anterior.
+Em janeiro de 2025, os Estados Unidos registraram o **menor número de vagas em serviços profissionais desde 2013** — uma queda de 20% em relação ao ano anterior.
 
 Leia isso novamente: não desde a crise de 2008. Não desde a pandemia. Desde 2013.
 
@@ -97,7 +97,7 @@ E todas as outras empresas fazem o mesmo, criando um ciclo vicioso onde o númer
 
 ## As Demissões Que Dizem Tudo
 
-Em 2026, várias grandes empresas explicitamente citaram IA ao anunciar cortes:
+Em 2025, várias grandes empresas explicitamente citaram IA ao anunciar cortes:
 
 | Empresa | Demissões | Justificativa |
 |---------|-----------|---------------|
@@ -214,10 +214,10 @@ Se você é classe média — especialmente se trabalha com conhecimento, análi
 
 ## Referências
 
-- [WhatJobs - AI Eliminating Middle Class Jobs](https://www.whatjobs.com/news/alarming-ai-revolution-how-artificial-intelligence-is-rapidly-eliminating-middle-class-jobs-in-2026/)
+- [WhatJobs - AI Eliminating Middle Class Jobs](https://www.whatjobs.com/news/alarming-ai-revolution-how-artificial-intelligence-is-rapidly-eliminating-middle-class-jobs-in-2025/)
 - [Medium - Disappearing Middle Class](https://medium.com/@michalmikuli/the-disappearing-middle-class-how-artificial-intelligence-is-reshaping-the-american-workforce-75606f79f628)
 - [CBS News - Middle Class Jobs Shrinking](https://www.cbsnews.com/news/middle-class-jobs-shrinking-office-clerk-computer-programmer-by-2033/)
-- [Rest of World - AI Wiping Out Entry-Level Tech Jobs](https://restofworld.org/2026/engineering-graduates-ai-job-losses/)
+- [Rest of World - AI Wiping Out Entry-Level Tech Jobs](https://restofworld.org/2025/engineering-graduates-ai-job-losses/)
 - [DemandSage - AI Job Replacement Statistics](https://www.demandsage.com/ai-job-replacement-stats/)
 
 ---

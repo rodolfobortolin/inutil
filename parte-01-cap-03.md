@@ -53,7 +53,7 @@ Pense nisso: estamos forçando crianças a passar 12 a 16 anos em sistemas educa
 
 Poucos personagens da nossa era são tão contraditórios quanto Elon Musk. Ele é simultaneamente um dos maiores investidores em IA (através da xAI e da Tesla) e um dos que mais alertam sobre seus perigos.
 
-Em janeiro de 2026, durante o U.S.-Saudi Investment Forum em Washington, Musk fez uma previsão que chocou a plateia:
+Em novembro de 2025, durante o U.S.-Saudi Investment Forum em Washington, Musk fez uma previsão que chocou a plateia:
 
 *"Minha previsão é que o trabalho será opcional. Será como praticar esportes ou jogar videogame ou algo assim."*
 
@@ -189,7 +189,7 @@ Os profetas podem estar errados sobre os detalhes. Mas se estiverem certos sobre
 
 - [TED Ideas - The Rise of the Useless Class (Harari)](https://ideas.ted.com/the-rise-of-the-useless-class/)
 - [World Economic Forum - Harari's Warning to Davos](https://www.weforum.org/stories/2020/01/yuval-hararis-warning-davos-speech-future-predications/)
-- [Fortune - Elon Musk: Work Will Be Optional](https://fortune.com/2026/01/19/when-does-elon-musk-say-work-will-be-optional-and-money-will-be-irrelevant-ai-robotics/)
+- [Fortune - Elon Musk: Work Will Be Optional](https://fortune.com/2025/11/20/elon-musk-tesla-ai-work-optional-money-irrelevant/)
 - [Yahoo Finance - What Musk, Altman Say About UBI](https://finance.yahoo.com/news/musk-altman-others-ai-funded-120000745.html)
 - [AOL - Geoffrey Hinton on Massive Unemployment](https://www.aol.com/godfather-ai-says-create-massive-094912487.html)
 

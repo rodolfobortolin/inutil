@@ -243,4 +243,4 @@ O futuro é incerto. Mas é nosso para moldar.
 ---
 
 *Rodolfo Bortolin*
-*2026*
+*2025*

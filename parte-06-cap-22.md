@@ -209,7 +209,7 @@ Se você já está em profissão vulnerável:
 
 ## Referências
 
-- [World Economic Forum - Future of Jobs 2026](https://www.weforum.org/publications/the-future-of-jobs-report-2026/)
+- [World Economic Forum - Future of Jobs 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/)
 - Análises de automação por ocupação
 - Pesquisas sobre preferências humanas por serviços humanos vs. automatizados
 

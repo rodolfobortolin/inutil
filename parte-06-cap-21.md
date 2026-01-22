@@ -61,7 +61,7 @@ Robôs humanoides estão avançando. Em 10-20 anos, muitos trabalhos físicos po
 
 ### O Problema
 
-IA atual (incluindo os modelos mais avançados de 2026) é extraordinariamente boa em reconhecer padrões. Mas tem dificuldades com raciocínio causal — entender POR QUE as coisas acontecem, não apenas prever O QUE vai acontecer.
+IA atual (incluindo os modelos mais avançados de 2025) é extraordinariamente boa em reconhecer padrões. Mas tem dificuldades com raciocínio causal — entender POR QUE as coisas acontecem, não apenas prever O QUE vai acontecer.
 
 ### Exemplo
 

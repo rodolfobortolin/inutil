@@ -214,7 +214,7 @@ Parece inspirador. Mas ignora realidades psicológicas:
 
 ## Referências
 
-- [Fortune - Elon Musk: Work Will Be Optional](https://fortune.com/2026/01/19/when-does-elon-musk-say-work-will-be-optional-and-money-will-be-irrelevant-ai-robotics/)
+- [Fortune - Elon Musk: Work Will Be Optional](https://fortune.com/2025/11/20/elon-musk-tesla-ai-work-optional-money-irrelevant/)
 - [Psychology Today - Surviving in AI's Useless Class](https://www.psychologytoday.com/us/blog/word-less/202502/surviving-within-artificial-intelligences-useless-class)
 - [TED Ideas - Rise of the Useless Class (Harari)](https://ideas.ted.com/the-rise-of-the-useless-class/)
 - Estudos sobre efeitos psicológicos da aposentadoria e desemprego

@@ -13,7 +13,7 @@
 
 Vamos fazer um exercício que poucos economistas têm coragem de fazer: escalar o problema para a magnitude real.
 
-A população mundial em 2026 é de aproximadamente 8 bilhões de pessoas. Destes, cerca de 3,5 bilhões estão na força de trabalho global — pessoas que trabalham ou procuram trabalho ativamente.
+A população mundial em 2025 é de aproximadamente 8 bilhões de pessoas. Destes, cerca de 3,5 bilhões estão na força de trabalho global — pessoas que trabalham ou procuram trabalho ativamente.
 
 Segundo o Fundo Monetário Internacional (FMI), **quase 40% do emprego global está exposto à IA**. Nas economias avançadas, essa exposição chega a **60%**.
 
@@ -89,7 +89,7 @@ Considere Gana, Quênia e África do Sul, que investiram pesadamente em desenvol
 
 Em 2020, esses call centers empregavam centenas de milhares de jovens africanos qualificados que falavam inglês. Era o primeiro degrau da escada.
 
-Em 2026, chatbots com IA já conseguem:
+Em 2025, chatbots com IA já conseguem:
 - Responder perguntas de clientes 24/7
 - Processar reclamações
 - Fazer vendas por telefone

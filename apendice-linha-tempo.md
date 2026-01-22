@@ -107,7 +107,7 @@
 
 ---
 
-## 2020-2026 — A Explosão da IA Generativa
+## 2020-2025 — A Explosão da IA Generativa
 
 | Ano | Evento |
 |-----|--------|
@@ -119,8 +119,8 @@
 | 2024 | Sora (vídeo), Gemini 1.5, Claude 3 são lançados |
 | 2024 | Geoffrey Hinton ganha Nobel de Física por contribuições a redes neurais |
 | 2024 | Nvidia atinge $3 trilhões de valor de mercado |
-| 2026 | DeepSeek (China) lança modelo competitivo com fração do custo |
-| 2026 | Agentes de IA começam a operar autonomamente em tarefas complexas |
+| 2025 | DeepSeek (China) lança modelo competitivo com fração do custo |
+| 2025 | Agentes de IA começam a operar autonomamente em tarefas complexas |
 
 **Impacto:** IA generativa atinge público de massa. Corrida global por IA acelera. Primeiros sinais de impacto em empregos.
 
@@ -130,7 +130,7 @@
 
 | Período | Projeção |
 |---------|----------|
-| 2026-2026 | Agentes de IA assumem tarefas administrativas em larga escala |
+| 2025-2026 | Agentes de IA assumem tarefas administrativas em larga escala |
 | 2026-2027 | Robôs humanoides começam deployment comercial |
 | 2027-2028 | Veículos autônomos alcançam viabilidade comercial ampla |
 | 2028-2029 | IA atinge ou supera performance humana em maioria das tarefas cognitivas |

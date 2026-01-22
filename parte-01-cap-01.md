@@ -15,7 +15,7 @@ Se você nasceu antes de 1995, provavelmente cresceu com uma promessa implícita
 
 Essa promessa está sendo quebrada enquanto você lê estas linhas.
 
-Em janeiro de 2026, o World Economic Forum publicou seu relatório "Future of Jobs 2026", baseado em pesquisas com mais de 1.000 das maiores empresas do mundo, representando coletivamente 14 milhões de trabalhadores. A conclusão foi inequívoca: **22% de todos os empregos globais serão "disrompidos" até 2030**. Isso significa que mais de um em cada cinco empregos que existem hoje serão profundamente transformados ou simplesmente deixarão de existir.
+Em janeiro de 2025, o World Economic Forum publicou seu relatório "Future of Jobs 2025", baseado em pesquisas com mais de 1.000 das maiores empresas do mundo, representando coletivamente 14 milhões de trabalhadores. A conclusão foi inequívoca: **22% de todos os empregos globais serão "disrompidos" até 2030**. Isso significa que mais de um em cada cinco empregos que existem hoje serão profundamente transformados ou simplesmente deixarão de existir.
 
 Mas espere. O relatório também diz que 170 milhões de novos empregos serão criados, contra 92 milhões eliminados — um ganho líquido de 78 milhões de posições. Isso deveria ser uma boa notícia, certo?
 
@@ -136,9 +136,9 @@ A boa notícia: ainda há tempo de se preparar. Não muito. Talvez uma década, 
 
 ## Referências
 
-- [World Economic Forum - Future of Jobs Report 2026](https://www.weforum.org/publications/the-future-of-jobs-report-2026/digest/)
+- [World Economic Forum - Future of Jobs Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/)
 - [Goldman Sachs - How Will AI Affect the Global Workforce?](https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-global-workforce)
-- [McKinsey - AI in the Workplace 2026](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work)
+- [McKinsey - AI in the Workplace 2025](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work)
 - [Yale Budget Lab - Evaluating the Impact of AI on the Labor Market](https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs)
 
 ---
