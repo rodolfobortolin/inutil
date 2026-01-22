@@ -218,7 +218,7 @@ Mesmo que fosse perfeitamente implementada e financiada, a UBI não resolve:
 
 ## Referências
 
-- [Frontiers in AI - UBI and Power: Tech Elite's Narrative](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1488457/full)
+- [Frontiers in AI - UBI and Power: Tech Elite's Narrative](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1488457/full)
 - [Tax Project Institute - UBI and AI](https://taxproject.org/ubi-and-ai/)
 - [Quartz - Universal Basic Income Won't Save Us from AI](https://qz.com/universal-basic-income-ai-jobs-loss-unemployment-ubi)
 - [LSE Business Review - UBI as New Social Contract](https://blogs.lse.ac.uk/businessreview/2025/04/29/universal-basic-income-as-a-new-social-contract-for-the-age-of-ai-1/)

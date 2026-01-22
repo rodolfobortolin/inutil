@@ -240,7 +240,7 @@ E o custo dos robôs vai cair. Sempre cai. Assim como TVs de tela plana, smartph
 
 - [Wikipedia - Optimus Robot](https://en.wikipedia.org/wiki/Optimus_(robot))
 - [Fortune - Elon Musk's Plans for Tesla and Optimus](https://fortune.com/2025/01/30/elon-musk-reveals-massive-plans-tesla-optimus-self-driving-cars-humanoid-robots/)
-- [The Register - Boston Dynamics Atlas Production](https://www.theregister.com/2025/01/06/boston_dynamics_atlas_production/)
+- [The Register - Boston Dynamics Atlas Production](https://www.theregister.com/2026/01/06/boston_dynamics_atlas_production/)
 - [Yahoo Finance - Musk on Optimus and Universal Income](https://finance.yahoo.com/news/elon-musk-says-optimus-robot-194713607.html)
 - [Electrek - Musk's Tesla Predictions That Didn't Happen](https://electrek.co/2025/12/30/elon-musk-top-5-tesla-predictions-2025-didnt-happen/)
 
