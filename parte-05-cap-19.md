@@ -56,7 +56,7 @@ Não apenas desemprego — mas o fim de empregos que davam status, propósito e 
 
 Aqui está o insight crucial: mortes por desespero não são simplesmente função de pobreza.
 
-Povres urbanos — especialmente negros e hispânicos — também são pobres. Frequentemente mais pobres. Mas não mostram o mesmo aumento em mortes por desespero.
+Pobres urbanos — especialmente negros e hispânicos — também são pobres. Frequentemente mais pobres. Mas não mostram o mesmo aumento em mortes por desespero.
 
 Por quê?
 
