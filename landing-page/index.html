@@ -7,9 +7,9 @@
     <script>
         (function() {
             var params = new URLSearchParams(window.location.search);
-            var v = params.get('v') || '3';
+            var v = params.get('v') || '1';
             var pages = { '1': 'v1.html', '2': 'v2.html', '3': 'v3.html' };
-            var page = pages[v] || 'v3.html';
+            var page = pages[v] || 'v1.html';
             window.location.replace(page + window.location.search);
         })();
     </script>
