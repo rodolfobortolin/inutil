@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Classe Inútil</title>
+    <script>
+        (function() {
+            var params = new URLSearchParams(window.location.search);
+            var v = params.get('v') || '3';
+            var pages = { '1': 'v1.html', '2': 'v2.html', '3': 'v3.html' };
+            var page = pages[v] || 'v3.html';
+            window.location.replace(page + window.location.search);
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecionando...</p>
+</body>
+</html>

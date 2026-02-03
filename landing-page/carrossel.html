@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel Instagram - A Classe Inútil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #1a1a2e;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        .instructions {
+            color: #888;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 0.95rem;
+        }
+
+        .slides-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            justify-items: center;
+        }
+
+        .slide-wrapper {
+            text-align: center;
+        }
+
+        .slide-label {
+            color: #666;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Base do Slide - 1080x1080 scaled down */
+        .slide {
+            width: 360px;
+            height: 360px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+
+        /* ============================================
+           SLIDE 1 - HOOK PRINCIPAL
+           ============================================ */
+        .slide-1 {
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a0a15 50%, #0a0a0f 100%);
+        }
+
+        .slide-1::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 20%, rgba(255,45,85,0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255,107,53,0.1) 0%, transparent 50%);
+        }
+
+        .slide-1 .content {
+            position: relative;
+            z-index: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .slide-1 .warning-tag {
+            background: rgba(255,45,85,0.2);
+            border: 1px solid rgba(255,45,85,0.4);
+            color: #ff2d55;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .slide-1 .main-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 800;
+            color: white;
+            line-height: 1.1;
+            margin-bottom: 15px;
+        }
+
+        .slide-1 .highlight {
+            background: linear-gradient(135deg, #ff2d55, #ff6b35);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .slide-1 .sub-text {
+            color: #888;
+            font-size: 13px;
+            margin-top: 15px;
+        }
+
+        .slide-1 .swipe {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            color: #ff6b35;
+            font-size: 11px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* ============================================
+           SLIDE 2 - ESTATÍSTICA CHOCANTE
+           ============================================ */
+        .slide-2 {
+            background: #0a0a0f;
+        }
+
+        .slide-2 .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .slide-2 .big-number {
+            font-size: 100px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #ff2d55, #ff6b35, #ffd60a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .slide-2 .stat-text {
+            color: white;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.3;
+            max-width: 280px;
+        }
+
+        .slide-2 .source {
+            position: absolute;
+            bottom: 20px;
+            color: #555;
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* ============================================
+           SLIDE 3 - LISTA DE PROFISSÕES
+           ============================================ */
+        .slide-3 {
+            background: linear-gradient(180deg, #0a0a0f 0%, #150a0f 100%);
+        }
+
+        .slide-3 .content {
+            height: 100%;
+            padding: 25px;
+        }
+
+        .slide-3 .title {
+            color: #ff2d55;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .slide-3 .main-title {
+            font-family: 'Playfair Display', serif;
+            color: white;
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .slide-3 .job-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .slide-3 .job-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,45,85,0.08);
+            padding: 10px 14px;
+            border-radius: 8px;
+            border-left: 3px solid #ff2d55;
+        }
+
+        .slide-3 .job-icon {
+            font-size: 16px;
+        }
+
+        .slide-3 .job-name {
+            color: white;
+            font-size: 13px;
+            font-weight: 600;
+            flex: 1;
+        }
+
+        .slide-3 .job-risk {
+            color: #ff6b35;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        /* ============================================
+           SLIDE 4 - PERGUNTA PROVOCATIVA
+           ============================================ */
+        .slide-4 {
+            background: linear-gradient(135deg, #ff2d55 0%, #ff6b35 100%);
+        }
+
+        .slide-4 .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 35px;
+            text-align: center;
+        }
+
+        .slide-4 .question {
+            font-family: 'Playfair Display', serif;
+            font-size: 30px;
+            font-weight: 800;
+            color: white;
+            line-height: 1.2;
+        }
+
+        .slide-4 .emoji {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        /* ============================================
+           SLIDE 5 - MAIS DADOS
+           ============================================ */
+        .slide-5 {
+            background: #0a0a0f;
+        }
+
+        .slide-5 .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 25px;
+        }
+
+        .slide-5 .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .slide-5 .stat-box {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        .slide-5 .stat-number {
+            font-size: 32px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #ff2d55, #ff6b35);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 5px;
+        }
+
+        .slide-5 .stat-label {
+            color: #888;
+            font-size: 11px;
+            line-height: 1.3;
+        }
+
+        /* ============================================
+           SLIDE 6 - A SOLUÇÃO
+           ============================================ */
+        .slide-6 {
+            background: linear-gradient(135deg, #0a0a0f 0%, #0f1520 100%);
+        }
+
+        .slide-6 .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .slide-6 .pre-title {
+            color: #00d4aa;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .slide-6 .book-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            font-weight: 900;
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        .slide-6 .book-subtitle {
+            color: #666;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+
+        .slide-6 .book-mock {
+            width: 140px;
+            height: 200px;
+            border-radius: 5px;
+            box-shadow: 0 15px 40px rgba(255,45,85,0.3);
+            transform: perspective(500px) rotateY(-5deg);
+            overflow: hidden;
+        }
+
+        .slide-6 .book-mock img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slide-6 .mock-title,
+        .slide-6 .mock-author {
+            display: none;
+        }
+
+        /* ============================================
+           SLIDE 7 - O QUE VOCÊ VAI APRENDER
+           ============================================ */
+        .slide-7 {
+            background: #0a0a0f;
+        }
+
+        .slide-7 .content {
+            height: 100%;
+            padding: 25px;
+        }
+
+        .slide-7 .title {
+            font-family: 'Playfair Display', serif;
+            color: white;
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .slide-7 .learn-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .slide-7 .learn-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            background: rgba(0,212,170,0.05);
+            border-radius: 10px;
+            border-left: 3px solid #00d4aa;
+        }
+
+        .slide-7 .check {
+            width: 22px;
+            height: 22px;
+            background: #00d4aa;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0a0a0f;
+            font-size: 12px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .slide-7 .learn-text {
+            color: white;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+
+        /* ============================================
+           SLIDE 8 - PROVA SOCIAL / URGÊNCIA
+           ============================================ */
+        .slide-8 {
+            background: linear-gradient(135deg, #1a0a15 0%, #0a0a0f 100%);
+        }
+
+        .slide-8 .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .slide-8 .quote-mark {
+            font-size: 60px;
+            color: rgba(255,45,85,0.3);
+            line-height: 0.5;
+            margin-bottom: 10px;
+        }
+
+        .slide-8 .testimonial {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            font-style: italic;
+            color: white;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+
+        .slide-8 .author-name {
+            color: #ff6b35;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .slide-8 .stars {
+            color: #ffd60a;
+            font-size: 16px;
+            margin-top: 10px;
+            letter-spacing: 3px;
+        }
+
+        /* ============================================
+           SLIDE 9 - OFERTA
+           ============================================ */
+        .slide-9 {
+            background: linear-gradient(135deg, #0a0a0f 0%, #0a1015 100%);
+        }
+
+        .slide-9 .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .slide-9 .offer-badge {
+            background: linear-gradient(135deg, #ffd60a, #ff6b35);
+            color: #0a0a0f;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .slide-9 .price-old {
+            color: #555;
+            font-size: 18px;
+            text-decoration: line-through;
+        }
+
+        .slide-9 .price-new {
+            font-size: 60px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #00d4aa, #00b4d8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin: 10px 0;
+        }
+
+        .slide-9 .price-installment {
+            color: #888;
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+
+        .slide-9 .guarantee {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0,212,170,0.1);
+            padding: 10px 16px;
+            border-radius: 25px;
+            color: #00d4aa;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        /* ============================================
+           SLIDE 10 - CTA FINAL
+           ============================================ */
+        .slide-10 {
+            background: linear-gradient(135deg, #ff2d55 0%, #ff6b35 50%, #ffd60a 100%);
+        }
+
+        .slide-10 .content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .slide-10 .cta-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 900;
+            color: white;
+            line-height: 1.2;
+            margin-bottom: 25px;
+        }
+
+        .slide-10 .cta-button {
+            background: white;
+            color: #ff2d55;
+            padding: 16px 35px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .slide-10 .cta-sub {
+            color: rgba(255,255,255,0.8);
+            font-size: 11px;
+            margin-top: 15px;
+        }
+
+        .slide-10 .arrow {
+            font-size: 24px;
+            margin-top: 15px;
+            animation: bounce 1s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        /* Download instructions */
+        .download-section {
+            margin-top: 60px;
+            text-align: center;
+            color: #888;
+            padding: 30px;
+            background: rgba(255,255,255,0.02);
+            border-radius: 12px;
+        }
+
+        .download-section h2 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .download-section p {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .download-section code {
+            background: rgba(255,255,255,0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📱 Carrossel Instagram - A Classe Inútil</h1>
+        <p class="instructions">10 slides otimizados para conversão • Tire screenshot de cada um (1080x1080)</p>
+
+        <div class="slides-grid">
+            <!-- SLIDE 1 - HOOK -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 1 - Hook</div>
+                <div class="slide slide-1">
+                    <div class="content">
+                        <div class="warning-tag">⚠️ Alerta importante</div>
+                        <div class="main-text">
+                            A IA vai <span class="highlight">roubar seu emprego?</span>
+                        </div>
+                        <div class="sub-text">Desliza pra descobrir a verdade que ninguém conta →</div>
+                        <div class="swipe">ARRASTE →</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 2 - ESTATÍSTICA -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 2 - Dado Chocante</div>
+                <div class="slide slide-2">
+                    <div class="content">
+                        <div class="big-number">22%</div>
+                        <div class="stat-text">dos empregos vão DESAPARECER até 2030</div>
+                        <div class="source">Fonte: World Economic Forum 2025</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 3 - PROFISSÕES -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 3 - Lista de Profissões</div>
+                <div class="slide slide-3">
+                    <div class="content">
+                        <div class="title">🚨 Profissões em risco</div>
+                        <div class="main-title">A sua está na lista?</div>
+                        <div class="job-list">
+                            <div class="job-item">
+                                <span class="job-icon">👨‍💼</span>
+                                <span class="job-name">Administrativo</span>
+                                <span class="job-risk">96%</span>
+                            </div>
+                            <div class="job-item">
+                                <span class="job-icon">📊</span>
+                                <span class="job-name">Contador</span>
+                                <span class="job-risk">94%</span>
+                            </div>
+                            <div class="job-item">
+                                <span class="job-icon">📞</span>
+                                <span class="job-name">Atendimento</span>
+                                <span class="job-risk">91%</span>
+                            </div>
+                            <div class="job-item">
+                                <span class="job-icon">🚚</span>
+                                <span class="job-name">Motorista</span>
+                                <span class="job-risk">89%</span>
+                            </div>
+                            <div class="job-item">
+                                <span class="job-icon">⚖️</span>
+                                <span class="job-name">Advogado Jr.</span>
+                                <span class="job-risk">78%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 4 - PERGUNTA -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 4 - Pergunta Provocativa</div>
+                <div class="slide slide-4">
+                    <div class="content">
+                        <div class="emoji">🤔</div>
+                        <div class="question">E você?<br>Está preparado ou vai ser pego de surpresa?</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 5 - MAIS DADOS -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 5 - Mais Estatísticas</div>
+                <div class="slide slide-5">
+                    <div class="content">
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <div class="stat-number">375M</div>
+                                <div class="stat-label">de pessoas precisarão mudar de carreira</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-number">39%</div>
+                                <div class="stat-label">das suas habilidades serão inúteis</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-number">41%</div>
+                                <div class="stat-label">das empresas vão demitir por IA</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-number">5</div>
+                                <div class="stat-label">anos para você se preparar</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 6 - A SOLUÇÃO -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 6 - Apresenta o Livro</div>
+                <div class="slide slide-6">
+                    <div class="content">
+                        <div class="pre-title">✨ A solução existe</div>
+                        <div class="book-mock">
+                            <img src="images/capa.png" alt="A Classe Inútil">
+                        </div>
+                        <div class="book-subtitle" style="margin-top: 20px;">O manual de sobrevivência para a era da IA</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 7 - BENEFÍCIOS -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 7 - O Que Vai Aprender</div>
+                <div class="slide slide-7">
+                    <div class="content">
+                        <div class="title">O que você vai descobrir:</div>
+                        <div class="learn-list">
+                            <div class="learn-item">
+                                <div class="check">✓</div>
+                                <div class="learn-text">Lista completa das profissões condenadas</div>
+                            </div>
+                            <div class="learn-item">
+                                <div class="check">✓</div>
+                                <div class="learn-text">Carreiras à prova de robôs para migrar</div>
+                            </div>
+                            <div class="learn-item">
+                                <div class="check">✓</div>
+                                <div class="learn-text">Como educar seus filhos para 2040</div>
+                            </div>
+                            <div class="learn-item">
+                                <div class="check">✓</div>
+                                <div class="learn-text">Estratégias de investimento na era IA</div>
+                            </div>
+                            <div class="learn-item">
+                                <div class="check">✓</div>
+                                <div class="learn-text">Manual prático de sobrevivência</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 8 - DEPOIMENTO -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 8 - Prova Social</div>
+                <div class="slide slide-8">
+                    <div class="content">
+                        <div class="quote-mark">"</div>
+                        <div class="testimonial">Este livro abriu meus olhos. Mudei de carreira a tempo e hoje estou do lado certo da história.</div>
+                        <div class="author-name">— Leitor verificado</div>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 9 - OFERTA -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 9 - Preço</div>
+                <div class="slide slide-9">
+                    <div class="content">
+                        <div class="offer-badge">🔥 Oferta por tempo limitado</div>
+                        <div class="price-old">De R$ 97</div>
+                        <div class="price-new">R$39,90</div>
+                        <div class="price-installment">ou 4x de R$ 9,98 sem juros</div>
+                        <div class="guarantee">🛡️ Garantia de 7 dias ou seu dinheiro de volta</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 10 - CTA -->
+            <div class="slide-wrapper">
+                <div class="slide-label">Slide 10 - CTA Final</div>
+                <div class="slide slide-10">
+                    <div class="content">
+                        <div class="cta-text">Não espere ser substituído.<br>Aja AGORA.</div>
+                        <div class="cta-button">LINK NA BIO 👆</div>
+                        <div class="cta-sub">Acesso imediato após a compra</div>
+                        <div class="arrow">👆</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h2>📥 Como salvar os slides</h2>
+            <p><strong>Opção 1:</strong> Tire screenshot de cada slide individualmente</p>
+            <p><strong>Opção 2:</strong> Use extensão do Chrome "GoFullPage" para capturar</p>
+            <p><strong>Opção 3:</strong> Clique direito → Inspecionar → Ajuste o zoom para 300% e capture</p>
+            <p style="margin-top: 20px; color: #ff6b35;"><strong>Tamanho ideal:</strong> 1080x1080 pixels (quadrado)</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Classe Inútil - O Livro que vai mudar sua visão sobre o futuro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --accent-red: #ff2d55;
+            --accent-orange: #ff6b35;
+            --accent-yellow: #ffd60a;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0b0;
+            --text-muted: #606070;
+            --gradient-danger: linear-gradient(135deg, #ff2d55 0%, #ff6b35 50%, #ffd60a 100%);
+            --gradient-dark: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .bg-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(255,45,85,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,45,85,0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .noise-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 30%, rgba(255,45,85,0.15) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 70%, rgba(255,107,53,0.1) 0%, transparent 50%);
+            animation: pulse 15s ease-in-out infinite;
+            z-index: 0;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(5deg); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 900px;
+        }
+
+        .warning-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,45,85,0.15);
+            border: 1px solid rgba(255,45,85,0.3);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--accent-red);
+            margin-bottom: 30px;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .warning-badge::before {
+            content: '⚠️';
+            font-size: 1rem;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 25px;
+            animation: fadeInUp 1s ease-out 0.2s both;
+        }
+
+        .hero-title .highlight {
+            background: var(--gradient-danger);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: var(--gradient-danger);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--gradient-danger);
+            color: white;
+            padding: 20px 45px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 60px;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 40px rgba(255,45,85,0.4);
+            animation: fadeInUp 1s ease-out 0.8s both, glow 2s ease-in-out infinite;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 15px 50px rgba(255,45,85,0.5);
+        }
+
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 10px 40px rgba(255,45,85,0.4); }
+            50% { box-shadow: 0 10px 60px rgba(255,45,85,0.6); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Pain Points Section */
+        .pain-section {
+            padding: 100px 20px;
+            position: relative;
+            z-index: 2;
+            background: var(--bg-secondary);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .pain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .pain-card {
+            background: linear-gradient(135deg, rgba(255,45,85,0.05) 0%, rgba(255,107,53,0.02) 100%);
+            border: 1px solid rgba(255,45,85,0.1);
+            border-radius: 20px;
+            padding: 35px;
+            transition: all 0.4s ease;
+        }
+
+        .pain-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255,45,85,0.3);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .pain-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .pain-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--accent-red);
+        }
+
+        .pain-text {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        /* What You'll Learn Section */
+        .learn-section {
+            padding: 100px 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .learn-list {
+            display: grid;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .learn-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 25px 30px;
+            background: rgba(255,255,255,0.02);
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: all 0.3s ease;
+        }
+
+        .learn-item:hover {
+            background: rgba(255,45,85,0.05);
+            border-color: rgba(255,45,85,0.2);
+            transform: translateX(10px);
+        }
+
+        .learn-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-orange);
+            min-width: 50px;
+        }
+
+        .learn-content h3 {
+            font-size: 1.15rem;
+            margin-bottom: 8px;
+        }
+
+        .learn-content p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Author Section */
+        .author-section {
+            padding: 100px 20px;
+            background: var(--bg-secondary);
+            position: relative;
+            z-index: 2;
+        }
+
+        .author-box {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            max-width: 900px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .author-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .author-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .author-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .author-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .author-title {
+            color: var(--accent-orange);
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .author-bio {
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        /* Urgency Section */
+        .urgency-section {
+            padding: 100px 20px;
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        .urgency-box {
+            background: linear-gradient(135deg, rgba(255,45,85,0.1) 0%, rgba(255,107,53,0.05) 100%);
+            border: 2px solid rgba(255,45,85,0.2);
+            border-radius: 30px;
+            padding: 60px 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .countdown-text {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1rem;
+            color: var(--accent-yellow);
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .urgency-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin-bottom: 25px;
+        }
+
+        .urgency-text {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        .price-box {
+            margin-bottom: 30px;
+        }
+
+        .price-old {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            text-decoration: line-through;
+        }
+
+        .price-new {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: var(--gradient-danger);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .price-installments {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Guarantee */
+        .guarantee {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0,255,100,0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(0,255,100,0.1);
+        }
+
+        .guarantee-icon {
+            font-size: 2.5rem;
+        }
+
+        .guarantee-text {
+            text-align: left;
+        }
+
+        .guarantee-title {
+            font-weight: 600;
+            color: #00ff64;
+        }
+
+        .guarantee-desc {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 100px 20px;
+            background: var(--bg-secondary);
+            position: relative;
+            z-index: 2;
+        }
+
+        .faq-list {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding: 25px 0;
+        }
+
+        .faq-question {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question::after {
+            content: '+';
+            color: var(--accent-red);
+            font-size: 1.5rem;
+        }
+
+        .faq-answer {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Final CTA */
+        .final-cta {
+            padding: 120px 20px;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(180deg, var(--bg-primary) 0%, #1a0a10 100%);
+        }
+
+        .final-cta .hero-title {
+            margin-bottom: 20px;
+        }
+
+        .final-cta .hero-subtitle {
+            margin-bottom: 50px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 20px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Mobile Optimizations */
+        @media (max-width: 768px) {
+            .hero-stats {
+                gap: 25px;
+            }
+            
+            .stat-number {
+                font-size: 2rem;
+            }
+            
+            .pain-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .author-box {
+                text-align: center;
+            }
+            
+            .author-info {
+                text-align: center;
+            }
+            
+            .guarantee {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .guarantee-text {
+                text-align: center;
+            }
+        }
+
+        /* Scroll animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s ease-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="warning-badge">ALERTA: Este livro pode mudar sua vida</div>
+            <h1 class="hero-title">
+                Você está preparado para quando a <span class="highlight">IA roubar seu emprego?</span>
+            </h1>
+            <p class="hero-subtitle">
+                Descubra por que <strong>375 milhões de pessoas</strong> precisarão mudar completamente de carreira nos próximos anos — e o que você pode fazer AGORA para não ser uma delas.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">22%</div>
+                    <div class="stat-label">dos empregos vão<br>desaparecer até 2030</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">39%</div>
+                    <div class="stat-label">das habilidades atuais<br>serão obsoletas</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">300M</div>
+                    <div class="stat-label">de empregos serão<br>substituídos por IA</div>
+                </div>
+            </div>
+            <a href="https://pay.kiwify.com.br/RlL9y4D" class="cta-button">
+                QUERO ME PROTEGER AGORA
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Pain Points Section -->
+    <section class="pain-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Você já sentiu isso?</h2>
+            <div class="pain-grid">
+                <div class="pain-card fade-in">
+                    <div class="pain-icon">😰</div>
+                    <h3 class="pain-title">Medo do futuro</h3>
+                    <p class="pain-text">Toda notícia sobre IA te deixa ansioso. Você vê colegas sendo demitidos e se pergunta: "Sou o próximo?"</p>
+                </div>
+                <div class="pain-card fade-in">
+                    <div class="pain-icon">🔄</div>
+                    <h3 class="pain-title">Sensação de estar ficando obsoleto</h3>
+                    <p class="pain-text">Parece que tudo que você aprendeu na faculdade e na carreira está perdendo valor a cada dia.</p>
+                </div>
+                <div class="pain-card fade-in">
+                    <div class="pain-icon">👨‍👩‍👧‍👦</div>
+                    <h3 class="pain-title">Preocupação com seus filhos</h3>
+                    <p class="pain-text">Como preparar a próxima geração para um mundo onde ter emprego não é mais garantido?</p>
+                </div>
+                <div class="pain-card fade-in">
+                    <div class="pain-icon">🤷</div>
+                    <h3 class="pain-title">Sem saber o que fazer</h3>
+                    <p class="pain-text">Informações contraditórias em todo lugar. Uns dizem para se especializar em IA, outros dizem que é inútil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You'll Learn Section -->
+    <section class="learn-section">
+        <div class="container">
+            <h2 class="section-title fade-in">O que você vai descobrir neste livro</h2>
+            <div class="learn-list">
+                <div class="learn-item fade-in">
+                    <span class="learn-number">01</span>
+                    <div class="learn-content">
+                        <h3>A Lista Completa das Profissões Condenadas</h3>
+                        <p>Quais carreiras vão desaparecer primeiro e por que nem os trabalhos "criativos" estão seguros.</p>
+                    </div>
+                </div>
+                <div class="learn-item fade-in">
+                    <span class="learn-number">02</span>
+                    <div class="learn-content">
+                        <h3>As Profissões à Prova de Robôs</h3>
+                        <p>Descubra as carreiras que a IA ainda não consegue fazer — e provavelmente nunca vai conseguir.</p>
+                    </div>
+                </div>
+                <div class="learn-item fade-in">
+                    <span class="learn-number">03</span>
+                    <div class="learn-content">
+                        <h3>Como Educar Seus Filhos para 2040</h3>
+                        <p>O guia prático para preparar a próxima geração para um mundo sem empregos garantidos.</p>
+                    </div>
+                </div>
+                <div class="learn-item fade-in">
+                    <span class="learn-number">04</span>
+                    <div class="learn-content">
+                        <h3>Riqueza na Era dos Robôs</h3>
+                        <p>Estratégias reais de investimento e construção de patrimônio quando máquinas dominam a produção.</p>
+                    </div>
+                </div>
+                <div class="learn-item fade-in">
+                    <span class="learn-number">05</span>
+                    <div class="learn-content">
+                        <h3>O Manual de Sobrevivência Completo</h3>
+                        <p>Um plano de ação passo a passo para se posicionar do lado certo da história.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section class="author-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Quem escreveu este livro</h2>
+            <div class="author-box fade-in">
+                <div class="author-image"><img src="/images/autor.jpg" alt="Rodolfo Bortolin"></div>
+                <div class="author-info">
+                    <h3 class="author-name">Rodolfo Bortolin</h3>
+                    <p class="author-title">Especialista em IA & Transformação Digital</p>
+                    <p class="author-bio">
+                        Com mais de 10 anos de experiência em tecnologia, trabalhando diariamente com inteligência artificial e automação, testemunhei em primeira mão como empresas estão substituindo humanos por máquinas. Este livro é o resultado de anos de pesquisa e observação das mudanças que estão acontecendo — e que a maioria das pessoas prefere ignorar.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Section -->
+    <section class="urgency-section">
+        <div class="container">
+            <div class="urgency-box fade-in">
+                <div class="countdown-text">⏰ OFERTA POR TEMPO LIMITADO</div>
+                <h2 class="urgency-title">Não espere até ser tarde demais</h2>
+                <p class="urgency-text">
+                    As empresas já estão demitindo. Os sinais estão em toda parte. 
+                    A cada dia que passa, você perde tempo precioso para se preparar.
+                </p>
+                <div class="price-box">
+                    <div class="price-old">De R$ 97,00</div>
+                    <div class="price-new">R$ 39,90</div>
+                    <div class="price-installments">ou 4x de R$ 9,98 sem juros</div>
+                </div>
+                <a href="https://pay.kiwify.com.br/RlL9y4D" class="cta-button">
+                    GARANTIR MINHA CÓPIA AGORA
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <div class="guarantee">
+                    <span class="guarantee-icon">🛡️</span>
+                    <div class="guarantee-text">
+                        <div class="guarantee-title">Garantia de 7 dias</div>
+                        <div class="guarantee-desc">Se não gostar, devolvemos 100% do seu dinheiro. Sem perguntas.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <div class="faq-item fade-in">
+                    <div class="faq-question">Para quem é este livro?</div>
+                    <p class="faq-answer">Para qualquer pessoa que trabalha ou vai trabalhar nos próximos anos. Seja você empregado, autônomo, empresário ou estudante, as mudanças da IA vão te afetar diretamente.</p>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">Preciso entender de tecnologia?</div>
+                    <p class="faq-answer">Não! O livro foi escrito em linguagem simples e acessível. Você não precisa ser técnico para entender o que está acontecendo e como se proteger.</p>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">Como recebo o livro?</div>
+                    <p class="faq-answer">Imediatamente após a confirmação do pagamento, você recebe o eBook em formato PDF diretamente no seu email. Pode ler no celular, tablet ou computador.</p>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">E se eu não gostar?</div>
+                    <p class="faq-answer">Você tem 7 dias de garantia incondicional. Se por qualquer motivo não ficar satisfeito, basta enviar um email e devolvemos 100% do valor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 class="hero-title fade-in">
+                A escolha é sua: <span class="highlight">adaptar ou ser substituído</span>
+            </h2>
+            <p class="hero-subtitle fade-in">
+                Daqui a 5 anos, você vai olhar para trás e lembrar deste momento. 
+                A pergunta é: você vai se orgulhar da decisão que tomou?
+            </p>
+            <a href="https://pay.kiwify.com.br/RlL9y4D" class="cta-button">
+                SIM, QUERO ME PREPARAR PARA O FUTURO
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 A Classe Inútil — Todos os direitos reservados</p>
+        <p style="margin-top: 10px;">Este produto é vendido e entregue pela Hotmart.</p>
+    </footer>
+
+    <script>
+        // Scroll animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
