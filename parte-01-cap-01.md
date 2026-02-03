@@ -25,7 +25,7 @@ Não necessariamente. E aqui está o problema que ninguém quer discutir.
 
 ## A Matemática Cruel da Requalificação
 
-Os novos empregos que estão sendo criados não são para as mesmas pessoas que estão perdendo os antigos. Um caminhoneiro de 50 anos demitido pela automação não vai se transformar em um "especialista em big data" ou "engenheiro de fintech" — as duas profissões que mais crescem segundo o mesmo relatório do WEF.
+Os novos empregos que estão sendo criados não são para as mesmas pessoas que estão perdendo os antigos. Um caminhoneiro de 50 anos demitido pela automação não vai se transformar em um "especialista em big data" ou "engenheiro de fintech" — as duas profissões que mais crescem, segundo o mesmo relatório do WEF.
 
 O relatório reconhece isso nas entrelinhas: **39% das habilidades atuais dos trabalhadores se tornarão obsoletas até 2030**. Quase metade do que você sabe fazer hoje não terá valor no mercado em cinco anos.
 
@@ -65,9 +65,9 @@ O relatório do WEF fala em "upskilling" (requalificação) como solução, com 
 
 ### 3. O Problema Etário
 
-Trabalhadores mais velhos simplesmente não conseguem competir. Não por falta de inteligência ou dedicação, mas porque o mercado de trabalho tem um viés brutal contra a idade.
+Trabalhadores mais velhos simplesmente não conseguem competir. Não por falta de inteligência ou de dedicação, mas porque o mercado de trabalho tem um viés brutal contra a idade.
 
-Dados do Goldman Sachs mostram que o desemprego entre jovens de 20 a 30 anos em ocupações expostas à tecnologia aumentou quase 3 pontos percentuais desde o início de 2025 — um aumento muito mais acentuado do que para seus pares em outros campos. Se os jovens, supostamente mais adaptáveis, já estão sofrendo, imagine os mais velhos.
+Dados do Goldman Sachs mostram que o desemprego entre jovens de 20 a 30 anos em ocupações expostas à tecnologia aumentou quase 3 pontos percentuais desde o início de 2025 — um aumento muito mais acentuado do que o de seus pares em outros campos. Se os jovens, supostamente mais adaptáveis, já estão sofrendo, imagine os mais velhos.
 
 ---
 

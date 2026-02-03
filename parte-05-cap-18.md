@@ -11,7 +11,7 @@
 
 ## Você É O Que Você Faz
 
-Na maioria das culturas modernas, identidade pessoal está profundamente entrelaçada com ocupação profissional.
+Na maioria das culturas modernas, a identidade pessoal está profundamente entrelaçada com a ocupação profissional.
 
 Quando conhecemos alguém, perguntamos: "O que você faz?"
 
@@ -30,13 +30,13 @@ Não é justo. Mas é real.
 
 ### Desde a Infância
 
-"O que você quer ser quando crescer?" é perguntada a crianças desde cedo. A resposta esperada é uma profissão.
+"O que você quer ser quando crescer?" é perguntado a crianças desde cedo. A resposta esperada é uma profissão.
 
 Médico. Astronauta. Professor. Bombeiro.
 
 Não "feliz" ou "bom pai" ou "membro útil da comunidade". Uma profissão.
 
-Isso programa desde cedo: você = seu trabalho futuro.
+Isso nos programa desde cedo: você = seu trabalho futuro.
 
 ### Sistema Educacional
 
@@ -116,7 +116,7 @@ A própria gramática social de interação humana precisa ser reinventada.
 
 ### Masculinidade em Crise
 
-Em muitas culturas, identidade masculina está especialmente atrelada ao trabalho. Homem é "provedor", "protetor", "trabalhador".
+Em muitas culturas, a identidade masculina está especialmente atrelada ao trabalho. Homem é "provedor", "protetor", "trabalhador".
 
 Dados já mostram que homens sofrem mais com desemprego do que mulheres em termos de:
 - Depressão
@@ -124,7 +124,7 @@ Dados já mostram que homens sofrem mais com desemprego do que mulheres em termo
 - Abuso de substâncias
 - Violência doméstica
 
-Se automação remove a possibilidade de "ser provedor", que modelo de masculinidade resta? E o que acontece durante a transição caótica?
+Se a automação remove a possibilidade de "ser provedor", que modelo de masculinidade resta? E o que acontece durante a transição caótica?
 
 ### Gerações Sem Referência
 
@@ -195,7 +195,7 @@ Se trabalho deixa de ser definidor central, pessoas podem:
 ### Fim da Meritocracia Tóxica
 
 A ideia de que "você vale o que ganha" causa imenso sofrimento. Se trabalho é desvinculado de valor pessoal, talvez possamos:
-- Valorizar pessoas independente de produtividade
+- Valorizar pessoas independentemente de produtividade
 - Respeitar formas não-econômicas de contribuição
 - Reduzir vergonha associada a não-trabalho
 
@@ -226,11 +226,11 @@ Mas isso exige uma transformação cultural profunda que não está garantida.
 
 ## Resumo do Capítulo
 
-- **Identidade moderna está profundamente atrelada a trabalho.** "O que você faz?" = "Quem você é?"
+- **A identidade moderna está profundamente atrelada a trabalho.** "O que você faz?" = "Quem você é?"
 
 - **Isso é construído desde a infância** através de perguntas sobre "o que quer ser", sistema educacional voltado a emprego, e vida adulta estruturada em torno de carreira.
 
-- **Perda de trabalho causa crise de identidade,** perda de status, erosão de habilidades sociais.
+- **A perda de trabalho causa crise de identidade,** perda de status, erosão de habilidades sociais.
 
 - **Em escala, isso significa crise coletiva** — especialmente para masculinidade tradicional e jovens sem referências.
 

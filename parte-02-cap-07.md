@@ -140,7 +140,7 @@ Músicos de sessão já enfrentam:
 - Música de fundo para conteúdo digital
 - "Functional music" (foco, relaxamento, estudo)
 
-Artistas originais com bases de fãs leais provavelmente sobreviverão. Mas os milhares de músicos que ganham a vida tocando casamentos, fazendo trabalho de estúdio, ou compondo para mídia corporativa? Terreno cada vez mais instável.
+Artistas originais com bases de fãs leais provavelmente sobreviverão. Mas os milhares de músicos que ganham a vida tocando em casamentos, fazendo trabalho de estúdio ou compondo para mídia corporativa? Terreno cada vez mais instável.
 
 ---
 
@@ -210,7 +210,7 @@ Ironia: uma nova categoria de trabalho criativo está surgindo — pessoas que s
 
 ## O Que Isso Significa Para Você
 
-Se você trabalha em campo criativo:
+Se você trabalha no campo criativo:
 
 1. **Reconheça a realidade.** A IA já está afetando seu mercado, mesmo que você ainda não tenha sentido diretamente.
 

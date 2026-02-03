@@ -49,7 +49,7 @@ A janela de oportunidade é agora. Quando "todo mundo" entender, será tarde dem
 
 ### 4. Não Subestime Velocidade da Mudança
 
-Se você acha que tem 20 anos para se preparar, pode ter 5. Ou menos.
+Se você acha que tem 20 anos para se preparar, pode ter apenas 5. Ou menos.
 
 A curva é exponencial. O que parece distante pode estar muito mais perto do que você imagina.
 
@@ -61,7 +61,7 @@ A curva é exponencial. O que parece distante pode estar muito mais perto do que
 
 No mundo onde trabalho humano vale menos, **propriedade** vale mais.
 
-Capital não dorme, não fica doente, não é substituído por IA. Capital se multiplica.
+Capital não dorme, não fica doente, não é substituído por IA. O capital se multiplica.
 
 A divisão fundamental do futuro não é entre "ricos e pobres", mas entre "donos de capital" e "todos os outros".
 
@@ -184,14 +184,14 @@ Dívidas reduzem flexibilidade. Se você perde renda e tem dívidas, está encur
 
 ### Na Prática
 
-1. **Elimine dívidas de alto juros** (cartão de crédito, cheque especial) imediatamente
+1. **Elimine dívidas de altos juros** (cartão de crédito, cheque especial) imediatamente
 2. **Pague financiamentos** o mais rápido possível
 3. **Mantenha reserva de emergência** maior que o convencional (12-24 meses em vez de 6)
 4. **Evite compromissos financeiros de longo prazo** que assumem renda estável
 
 ### Exceção
 
-Dívida para adquirir ativos produtivos (imóveis para alugar, negócios) pode fazer sentido — desde que você possa sobreviver se a renda desses ativos diminuir.
+Dívida para adquirir ativos produtivos (imóveis para alugar, negócios) pode fazer sentido, desde que você possa sobreviver se a renda desses ativos diminuir.
 
 ---
 
@@ -276,7 +276,7 @@ Em cenários extremos, habilidades práticas básicas têm valor:
 
 ### Comunidade
 
-Nenhum indivíduo sobrevive sozinho em colapso. Pertencer a comunidades — físicas, não digitais — é seguro último recurso.
+Nenhum indivíduo sobrevive sozinho em um colapso. Pertencer a comunidades — físicas, não digitais — é o último recurso seguro.
 
 ### Bens Tangíveis
 

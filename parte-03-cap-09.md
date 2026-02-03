@@ -130,7 +130,7 @@ Quando um ilustrador perde trabalho para o Midjourney, quem captura o valor? Os 
 
 ---
 
-## Os Novos Aristrocratas
+## Os Novos Aristocratas
 
 Não é exagero chamar essa nova elite de "aristocracia".
 

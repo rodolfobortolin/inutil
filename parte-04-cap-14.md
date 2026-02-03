@@ -174,11 +174,11 @@ Isso não é utopia. É distopia com características de bem-estar.
 
 Parece inspirador. Mas ignora realidades psicológicas:
 
-1. **A maioria das pessoas não sabe o que ama** fazer fora do contexto de trabalho. Identidade foi construída em torno da função profissional.
+1. **A maioria das pessoas não sabe o que ama** fazer fora do contexto de trabalho. A identidade foi construída em torno da função profissional.
 
 2. **Paixões requerem recursos.** Viajar, fazer arte, empreender — tudo custa dinheiro além da UBI básica.
 
-3. **Fazer "o que ama" sem reconhecimento externo** é difícil de sustentar. Artistas querem audiência. Escritores querem leitores. Sem validação, motivação evapora.
+3. **Fazer "o que ama" sem reconhecimento externo** é difícil de sustentar. Artistas querem audiência. Escritores querem leitores. Sem validação, a motivação evapora.
 
 4. **Estrutura importa.** Muitas pessoas que "amam" atividades como hobbies descobrem que fazê-las em tempo integral elimina o prazer.
 
@@ -188,7 +188,7 @@ Parece inspirador. Mas ignora realidades psicológicas:
 
 1. **Não romantize o "trabalho opcional".** A realidade provavelmente será muito menos idílica que o marketing sugere.
 
-2. **Trabalho pode ser ruim, mas não ter trabalho pode ser pior.** Cuidado com o que desejamos.
+2. **O trabalho pode ser ruim, mas não ter trabalho pode ser pior.** Cuidado com o que desejamos.
 
 3. **Construa propósito independente de emprego.** Se o trabalho for tirado de você, o que resta? Pense nisso agora.
 
@@ -202,9 +202,9 @@ Parece inspirador. Mas ignora realidades psicológicas:
 
 - **"Trabalho opcional" assume premissas** que provavelmente não se confirmarão: abundância total, distribuição justa, estabilidade social, instituições adaptadas.
 
-- **Trabalho é mais que salário:** identidade, estrutura, comunidade e propósito. Removê-lo cria vácuo existencial.
+- **O trabalho é mais que salário:** identidade, estrutura, comunidade e propósito. Removê-lo cria vácuo existencial.
 
-- **Aposentadoria mostra o problema:** declínio cognitivo, depressão, isolamento e mortalidade aumentam sem trabalho.
+- **A aposentadoria mostra o problema:** declínio cognitivo, depressão, isolamento e mortalidade aumentam sem trabalho.
 
 - **A economia da atenção** provavelmente preencherá o vazio — e é projetada para extrair valor, não para enriquecer vidas.
 

@@ -6,7 +6,7 @@
 
 ---
 
-*"A questão será realmente uma de significado: se o computador e os robôs podem fazer tudo melhor que você, sua vida tem significado?"*
+*"A questão será realmente uma de significado: se o computador e os robôs podem fazer tudo melhor do que você, sua vida tem significado?"*
 — Elon Musk
 
 ---
@@ -37,7 +37,7 @@ E a maioria não está preparada.
 
 ## O Trabalho Como Significado
 
-Para a maioria dos humanos na era moderna, trabalho não é apenas meio de sobrevivência. É:
+Para a maioria dos humanos na era moderna, o trabalho não é apenas meio de sobrevivência. É:
 
 ### Prova de Valor
 
@@ -45,7 +45,7 @@ Para a maioria dos humanos na era moderna, trabalho não é apenas meio de sobre
 
 Essa lógica está tão profundamente entranhada que raramente a questionamos. Mas é poderosa. Ela diz: você importa porque o mundo precisa do que você oferece.
 
-Remove o trabalho, e remove a prova.
+Remova o trabalho, e remova a prova.
 
 ### Lugar no Mundo
 
@@ -105,7 +105,7 @@ Não é coincidência.
 
 Sentir-se útil geralmente exige que alguém precise de você. Filhos precisam de pais. Pacientes precisam de médicos. Clientes precisam de serviços.
 
-Se IA faz tudo melhor, quem precisa de você?
+Se a IA faz tudo melhor, quem precisa de você?
 
 ### Propósito Exige Desafio
 
@@ -117,7 +117,7 @@ Se não há desafio que você faça melhor que uma máquina, onde está a satisf
 
 Humanos são criaturas sociais. Fazer algo "para si mesmo" raramente é tão satisfatório quanto fazer algo que outros reconhecem e valorizam.
 
-Mas se IA faz melhor, por que alguém valorizaria sua contribuição inferior?
+Mas se a IA faz melhor, por que alguém valorizaria sua contribuição inferior?
 
 ---
 
@@ -141,8 +141,8 @@ Verdade parcial. Relacionamentos são essenciais. Mas:
 Novamente, verdade parcial. Mas:
 
 1. Hobbies satisfazem mais quando são escolha, não necessidade
-2. Sem reconhecimento externo, motivação diminui
-3. Se IA faz arte/música/escrita melhor, qual é o ponto?
+2. Sem reconhecimento externo, a motivação diminui
+3. Se a IA faz arte/música/escrita melhor, qual é o ponto?
 4. Nem todos têm inclinação ou talento para hobbies "significativos"
 
 ### "Seja Voluntário"
@@ -152,8 +152,8 @@ Novamente, verdade parcial. Mas:
 Excelente em teoria. Mas:
 
 1. Organizações de voluntariado frequentemente exigem habilidades específicas
-2. Sem estrutura de trabalho, disciplina para voluntariado regular é difícil
-3. Se IA pode fazer o trabalho voluntário melhor, você está ajudando ou atrapalhando?
+2. Sem estrutura de trabalho, a disciplina para voluntariado regular é difícil
+3. Se a IA pode fazer o trabalho voluntário melhor, você está ajudando ou atrapalhando?
 4. Voluntariado em massa pode competir com empregos pagos remanescentes
 
 ---
@@ -194,13 +194,13 @@ Esses grupos são canários na mina para o que pode vir.
 
 ## A Questão Espiritual
 
-Para muitas pessoas ao longo da história, religião forneceu resposta à pergunta de significado. Você serve a Deus. Sua vida tem propósito transcendente independente de utilidade material.
+Para muitas pessoas ao longo da história, a religião forneceu resposta à pergunta de significado. Você serve a Deus. Sua vida tem propósito transcendente independente de utilidade material.
 
 Mas sociedades modernas são crescentemente seculares. E mesmo para religiosos, a identidade frequentemente está entrelaçada com trabalho.
 
 O pastor trabalha na igreja. O muçulmano devoto pode ser comerciante. O budista pode ser monge — uma forma de trabalho.
 
-Secularização removeu um pilar de significado. IA pode remover outro. O que resta?
+A secularização removeu um pilar de significado. A IA pode remover outro. O que resta?
 
 ---
 
@@ -210,7 +210,7 @@ Secularização removeu um pilar de significado. IA pode remover outro. O que re
 
 2. **Construa fontes múltiplas de significado.** Não dependa apenas de trabalho. Relacionamentos, espiritualidade, comunidade, criação, aprendizado.
 
-3. **Desenvolva capacidade de auto-direção.** Pessoas que conseguem criar estrutura própria navegam melhor a ausência de estrutura externa.
+3. **Desenvolva capacidade de autodireção.** Pessoas que conseguem criar estrutura própria navegam melhor a ausência de estrutura externa.
 
 4. **Cultive habilidades que humanos valorizam em outros humanos.** Conexão, presença, empatia — coisas que não queremos de máquinas.
 

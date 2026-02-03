@@ -23,7 +23,7 @@ Não como utopia. Como controle social.
 
 ## O Precedente do Ópio
 
-A história oferece precedentes perturbadores.
+A História oferece precedentes perturbadores.
 
 ### A China do Ópio
 
@@ -89,13 +89,13 @@ Para populações sem trabalho, cannabis oferece:
 
 ### Substâncias Futuras
 
-E se engenharia química criasse substâncias especificamente projetadas para:
+E se a engenharia química criasse substâncias especificamente projetadas para:
 - Induzir contentamento sem euforia extrema
 - Ter baixo potencial de dependência física
 - Ser baratas de produzir
 - Serem socialmente aceitáveis
 
-A indústria farmacêutica já trabalha em drogas para ansiedade, depressão, TDAH. Não é grande salto imaginar substâncias otimizadas para tornar a irrelevância econômica tolerável.
+A indústria farmacêutica já trabalha em drogas para ansiedade, depressão, TDAH. Não é um grande salto imaginar substâncias otimizadas para tornar a irrelevância econômica tolerável.
 
 ---
 
@@ -140,10 +140,10 @@ Há algo profundamente perturbador nessa "solução".
 
 ### Consentimento
 
-Pessoas escolhem jogos, redes sociais, substâncias. Mas quanto dessa "escolha" é genuína quando:
+As pessoas escolhem jogos, redes sociais, substâncias. Mas quanto dessa "escolha" é genuíno quando:
 - Não há alternativas econômicas viáveis?
-- Os produtos são projetados por especialistas em psicologia para criar dependência?
-- A cultura normaliza o escape como resposta à falta de oportunidade?
+- Os produtos são projetados por especialistas em Psicologia para criar dependência?
+- A cultura normaliza a fuga como resposta à falta de oportunidade?
 
 ### Dignidade Humana
 
@@ -199,7 +199,7 @@ Isso é muito mais difícil que pacificação. Mas é a única resposta que pres
 
 2. **Escolha ativamente** como passa seu tempo. Passividade é o caminho para a irrelevância consentida.
 
-3. **Cultive resistência** à economia da atenção. Capacidade de foco prolongado é um superpoder em um mundo de distração.
+3. **Cultive resistência** à economia da atenção. A capacidade de foco prolongado é um superpoder em um mundo de distração.
 
 4. **Busque propósito real,** não simulações de propósito em jogos e redes sociais.
 
@@ -211,11 +211,11 @@ Isso é muito mais difícil que pacificação. Mas é a única resposta que pres
 
 - **Harari especula** que a "classe inútil" pode ser pacificada com jogos, realidade virtual, entretenimento e drogas.
 
-- **Há precedentes históricos:** ópio na China colonial, crack em guetos americanos, opioides no Rust Belt.
+- **Há precedentes históricos:** ópio na China colonial, crack em guetos americanos, opioides no *Rust Belt*.
 
-- **Videogames já oferecem** o que trabalho oferecia: conquista, comunidade, identidade, estrutura — para homens jovens desempregados.
+- **Videogames já oferecem** o que o trabalho oferecia: conquista, comunidade, identidade, estrutura — para homens jovens desempregados.
 
-- **Realidade virtual e metaverso** ampliam exponencialmente o potencial de escape.
+- **Realidade virtual e metaverso** ampliam exponencialmente o potencial de fuga.
 
 - **A economia da pacificação** faz sentido frio para elites: mais simples e seguro que transformação social real.
 

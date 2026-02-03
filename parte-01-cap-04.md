@@ -41,21 +41,21 @@ Por décadas, o caminho para o desenvolvimento econômico seguia uma sequência 
 2. **Manufatura de baixo custo** →
 3. **Serviços e tecnologia**
 
-China, Coreia do Sul, Taiwan, e mais recentemente Vietnã e Bangladesh, todos escalaram essa "escada do desenvolvimento", usando sua vantagem de mão de obra barata para atrair fábricas e, gradualmente, subir na cadeia de valor.
+China, Coreia do Sul, Taiwan e, mais recentemente, Vietnã e Bangladesh, todos escalaram essa "escada do desenvolvimento", usando sua vantagem de mão de obra barata para atrair fábricas e, gradualmente, subir na cadeia de valor.
 
 O problema? A IA e a automação estão **quebrando os degraus da escada**.
 
 A manufatura está se tornando cada vez mais intensiva em capital e tecnologia, reduzindo sua capacidade de fornecer emprego em massa. Como resultado, sua participação no PIB e no emprego de muitos países em desenvolvimento está diminuindo — **antes mesmo de esses países terem completado sua transição**.
 
-O Bangladesh pode fazer camisetas mais baratas que a Alemanha. Mas quando robôs podem fazer camisetas *ainda mais baratas*, sem precisar de salários, sem precisar de condições de trabalho, sem precisar de nada além de eletricidade e manutenção, o que sobra para o Bangladesh?
+Bangladesh pode fazer camisetas mais baratas que a Alemanha. Mas quando robôs podem fazer camisetas *ainda mais baratas*, sem precisar de salários, sem precisar de condições de trabalho, sem precisar de nada além de eletricidade e manutenção, o que sobra para Bangladesh?
 
 ### O Abismo Digital
 
-Há ainda um problema adicional: países pobres estão menos preparados para os empregos que a IA *cria*.
+Há ainda um problema adicional: os países pobres estão menos preparados para os empregos que a IA *cria*.
 
 Em 2024, **93% da população de países de alta renda** usava a internet. Em países de baixa renda? Apenas **27%**.
 
-Os novos empregos em IA, análise de dados, engenharia de software — todos exigem infraestrutura digital, educação avançada e acesso a tecnologia que simplesmente não existem em grande parte do mundo em desenvolvimento.
+Os novos empregos em IA, análise de dados e engenharia de software — todos exigem infraestrutura digital, educação avançada e acesso a tecnologia que simplesmente não existem em grande parte do mundo em desenvolvimento.
 
 Então, enquanto os países ricos perdem empregos para a IA mas potencialmente criam outros, os países pobres:
 - Perdem os empregos de manufatura que seriam seu caminho para o desenvolvimento
@@ -85,7 +85,7 @@ Muitos trabalhadores africanos estão empregados em agricultura, manufatura e co
 
 ### O Caso dos Call Centers
 
-Considere Gana, Quênia e África do Sul, que investiram pesadamente em desenvolver indústrias de call center como porta de entrada para a economia de serviços global.
+Considere Gana, Quênia e África do Sul, que investiram pesadamente no desenvolvimento de indústrias de call center como porta de entrada para a economia de serviços global.
 
 Em 2020, esses call centers empregavam centenas de milhares de jovens africanos qualificados que falavam inglês. Era o primeiro degrau da escada.
 
@@ -133,7 +133,7 @@ Onde vão trabalhar?
 
 O Brasil e outros países latino-americanos enfrentam um problema diferente: estão presos no meio.
 
-Não são pobres o suficiente para terem mão de obra ultra-barata que ainda compete com robôs em algumas funções. Não são ricos o suficiente para terem a infraestrutura digital e educacional para os novos empregos de IA.
+Não são pobres o suficiente para ter mão de obra ultra-barata que ainda compete com robôs em algumas funções. Não são ricos o suficiente para ter a infraestrutura digital e educacional para os novos empregos de IA.
 
 ### Os Setores Vulneráveis Brasileiros
 
@@ -155,7 +155,7 @@ A automação não afetará o mundo uniformemente. Ela aprofundará desigualdade
 
 ### 1. Entre Países
 
-Países com forte infraestrutura digital, educação de qualidade e capital para investir em IA serão os vencedores. EUA, China, partes da Europa, Japão, Coreia do Sul.
+Países com forte infraestrutura digital, educação de qualidade e capital para investir em IA serão os vencedores: EUA, China, partes da Europa, Japão, Coreia do Sul.
 
 Países sem esses recursos serão duplamente penalizados: perderão empregos para a automação E não conseguirão capturar os novos empregos criados.
 

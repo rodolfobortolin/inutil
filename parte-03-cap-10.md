@@ -49,7 +49,7 @@ Mas há uma distância enorme entre promessas e realidade:
 
 - Até agora, a Tesla só demonstrou o Optimus realizando **tarefas muito simples**, como entregar garrafas de água — e mesmo assim dependendo de teleoperação (controle humano remoto) com sucesso limitado.
 
-- Rodney Brooks, cofundador da iRobot (criadora do Roomba), chamou a ideia de robôs humanoides como assistentes universais de **"pensamento de pura fantasia"**, em parte porque robôs têm dificuldades fundamentais de coordenação.
+- Rodney Brooks, cofundador da iRobot (criadora do Roomba), chamou a ideia de robôs humanoides como assistentes universais de **"pura fantasia"**, em parte porque robôs têm dificuldades fundamentais de coordenação.
 
 - Houve vários relatórios de cadeia de suprimentos indicando atrasos no programa Optimus.
 
@@ -152,7 +152,7 @@ Dadas as dificuldades técnicas demonstradas até agora, um cronograma mais real
 
 **2028-2032: Primeira Onda Comercial**
 - Milhares de robôs em armazéns e fábricas
-- Tarefas expandidas mas ainda limitadas
+- Tarefas expandidas, mas ainda limitadas
 - Custos ainda proibitivos para a maioria das aplicações
 
 **2033-2040: Adoção Ampla**

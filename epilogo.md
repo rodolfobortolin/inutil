@@ -57,7 +57,7 @@ Se a resposta é "sim" ou "talvez", você tem trabalho a fazer.
 Se você depende 100% de salário de emprego, você está vulnerável.
 
 **Ações imediatas:**
-- Elimine dívidas de alto juros
+- Elimine dívidas de altos juros
 - Construa reserva de emergência expandida
 - Comece a investir em ativos (mesmo pequenas quantias)
 - Diversifique fontes de renda

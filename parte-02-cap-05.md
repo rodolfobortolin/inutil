@@ -158,7 +158,7 @@ Desenvolvedores relatam ganhos de produtividade de 3x usando essas ferramentas. 
 
 ## A Linha do Tempo do Descarte
 
-Não todas as profissões serão afetadas ao mesmo tempo. Baseado em tendências atuais:
+Nem todas as profissões serão afetadas ao mesmo tempo. Baseado em tendências atuais:
 
 **2026-2027 (Já acontecendo):**
 - Operadores de telemarketing

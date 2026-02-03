@@ -112,7 +112,7 @@ Muitas pessoas podem não se importar se a empatia é simulada, especialmente se
 
 Quando algo dá errado, quem é responsável?
 
-Se um médico erra, ele pode ser processado, perder licença, ir para prisão. Existe responsabilização pessoal.
+Se um médico erra, ele pode ser processado, perder a licença, ir para a prisão. Existe responsabilização pessoal.
 
 Se uma IA erra... quem é culpado? A empresa que a criou? O usuário que a utilizou? O sistema simplesmente não tem accountability no sentido tradicional.
 
@@ -125,7 +125,7 @@ Funções onde **responsabilidade pessoal é central**:
 - Advogados que representam clientes
 - Executivos que tomam decisões estratégicas
 
-Continuarão exigindo humanos — pelo menos como a "última assinatura".
+Continuarão a exigir humanos — pelo menos como a "última assinatura".
 
 ### Ressalva
 
@@ -177,7 +177,7 @@ Decisões que exigem **julgamento ético profundo**:
 - Justiça distributiva (como dividir o bolo?)
 - Dilemas sem resposta certa
 
-Continuam precisando de humanos — não porque somos melhores, mas porque somos responsabilizáveis e a decisão exige humanidade.
+Continuam a precisar de humanos — não porque somos melhores, mas porque somos responsabilizáveis e a decisão exige humanidade.
 
 ---
 

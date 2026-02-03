@@ -13,7 +13,7 @@
 
 Em 2015, dois economistas de Princeton — Anne Case e Angus Deaton (este último, Prêmio Nobel) — fizeram uma descoberta chocante: americanos brancos de meia-idade, sem diploma universitário, estavam morrendo em taxas crescentes.
 
-Isso contradiz toda tendência histórica. Expectativa de vida sempre sobe. Medicina melhora. Doenças são controladas.
+Isso contradiz toda tendência histórica. A expectativa de vida sempre sobe. A medicina melhora. Doenças são controladas.
 
 Mas não para esse grupo.
 
@@ -38,7 +38,7 @@ Cidades que eram prósperas se tornaram ruínas. Youngstown, Flint, Gary — nom
 
 ### Appalachia
 
-Montanhas do Kentucky, West Virginia, Tennessee — onde mineração de carvão era a principal economia. Carvão colapsou. Nada substituiu.
+Montanhas do Kentucky, West Virginia, Tennessee — onde a mineração de carvão era a principal economia. O carvão colapsou. Nada o substituiu.
 
 ### Pequenas Cidades Rurais
 
@@ -74,7 +74,7 @@ Brancos sem diploma, especialmente homens, cresceram com uma promessa: trabalhe 
 
 A crise de opioides não começou por acaso onde começou.
 
-Farmacêuticas como Purdue Pharma (fabricante do OxyContin) deliberadamente miraram regiões onde pessoas tinham dores — físicas (de trabalhos manuais pesados) e emocionais (de comunidades desmoronando).
+Farmacêuticas como a Purdue Pharma (fabricante do OxyContin) deliberadamente miraram regiões onde pessoas tinham dores — físicas (de trabalhos manuais pesados) e emocionais (de comunidades desmoronando).
 
 O opioide oferece:
 - Alívio da dor física
@@ -94,7 +94,7 @@ O padrão é claro: quando homens perdem o papel de "provedor", muitos perdem a 
 
 Doenças hepáticas relacionadas ao álcool matam lentamente — ao longo de anos ou décadas. É suicídio em câmera lenta.
 
-Álcool é legal, socialmente aceito, barato e disponível. O "alcoolismo funcional" permite manter aparências enquanto a pessoa se destrói internamente.
+O álcool é legal, socialmente aceito, barato e disponível. O "alcoolismo funcional" permite manter aparências enquanto a pessoa se destrói internamente.
 
 ---
 
@@ -123,7 +123,7 @@ E mesmo assim, milhares sucumbiram.
 O que acontece quando:
 - Comunidades estão ainda mais fragmentadas (redes sociais vs. real)
 - Redes de segurança são insuficientes para a escala
-- Identidade é ainda mais atrelada a trabalho
+- A identidade é ainda mais atrelada a trabalho
 - Pessoas não tiveram tempo de acumular recursos
 
 ### A Escala Global
@@ -146,7 +146,7 @@ Não precisamos esperar. Alguns sinais já estão aparecendo:
 
 ### Crise de Saúde Mental em Jovens
 
-Ansiedade e depressão entre adolescentes e jovens adultos atingiram níveis recordes. Especialmente em países desenvolvidos. Especialmente desde 2012 (quando smartphones se tornaram onipresentes).
+Ansiedade e depressão entre adolescentes e jovens adultos atingiram níveis recordes, especialmente em países desenvolvidos e desde 2012 (quando smartphones se tornaram onipresentes).
 
 Parte é tecnologia. Parte é também a percepção crescente de que o futuro não oferece o que foi prometido.
 
@@ -174,7 +174,7 @@ Isso pode ajudar indivíduos. Mas não resolve causas estruturais. Você não cu
 
 ### Moralização
 
-"Essas pessoas precisam de força de vontade." "Precisam parar de se vitimizar." "Precisam levantar e buscar emprego."
+"Essas pessoas precisam de força de vontade." "Precisam parar de se vitimizar." "Precisam se levantar e buscar emprego."
 
 Moralização ignora realidades sistêmicas. E piora o estigma, reduzindo busca por ajuda.
 
@@ -192,7 +192,7 @@ Prevenir uma pandemia de desespero exigirá:
 
 1. **Reconhecer a escala do problema.** Não é sobre indivíduos fracos. É sobre estruturas quebrando.
 
-2. **Criar novas fontes de significado.** Se trabalho não fornece propósito, o que fornece? Isso precisa ser construído.
+2. **Criar novas fontes de significado.** Se o trabalho não fornece propósito, o que fornece? Isso precisa ser construído.
 
 3. **Comunidade e conexão.** Isolamento mata. Comunidades precisam ser reconstruídas.
 
@@ -218,13 +218,13 @@ Prevenir uma pandemia de desespero exigirá:
 
 ## Resumo do Capítulo
 
-- **"Mortes por desespero"** (overdose, suicídio, álcool) estão reduzindo expectativa de vida nos EUA pela primeira vez desde 1918.
+- **"Mortes por desespero"** (overdose, suicídio, álcool) estão reduzindo a expectativa de vida nos EUA pela primeira vez desde 1918.
 
 - **Concentração geográfica:** Rust Belt, Appalachia, pequenas cidades — onde trabalho digno desapareceu.
 
 - **Não é apenas pobreza:** é quebra de expectativas, perda de significado, ruptura de comunidades.
 
-- **É prévia do que pode vir** em escala muito maior se IA eliminar empregos de classe média globalmente.
+- **É prévia do que pode vir** em escala muito maior se a IA eliminar empregos de classe média globalmente.
 
 - **Sinais já visíveis:** crise de saúde mental em jovens, hikikomori no Japão, NEETs globais.
 

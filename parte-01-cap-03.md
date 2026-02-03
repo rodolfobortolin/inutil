@@ -27,7 +27,7 @@ Harari argumentou que, assim como a industrialização em massa criou a classe t
 
 *"No século XXI, podemos testemunhar a criação de uma nova classe massiva de não-trabalhadores: pessoas desprovidas de qualquer valor econômico, político ou até mesmo artístico, que não contribuem em nada para a prosperidade, poder e glória da sociedade."*
 
-A escolha de palavras é brutal, mas intencional. Harari não está dizendo que essas pessoas não têm valor como seres humanos. Ele está dizendo que o sistema econômico e político não verá valor nelas. E sistemas que não veem valor em algo tendem a descartá-lo.
+A escolha de palavras é brutal, mas intencional. Harari não está dizendo que essas pessoas não têm valor como seres humanos. Ele está dizendo que o sistema econômico e político não verá valor nelas. E sistemas que não veem valor em alguém tendem a descartá-lo.
 
 ### O Problema da Requalificação
 
@@ -37,13 +37,13 @@ Harari é particularmente cético sobre a ideia de que podemos simplesmente "ret
 
 Ele usa um exemplo que se tornou icônico: imagine um caminhoneiro de 50 anos que perde seu emprego para um veículo autônomo. Novos empregos existem em design de software ou em ensinar yoga para engenheiros. Como esse caminhoneiro se reinventa?
 
-A resposta honesta é: na maioria dos casos, ele não consegue. Não por falta de inteligência ou vontade, mas porque as barreiras de tempo, recursos, e viés de idade são intransponíveis.
+A resposta honesta é: na maioria dos casos, ele não consegue. Não por falta de inteligência ou de vontade, mas porque as barreiras de tempo, recursos e viés de idade são intransponíveis.
 
 ### A Crise Educacional
 
 Talvez a observação mais perturbadora de Harari seja sobre educação:
 
-*"Ninguém realmente sabe como será o mercado de trabalho em 20 ou 30 anos. É realmente a primeira vez na história que ninguém tem ideia de que tipo de empregos e habilidades as pessoas precisarão em 30 anos — o que significa que não temos absolutamente nenhuma ideia do que ensinar às crianças na escola."*
+*"Ninguém realmente sabe como será o mercado de trabalho em 20 ou 30 anos. É realmente a primeira vez na história que ninguém tem ideia de que tipo de empregos e habilidades as pessoas precisarão daqui a 30 anos — o que significa que não temos absolutamente nenhuma ideia do que ensinar às crianças na escola."*
 
 Pense nisso: estamos forçando crianças a passar 12 a 16 anos em sistemas educacionais projetados para prepará-las para um mundo que pode não existir mais quando elas se formarem.
 
@@ -151,7 +151,7 @@ Algumas possibilidades:
 
 Provavelmente é uma mistura de todas essas motivações. Mas independentemente das razões, as previsões merecem atenção.
 
-Quando pessoas com acesso privilegiado à tecnologia e seus impactos fazem alertas consistentes por anos, ignorá-las é, no mínimo, imprudente.
+Quando pessoas com acesso privilegiado à tecnologia e a seus impactos fazem alertas consistentes por anos, ignorá-las é, no mínimo, imprudente.
 
 ---
 

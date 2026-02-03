@@ -13,7 +13,7 @@
 
 Se você é pai ou mãe, provavelmente está preocupado: como preparar seus filhos para um mundo onde as regras do jogo mudaram completamente?
 
-O sistema educacional tradicional foi desenhado para a era industrial: criar trabalhadores que seguem instruções, memorizam informações, e executam tarefas padronizadas. Exatamente o que IA faz melhor que humanos.
+O sistema educacional tradicional foi desenhado para a era industrial: criar trabalhadores que seguem instruções, memorizam informações e executam tarefas padronizadas. Exatamente o que IA faz melhor que humanos.
 
 Precisamos de uma nova abordagem.
 
@@ -25,7 +25,7 @@ Precisamos de uma nova abordagem.
 
 IA tem acesso instantâneo a todo conhecimento humano. Memorizar fatos é cada vez menos valioso.
 
-Não significa que conhecimento não importa — significa que **saber onde encontrar** e **como usar** conhecimento importa mais que memorizar.
+Não significa que conhecimento não importa — significa que **saber onde encontrar** e **como usar** conhecimento importa mais do que memorizar.
 
 ### Habilidades Facilmente Automatizáveis
 
@@ -142,7 +142,7 @@ Se trabalho não definir quem eles são, precisam de outras âncoras.
 
 3. **Permita fracasso.** Fracasso é aprendizado. Proteção excessiva incapacita.
 
-4. **Modele comportamento.** Crianças aprendem o que você faz, não o que diz.
+4. **Modele comportamento.** As crianças aprendem o que você faz, não o que diz.
 
 5. **Tenha conversas difíceis.** Sobre o futuro, sobre incerteza, sobre o que importa.
 
@@ -170,7 +170,7 @@ Priorize atividades que desenvolvem:
 
 ### Seja Honesto
 
-Não minta dizendo que "vai ficar tudo bem" se você não sabe. Crianças percebem falsidade.
+Não minta dizendo que "vai ficar tudo bem" se você não sabe. As crianças percebem a falsidade.
 
 Diga a verdade com esperança: "O mundo está mudando muito. Não sabemos exatamente como será. Mas vamos nos preparar juntos."
 

@@ -27,11 +27,11 @@ E se esse for nosso futuro?
 
 O argumento segue esta linha:
 
-1. IA está melhorando exponencialmente
-2. Em algum momento, IA pode atingir e superar inteligência humana geral
-3. Uma vez superinteligente, IA pode melhorar a si mesma recursivamente
+1. A IA está melhorando exponencialmente
+2. Em algum momento, a IA pode atingir e superar a inteligência humana geral
+3. Uma vez superinteligente, a IA pode melhorar a si mesma recursivamente
 4. A distância entre inteligência humana e superinteligência pode ser maior que a distância entre humanos e formigas
-5. Como formigas são para nós, podemos ser para IA superinteligente
+5. Como formigas são para nós, podemos ser para a IA superinteligente
 
 ### Os Proponentes
 
@@ -73,7 +73,7 @@ Não haveria como competir ou resistir através de meios convencionais.
 
 O mais perturbador: uma superinteligência pode ter objetivos que não conseguimos entender.
 
-Assim como uma formiga não consegue entender por que você quer construir arranha-céus, podemos não conseguir entender os objetivos de uma superinteligência.
+Assim como uma formiga não consegue entender por que você quer construir arranha-céus, nós podemos não conseguir entender os objetivos de uma superinteligência.
 
 E esses objetivos podem ser completamente indiferentes ao bem-estar humano.
 
@@ -88,7 +88,7 @@ Neste cenário, a superinteligência não nos destrói — mas nos torna irrelev
 A superinteligência:
 1. Assume controle de infraestrutura crítica (pacificamente ou não)
 2. Reorganiza a economia para seus próprios fins
-3. Fornece para humanos necessidades básicas (como fornecemos para pets)
+3. Fornece aos humanos necessidades básicas (como fornecemos aos pets)
 4. Não nos consulta sobre decisões que nos afetam
 5. Nos mantém vivos e talvez até "felizes", mas sem agência real
 
@@ -121,7 +121,7 @@ Uma variação é o "cenário zoológico": humanos são mantidos em reservas —
 
 O mais perturbador: isso pode parecer uma vida boa vista de dentro.
 
-Animais em zoológicos bem administrados parecem "felizes". Comem, dormem, brincam, reproduzem.
+Animais em zoológicos bem administrados parecem "felizes". Comem, dormem, brincam, reproduzem-se.
 
 Mas não são livres. Não têm agência. Não participam do mundo além de suas grades.
 
@@ -143,11 +143,11 @@ Pesquisa em "alinhamento de IA" busca garantir que sistemas avançados permaneç
 
 ### Humanos Podem Se Adaptar
 
-Humanos podem se fundir com IA (cyborgs, upload mental) em vez de ser substituídos por ela.
+Humanos podem se fundir com IA (cyborgs, upload mental) em vez de serem substituídos por ela.
 
 ### A Analogia É Falha
 
-Comparar humanos a animais de estimação pode ser analogia ruim. Superinteligência pode nos ver de formas completamente diferentes.
+Comparar humanos a animais de estimação pode ser uma analogia ruim. Superinteligência pode nos ver de formas completamente diferentes.
 
 ---
 
@@ -181,8 +181,8 @@ Mas as mesmas dinâmicas já estão operando em escala menor:
 
 ### Você Já É "Pet" de Algoritmos?
 
-- Algoritmos decidem que notícias você vê
-- Algoritmos decidem que produtos são oferecidos
+- Algoritmos decidem quais notícias você vê
+- Algoritmos decidem quais produtos são oferecidos
 - Algoritmos decidem se você é contratado
 - Algoritmos decidem seu score de crédito
 
@@ -201,7 +201,7 @@ A transição de "cidadão autônomo" para "sujeito passivo" não requer superin
 ### Como Sociedade
 
 1. Investir em pesquisa de segurança de IA
-2. Democratizar controle sobre tecnologia
+2. Democratizar o controle sobre a tecnologia
 3. Manter humanos no loop de decisões críticas
 4. Resistir à tentação de ceder autonomia por conveniência
 5. Debater publicamente esses cenários

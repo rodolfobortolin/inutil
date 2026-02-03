@@ -62,7 +62,7 @@ O maior problema com implementar a UBI é descobrir como financiá-la. Nos Estad
 
 Se a IA elimina empregos em massa, a base tributária encolhe. Menos pessoas empregadas = menos imposto de renda. Mas mais pessoas precisando de UBI.
 
-O sistema se tornaria matematicamente insustentável: tentar ajustar a tributação para cobrir UBI colocaria um fardo impossível sobre os poucos ainda empregados.
+O sistema se tornaria matematicamente insustentável: tentar ajustar a tributação para cobrir a UBI colocaria um fardo impossível sobre os poucos ainda empregados.
 
 ---
 
@@ -79,7 +79,7 @@ O teste finlandês é frequentemente citado como o mais rigoroso. 2.000 desempre
 - Stress e ansiedade diminuíram
 - **Mas:** Impacto no emprego foi praticamente nulo
 
-A UBI melhorou como as pessoas se sentiam, mas não as ajudou a encontrar trabalho. Isso valida o benefício psicológico do dinheiro, mas **não valida a UBI como política de emprego**.
+A UBI melhorou a forma como as pessoas se sentiam, mas não as ajudou a encontrar trabalho. Isso valida o benefício psicológico do dinheiro, mas **não valida a UBI como política de emprego**.
 
 ### O Experimento de Sam Altman (2020-2023)
 
@@ -192,7 +192,7 @@ Mesmo que fosse perfeitamente implementada e financiada, a UBI não resolve:
 
 ## O Que Isso Significa Para Você
 
-1. **Não conte com UBI para te salvar.** Mesmo que seja implementada, provavelmente será insuficiente e cheia de problemas.
+1. **Não conte com a UBI para salvá-lo.** Mesmo que seja implementada, provavelmente será insuficiente e cheia de problemas.
 
 2. **UBI pode ser "pão e circo" moderno.** Cuidado com soluções que parecem boas demais para ser verdade.
 
@@ -206,7 +206,7 @@ Mesmo que fosse perfeitamente implementada e financiada, a UBI não resolve:
 
 - **UBI custaria US$ 3 trilhões/ano** nos EUA — um valor que exigiria reestruturação fiscal sem precedentes.
 
-- **O problema é circular:** se IA elimina empregos, a base tributária encolhe exatamente quando mais pessoas precisam de UBI.
+- **O problema é circular:** se a IA elimina empregos, a base tributária encolhe exatamente quando mais pessoas precisam de UBI.
 
 - **Experimentos mostram benefícios psicológicos**, mas impacto limitado em emprego. Dinheiro ajuda, mas não resolve.
 

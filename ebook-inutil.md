@@ -15,7 +15,7 @@ header-includes:
 
 \newgeometry{margin=0pt}
 \begin{titlepage}
-\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{images/capa.png}}
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{images/capa-base-oficial.png}}
 \mbox{}
 \end{titlepage}
 \restoregeometry

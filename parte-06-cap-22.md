@@ -41,7 +41,7 @@ Esses trabalhos frequentemente exigem certificação, aprendizado prático, e n�
 
 ### Por Que É Protegido
 
-Pesquisas mostram que 80% das pessoas preferem que cuidados de saúde venham de humanos, não máquinas. O mesmo para professores, terapeutas e cuidadores.
+Pesquisas mostram que 80% das pessoas preferem que cuidados de saúde venham de humanos, não de máquinas. O mesmo vale para professores, terapeutas e cuidadores.
 
 ### Profissões
 
@@ -87,7 +87,7 @@ IA pode gerar arte, música, texto. Mas se você é reconhecido por QUEM VOCÊ �
 
 - **Artistas com estilo único e reconhecido:** A obra é valorizada por ser SUA.
 - **Escritores com voz autoral forte:** Leitores querem seu pensamento, não qualquer texto.
-- **Músicos com base de fãs leal:** Fãs querem conexão com a pessoa.
+- **Músicos com base de fãs leal:** Os fãs querem conexão com a pessoa.
 - **Influenciadores autênticos:** (Ironia, mas verdade) A audiência segue a pessoa.
 - **Chefs criativos:** A experiência é sobre QUEM criou.
 

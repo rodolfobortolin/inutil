@@ -135,7 +135,7 @@ Quando um país depende de plataformas estrangeiras, perde soberania de múltipl
 
 **Informacional:** Dados de cidadãos ficam em servidores estrangeiros. Governos estrangeiros podem potencialmente acessá-los.
 
-**Cultural:** Algoritmos estrangeiros decidem que conteúdo é promovido. Culturas locais competem com conteúdo global otimizado para engajamento.
+**Cultural:** Algoritmos estrangeiros decidem qual conteúdo é promovido. Culturas locais competem com conteúdo global otimizado para engajamento.
 
 **Política:** Redes sociais podem influenciar eleições. Quem controla o algoritmo tem poder sobre o discurso público.
 

@@ -35,13 +35,13 @@ Por décadas, a IA foi uma promessa não cumprida. Nos anos 1950, pioneiros como
 
 Ele estava errado por pelo menos 50 anos.
 
-O problema era que os pesquisadores tentavam programar inteligência de cima para baixo: criar regras explícitas para cada situação. "Se X, então Y." Isso funcionava para jogos simples, mas falhava miseravelmente quando confrontado com a complexidade do mundo real.
+O problema era que os pesquisadores tentavam programar inteligência de cima para baixo: criar regras explícitas para cada situação. "Se X, então Y." Isso funcionava para jogos simples, mas falhava miseravelmente quando confrontada com a complexidade do mundo real.
 
 A IA passou por vários "invernos" — períodos de financiamento cortado e desilusão generalizada. Cada vez que uma nova abordagem prometia a lua e entregava apenas um satélite, os críticos declaravam que a inteligência artificial era um sonho impossível.
 
 ### A Revolução das Redes Neurais
 
-A virada começou nos anos 1980, quando um jovem pesquisador chamado Geoffrey Hinton (sim, o mesmo que ganharia o Nobel em 2024) ajudou a popularizar uma ideia diferente: em vez de programar regras, por que não criar sistemas que *aprendem* a partir de exemplos?
+A virada começou nos anos 1980, quando um jovem pesquisador chamado Geoffrey Hinton (sim, o mesmo que ganharia o Nobel em 2024) ajudou a popularizar uma ideia diferente: em vez de programar regras, por que não criar sistemas que *aprendessem* a partir de exemplos?
 
 A ideia das redes neurais artificiais era simples em conceito: imitar, de forma grosseira, como o cérebro humano funciona. Neurônios artificiais conectados em camadas, cada conexão com um "peso" que poderia ser ajustado. Mostre milhares de fotos de gatos ao sistema, ajuste os pesos quando ele errar, e eventualmente ele aprenderá a reconhecer gatos.
 
@@ -49,7 +49,7 @@ O problema? Nos anos 1980 e 1990, não tínhamos poder computacional nem dados s
 
 ### O Momento Transformer
 
-Tudo mudou em 2017, quando pesquisadores do Google publicaram um artigo com um título acadêmico enfadonho: "Attention Is All You Need" (Atenção é Tudo que Você Precisa). O artigo apresentava uma nova arquitetura de rede neural chamada Transformer.
+Tudo mudou em 2017, quando pesquisadores do Google publicaram um artigo com um título acadêmico enfadonho: "Attention Is All You Need" (Atenção É Tudo de que Você Precisa). O artigo apresentava uma nova arquitetura de rede neural chamada Transformer.
 
 Sem entrar em detalhes técnicos, o Transformer resolveu um problema fundamental: como fazer uma IA prestar "atenção" às partes relevantes de um texto (ou imagem, ou áudio) ao processá-lo. Era como dar à máquina a capacidade de focar, de entender contexto, de relacionar partes distantes de uma informação.
 
@@ -83,7 +83,7 @@ Com a arquitetura Transformer em mãos, a OpenAI começou a construir modelos ca
 
 **o3 e o4-mini (2025):** Modelos de raciocínio que cometem 20% menos erros graves que o o1 em tarefas difíceis do mundo real, especialmente em programação, consultoria e ideação criativa.
 
-Cada nova versão não era apenas um pouco melhor que a anterior. Era *qualitativamente* diferente — capaz de fazer coisas que a versão anterior simplesmente não conseguia. E a velocidade dessa evolução está acelerando.
+Cada nova versão não era apenas um pouco melhor que a anterior. Era *qualitativamente* diferente — capaz de fazer coisas que a versão anterior simplesmente não conseguia fazer. E a velocidade dessa evolução está acelerando.
 
 ---
 
@@ -99,7 +99,7 @@ Suas palavras na entrevista coletiva após o Nobel foram diretas:
 
 *"O maior perigo de longo prazo é que, uma vez que essas inteligências artificiais fiquem mais inteligentes que nós, elas assumirão o controle — nos tornarão irrelevantes. E isso é bastante preocupante; e ninguém sabe como evitar isso com certeza, então precisamos fazer muita pesquisa sobre isso agora mesmo."*
 
-Quando perguntado sobre a linha do tempo, Hinton estimou uma probabilidade de 50% de que a IA supere a inteligência humana geral dentro de 5 a 20 anos.
+Quando perguntado sobre a linha do tempo, Hinton estimou uma probabilidade de 50% de a IA superar a inteligência humana geral dentro de 5 a 20 anos.
 
 Cinco a vinte anos. Não em um futuro distante de ficção científica. Dentro do tempo em que seus filhos estarão entrando no mercado de trabalho.
 
@@ -115,7 +115,7 @@ Os céticos argumentam que modelos de linguagem são apenas "papagaios estocást
 
 Mas aqui está o problema: e se isso não importar?
 
-Se um sistema de IA pode diagnosticar doenças melhor que médicos, importa se ele "realmente entende" medicina? Se pode redigir contratos melhor que advogados, importa se "realmente compreende" direito? Se pode criar arte que emociona pessoas, importa se "realmente sente" emoções?
+Se um sistema de IA pode diagnosticar doenças melhor que médicos, importa se ele "realmente entende" de medicina? Se pode redigir contratos melhor que advogados, importa se "realmente compreende" o direito? Se pode criar arte que emociona pessoas, importa se "realmente sente" emoções?
 
 Para os trabalhadores sendo substituídos, a distinção entre "inteligência real" e "inteligência simulada indistinguível da real" é puramente acadêmica.
 
@@ -123,7 +123,7 @@ Para os trabalhadores sendo substituídos, a distinção entre "inteligência re
 
 ## A Lei de Moore da IA
 
-Há um conceito chamado "Lei de Moore" que dominou a computação por décadas: o número de transistores em um chip dobra aproximadamente a cada dois anos. Isso significava que os computadores ficavam constantemente mais rápidos e mais baratos.
+Há um conceito chamado "Lei de Moore" que dominou a computação por décadas: o número de transistores em um chip dobra aproximadamente a cada dois anos. Isso significava que os computadores ficavam constantemente mais rápidos e baratos.
 
 A IA está experimentando algo similar — talvez mais dramático. A cada 12 a 18 meses, as capacidades dos modelos de IA dão saltos que pareciam impossíveis pouco antes.
 
@@ -182,7 +182,7 @@ Você não precisa entender como os Transformers funcionam ou o que significa RL
 
 - **A arquitetura Transformer** (2017) foi a inovação técnica que tornou tudo possível, permitindo que máquinas "prestem atenção" ao contexto.
 
-- **Geoffrey Hinton**, o "Padrinho da IA" e Nobel de Física 2024, deixou o Google para alertar sobre os perigos: **50% de chance da IA superar humanos em 5-20 anos**.
+- **Geoffrey Hinton**, o "Padrinho da IA" e Nobel de Física 2024, deixou o Google para alertar sobre os perigos: **50% de chance de a IA superar humanos em 5-20 anos**.
 
 - **As capacidades da IA estão crescendo exponencialmente.** O GPT-4 já passa em exames profissionais com notas entre os melhores humanos.
 

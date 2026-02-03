@@ -52,7 +52,7 @@ Quando IA é usada para automação **e** aumento, ela automatiza tarefas onde t
 
 ### Redesenho de Trabalho
 
-Segundo McKinsey, realizar os ganhos de IA requer mais do que automatizar tarefas individuais — significa redesenhar fluxos de trabalho inteiros para que pessoas, agentes e robôs possam trabalhar juntos efetivamente.
+Segundo a McKinsey, realizar os ganhos de IA requer mais do que automatizar tarefas individuais — significa redesenhar fluxos de trabalho inteiros para que pessoas, agentes e robôs possam trabalhar juntos de forma efetiva.
 
 O trabalho do futuro não é "fazer o que IA não consegue". É **orquestrar sistemas onde humanos e IA colaboram**.
 
@@ -78,7 +78,7 @@ O trabalho do futuro não é "fazer o que IA não consegue". É **orquestrar sis
 
 ## O Que Os Trabalhadores Querem
 
-Stanford conduziu uma pesquisa nacional para entender o que trabalhadores querem que IA automatize ou aumente.
+Stanford conduziu uma pesquisa nacional para entender o que os trabalhadores querem que a IA automatize ou aumente.
 
 ### Descobertas
 
@@ -98,7 +98,7 @@ IA que os torna **mais eficazes** é bem-vinda.
 
 ## Superagência: O Conceito de McKinsey
 
-McKinsey propõe o conceito de "Superagência" — uma abordagem centrada no humano onde indivíduos, empoderados por IA, potencializam sua criatividade, produtividade e impacto positivo.
+A McKinsey propõe o conceito de "Superagência" — uma abordagem centrada no humano em que indivíduos, empoderados por IA, potencializam sua criatividade, produtividade e impacto positivo.
 
 ### Os Princípios
 
@@ -118,7 +118,7 @@ Não é sobre humanos **versus** máquinas — IA deve ser vista como colaborado
 
 ## Os Vencedores da Terceira Via
 
-Segundo análises de mercado, os vencedores não serão aqueles que eliminarem mais empregos através de automação, mas aqueles que mais efetivamente **amplificarem capacidades humanas** através de colaboração consciente.
+Segundo análises de mercado, os vencedores não serão aqueles que eliminarem mais empregos por meio de automação, mas aqueles que mais efetivamente **amplificarem capacidades humanas** por meio de colaboração consciente.
 
 ### Perfil do Trabalhador Vencedor
 
