@@ -17,14 +17,14 @@
 
 ---
 
-> "Telefonistas, datilógrafos, operadores de telex — todas eram profissões respeitáveis. Hoje seus filhos nem sabem o que significam."
+> "Telefonistas, datilógrafos, operadores de telex: todas eram profissões respeitáveis. Hoje seus filhos nem sabem o que significam."
 > — Anônimo
 
 ---
 
 ## A Lista Negra
 
-Em 2013, dois pesquisadores de Oxford — Carl Benedikt Frey e Michael A. Osborne — publicaram um estudo que enviou ondas de choque pelo mundo acadêmico e empresarial. Intitulado "The Future of Employment: How Susceptible Are Jobs to Computerisation?", o estudo analisou 702 profissões nos Estados Unidos e concluiu que **47% de todos os empregos americanos estavam em alto risco de automação**.
+Em 2013, dois pesquisadores de Oxford (Carl Benedikt Frey e Michael A. Osborne) publicaram um estudo que enviou ondas de choque pelo mundo acadêmico e empresarial. Intitulado "The Future of Employment: How Susceptible Are Jobs to Computerisation?", o estudo analisou 702 profissões nos Estados Unidos e concluiu que **47% de todos os empregos americanos estavam em alto risco de automação**.
 
 Quase metade. De todos os empregos.
 
@@ -74,7 +74,7 @@ O Amazon Go levou isso ao extremo: lojas inteiras sem caixas, onde você simples
 
 ### 5. Agentes de Atendimento ao Cliente (91% de risco)
 
-Call centers eram vistos como o caminho de países em desenvolvimento para a economia de serviços. Índia, Filipinas, África — todos investiram pesadamente.
+Call centers eram vistos como o caminho de países em desenvolvimento para a economia de serviços. Índia, Filipinas e África investiram pesadamente.
 
 Chatbots de IA agora resolvem 80% das consultas de rotina. E estão melhorando rapidamente. Em breve, apenas casos excepcionalmente complexos precisarão de humanos.
 
@@ -134,7 +134,7 @@ A IA pode:
 - Pesquisar precedentes legais
 - Redigir minutas de documentos
 
-Advogados de julgamento experientes, negociadores habilidosos, especialistas em áreas complexas — esses ainda são valiosos. Mas a massa de trabalho braçal legal está desaparecendo.
+Advogados de julgamento experientes, negociadores habilidosos e especialistas em áreas complexas ainda são valiosos. Mas a massa de trabalho braçal legal está desaparecendo.
 
 ### 11. Médicos Radiologistas
 
@@ -146,7 +146,7 @@ Isso não significa que radiologistas desaparecerão amanhã. Mas significa que 
 
 Talvez a ironia máxima: os criadores da automação estão sendo automatizados.
 
-GitHub Copilot, Claude Code, GPT-4 — essas ferramentas podem:
+GitHub Copilot, Claude Code e GPT-4 podem:
 - Escrever código funcional a partir de descrições em linguagem natural
 - Debugar programas existentes
 - Converter código entre linguagens
@@ -187,7 +187,7 @@ Nem todas as profissões serão afetadas ao mesmo tempo. Baseado em tendências 
 
 ## O Que Isso Significa Para Você
 
-Se sua profissão está nesta lista, não entre em pânico — mas também não finja que está tudo bem.
+Se sua profissão está nesta lista, não entre em pânico. Mas também não finja que está tudo bem.
 
 **Perguntas para se fazer:**
 
@@ -207,7 +207,7 @@ Nos próximos capítulos, vamos explorar como a classe média será especialment
 
 ## Resumo do Capítulo
 
-- **47% dos empregos americanos** estavam em alto risco de automação segundo estudo de 2013 de Oxford — e a IA generativa acelerou esse cronograma.
+- **47% dos empregos americanos** estavam em alto risco de automação segundo estudo de 2013 de Oxford. A IA generativa acelerou esse cronograma.
 
 - **Primeiros a cair:** telemarketing, caixas, atendimento ao cliente, contabilidade básica, assistentes administrativos.
 

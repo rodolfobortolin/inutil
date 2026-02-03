@@ -11,13 +11,13 @@
 
 ## Além do Binário
 
-Até agora, este livro apresentou dois cenários extremos:
+Até agora, este livro apresentou dois cenários extremos.
 
-**Cenário 1 — Substituição Total:** IA substitui humanos em praticamente tudo. Desemprego em massa. Classe inútil.
+**Cenário 1, Substituição Total:** IA substitui humanos em praticamente tudo. Desemprego em massa. Classe inútil.
 
-**Cenário 2 — Adaptação Gradual:** Como em revoluções anteriores, novos empregos surgem. Tudo se ajeita.
+**Cenário 2, Adaptação Gradual:** Como em revoluções anteriores, novos empregos surgem. Tudo se ajeita.
 
-Mas há uma terceira possibilidade — uma **terceira via** que não é nem catástrofe nem utopia.
+Mas há uma terceira possibilidade, uma **terceira via** que não é nem catástrofe nem utopia.
 
 É o cenário onde humanos e IA trabalham juntos, cada um fazendo o que faz melhor.
 
@@ -27,7 +27,7 @@ Mas há uma terceira possibilidade — uma **terceira via** que não é nem cat�
 
 ### O Conceito
 
-IA Simbiótica — termo que emerge de discussões em centros como Sequoia Capital — propõe que as aplicações mais transformadoras de IA não são as que substituem trabalho humano, mas as que **aumentam capacidades humanas**.
+IA Simbiótica, termo que emerge de discussões em centros como Sequoia Capital, propõe que as aplicações mais transformadoras de IA não são as que substituem trabalho humano, mas as que **aumentam capacidades humanas**.
 
 Não é humano **ou** máquina. É humano **com** máquina.
 
@@ -52,7 +52,7 @@ Quando IA é usada para automação **e** aumento, ela automatiza tarefas onde t
 
 ### Redesenho de Trabalho
 
-Segundo a McKinsey, realizar os ganhos de IA requer mais do que automatizar tarefas individuais — significa redesenhar fluxos de trabalho inteiros para que pessoas, agentes e robôs possam trabalhar juntos de forma efetiva.
+Segundo a McKinsey, realizar os ganhos de IA requer mais do que automatizar tarefas individuais. Significa redesenhar fluxos de trabalho inteiros para que pessoas, agentes e robôs possam trabalhar juntos de forma efetiva.
 
 O trabalho do futuro não é "fazer o que IA não consegue". É **orquestrar sistemas onde humanos e IA colaboram**.
 
@@ -98,21 +98,21 @@ IA que os torna **mais eficazes** é bem-vinda.
 
 ## Superagência: O Conceito de McKinsey
 
-A McKinsey propõe o conceito de "Superagência" — uma abordagem centrada no humano em que indivíduos, empoderados por IA, potencializam sua criatividade, produtividade e impacto positivo.
+A McKinsey propõe o conceito de "Superagência", uma abordagem centrada no humano em que indivíduos, empoderados por IA, potencializam sua criatividade, produtividade e impacto positivo.
 
 ### Os Princípios
 
-1. **Humano no centro:** IA existe para servir objetivos humanos, não o contrário
-2. **Aumento antes de substituição:** Priorizar aumentar capacidades humanas
-3. **Redesenho colaborativo:** Fluxos de trabalho projetados para colaboração
-4. **Transparência:** Humanos entendem o que IA está fazendo e por quê
-5. **Supervisão significativa:** Humanos mantêm controle sobre decisões críticas
+1. **Humano no centro:** IA existe para servir objetivos humanos, não o contrário.
+2. **Aumento antes de substituição:** Priorizar aumentar capacidades humanas.
+3. **Redesenho colaborativo:** Fluxos de trabalho projetados para colaboração.
+4. **Transparência:** Humanos entendem o que IA está fazendo e por quê.
+5. **Supervisão significativa:** Humanos mantêm controle sobre decisões críticas.
 
 ### Por Que Importa
 
 Iniciativas de IA frequentemente falham porque começam com tecnologia em vez de desafios humanos.
 
-Não é sobre humanos **versus** máquinas — IA deve ser vista como colaborador confiável que ajuda com tarefas rotineiras e aumenta capacidades, permitindo decisões mais rápidas.
+Não é sobre humanos **versus** máquinas. IA deve ser vista como colaborador confiável que ajuda com tarefas rotineiras e aumenta capacidades, permitindo decisões mais rápidas.
 
 ---
 
@@ -122,19 +122,19 @@ Segundo análises de mercado, os vencedores não serão aqueles que eliminarem m
 
 ### Perfil do Trabalhador Vencedor
 
-1. **Fluente em ferramentas de IA** — sabe usar as ferramentas disponíveis
-2. **Entende limitações** — sabe quando IA falha e humano precisa intervir
-3. **Orquestrador** — coordena múltiplas ferramentas e pessoas
-4. **Aprendiz permanente** — atualiza habilidades constantemente
-5. **Comunicador** — traduz entre mundo técnico e não-técnico
+1. **Fluente em ferramentas de IA:** sabe usar as ferramentas disponíveis.
+2. **Entende limitações:** sabe quando IA falha e humano precisa intervir.
+3. **Orquestrador:** coordena múltiplas ferramentas e pessoas.
+4. **Aprendiz permanente:** atualiza habilidades constantemente.
+5. **Comunicador:** traduz entre mundo técnico e não-técnico.
 
 ### Perfil da Empresa Vencedora
 
-1. **Investe em treinamento** — não apenas em tecnologia
-2. **Redesenha processos** — não apenas automatiza processos antigos
-3. **Mantém humanos no loop** — em decisões críticas
-4. **Cultura de experimentação** — testa, aprende, ajusta
-5. **Visão de longo prazo** — não busca apenas corte de custos imediato
+1. **Investe em treinamento:** não apenas em tecnologia.
+2. **Redesenha processos:** não apenas automatiza processos antigos.
+3. **Mantém humanos no loop:** em decisões críticas.
+4. **Cultura de experimentação:** testa, aprende, ajusta.
+5. **Visão de longo prazo:** não busca apenas corte de custos imediato.
 
 ---
 
@@ -146,7 +146,7 @@ A terceira via não é utopia. Tem desafios reais.
 
 Nem todos terão acesso às melhores ferramentas de IA. Nem todos terão treinamento para usá-las.
 
-A terceira via pode criar nova divisão: os que têm IA boa e sabem usar, versus os que não têm.
+A terceira via pode criar nova divisão entre os que têm IA boa e sabem usar e os que não têm.
 
 ### 2. Resistência Institucional
 
@@ -162,7 +162,7 @@ Algumas tarefas simplesmente serão automatizadas. Não há terceira via para tu
 
 ### 5. Definição de "Humano no Loop"
 
-"Humano supervisionando" pode se tornar ficção — humano que aprova tudo que IA sugere sem realmente entender.
+"Humano supervisionando" pode se tornar ficção, com humanos que aprovam tudo que IA sugere sem realmente entender.
 
 ---
 
@@ -198,25 +198,25 @@ Algumas tarefas simplesmente serão automatizadas. Não há terceira via para tu
 
 Não.
 
-A terceira via é uma **possibilidade**, não uma inevitabilidade. Depende de escolhas — de indivíduos, empresas e governos.
+A terceira via é uma **possibilidade**, não uma inevitabilidade. Depende de escolhas de indivíduos, empresas e governos.
 
-Se deixarmos por conta das forças de mercado puras, a tendência é substituição máxima — é mais barato.
+Se deixarmos por conta das forças de mercado puras, a tendência é substituição máxima, pois é mais barato.
 
 A terceira via exige **esforço consciente** para manter humanos relevantes.
 
 ### O Que Pode Dar Errado
 
-- **Corrida para o fundo:** empresas competem cortando custos via automação total
-- **Concentração de poder:** poucas empresas controlam IA avançada
-- **Política inadequada:** governos não acompanham velocidade de mudança
-- **Educação obsoleta:** escolas continuam preparando para mundo que não existe
+- **Corrida para o fundo:** empresas competem cortando custos via automação total.
+- **Concentração de poder:** poucas empresas controlam IA avançada.
+- **Política inadequada:** governos não acompanham velocidade de mudança.
+- **Educação obsoleta:** escolas continuam preparando para mundo que não existe.
 
 ### O Que Pode Dar Certo
 
-- **Regulação inteligente:** incentiva colaboração, taxa automação pura
-- **Pressão de consumidores:** preferência por empresas que tratam trabalhadores bem
-- **Inovação em modelos de negócio:** novas formas de combinar humano + IA
-- **Movimentos trabalhistas renovados:** proteção coletiva atualizada para era IA
+- **Regulação inteligente:** incentiva colaboração, taxa automação pura.
+- **Pressão de consumidores:** preferência por empresas que tratam trabalhadores bem.
+- **Inovação em modelos de negócio:** novas formas de combinar humano + IA.
+- **Movimentos trabalhistas renovados:** proteção coletiva atualizada para era IA.
 
 ---
 
@@ -232,7 +232,7 @@ Escolha de cada governo que decide regular para colaboração em vez de deixar o
 
 A classe inútil não é destino. É um dos futuros possíveis.
 
-A terceira via — onde humanos e IA trabalham juntos, cada um contribuindo suas forças únicas — é outro futuro possível.
+A terceira via, onde humanos e IA trabalham juntos, cada um contribuindo suas forças únicas, é outro futuro possível.
 
 Qual deles se realizará depende do que fizermos agora.
 

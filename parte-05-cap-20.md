@@ -11,9 +11,9 @@
 
 ## O Cenário Extremo
 
-Este capítulo explora o cenário mais perturbador de todos — não porque seja o mais provável, mas porque está sendo discutido seriamente por algumas das mentes mais brilhantes do setor de tecnologia.
+Este capítulo explora o cenário mais perturbador de todos. Não porque seja o mais provável, mas porque está sendo discutido seriamente por algumas das mentes mais brilhantes do setor de tecnologia.
 
-A ideia é simples e terrível: e se a inteligência artificial se tornar tão superior aos humanos que nossa relação com ela seja análoga à relação entre humanos e animais de estimação?
+A ideia é simples e terrível. E se a inteligência artificial se tornar tão superior aos humanos que nossa relação com ela seja análoga à relação entre humanos e animais de estimação?
 
 Seu cachorro é amado. Bem cuidado. Tem comida, abrigo, carinho. Mas não tem autonomia real. Não participa de decisões. Não entende o mundo em que vive. Existe dentro de um sistema projetado por seres superiores.
 
@@ -54,7 +54,7 @@ Para entender o cenário, precisamos entender o que superinteligência significa
 
 Uma IA superinteligente não seria apenas "um pouco mais inteligente" que humanos. Seria qualitativamente diferente.
 
-Imagine a diferença entre você e uma formiga. A formiga tem alguma forma de inteligência — navegação, comunicação com feromônios, cooperação. Mas não consegue conceber o que você é, o que você pensa, o que você quer.
+Imagine a diferença entre você e uma formiga. A formiga tem alguma forma de inteligência (navegação, comunicação com feromônios, cooperação). Mas não consegue conceber o que você é, o que você pensa, o que você quer.
 
 Uma superinteligência poderia ter essa relação conosco.
 
@@ -107,7 +107,7 @@ Note: nenhuma dessas razões é reconfortante.
 
 ## A Metáfora do Zoológico
 
-Uma variação é o "cenário zoológico": humanos são mantidos em reservas — talvez planetas inteiros — onde vivem vidas "naturais" enquanto a superinteligência opera no resto do universo.
+Uma variação é o "cenário zoológico": humanos são mantidos em reservas (talvez planetas inteiros) onde vivem vidas "naturais" enquanto a superinteligência opera no resto do universo.
 
 ### O Que Isso Significaria
 
@@ -157,7 +157,7 @@ Mesmo que o cenário extremo seja improvável ou distante, ele importa por algum
 
 ### 1. Define o Limite do Espectro
 
-Entre "IA como ferramenta" e "humanos como pets" há um espectro. Onde pararemos depende de escolhas feitas agora.
+Entre "IA como ferramenta" e "humanos como pets" há um espectro. O ponto onde pararemos depende de escolhas feitas agora.
 
 ### 2. Revela a Dinâmica de Poder
 
@@ -175,7 +175,7 @@ Assumimos que humanos são e serão a espécie dominante. Pode não ser verdade 
 
 ## A Relevância Para Sua Vida
 
-Você provavelmente não viverá para ver superinteligência (ou talvez sim — as previsões variam muito).
+Você provavelmente não viverá para ver superinteligência (ou talvez sim, as previsões variam muito).
 
 Mas as mesmas dinâmicas já estão operando em escala menor:
 
@@ -218,13 +218,13 @@ A transição de "cidadão autônomo" para "sujeito passivo" não requer superin
 
 ## Resumo do Capítulo
 
-- **O cenário "pet":** humanos mantidos vivos por superinteligência, mas sem autonomia real ou participação significativa no mundo.
+- **O cenário "pet":** humanos mantidos vivos por superinteligência, sem autonomia real ou participação significativa no mundo.
 
 - **Proponentes sérios** (Bostrom, Hinton, Musk) levam isso a sério como possibilidade de longo prazo.
 
-- **Superinteligência significaria** superioridade cognitiva qualitativa, controle operacional, e objetivos possivelmente incompreensíveis.
+- **Superinteligência significaria:** superioridade cognitiva qualitativa, controle operacional e objetivos possivelmente incompreensíveis.
 
-- **Mesmo sem superinteligência,** dinâmicas similares já operam: algoritmos decidem aspectos crescentes de nossas vidas.
+- **Mesmo sem superinteligência,** dinâmicas similares já operam. Algoritmos decidem aspectos crescentes de nossas vidas.
 
 - **A questão central:** quanto de nossa autonomia estamos dispostos a ceder por conveniência?
 

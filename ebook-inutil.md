@@ -36,7 +36,7 @@ Mas este não é mais um livro sobre "o futuro incrível da IA" ou "como usar o 
 
 **O que vai acontecer com você quando uma máquina puder fazer seu trabalho melhor, mais rápido e sem pedir aumento?**
 
-Eu não sou um pessimista por natureza. Passei anos trabalhando com tecnologia, fascinado por seu potencial de transformar vidas. Mas quanto mais eu estudava o avanço da inteligência artificial, mais eu percebia que estávamos ignorando o elefante na sala — um elefante que cresce exponencialmente e que, em algum momento nas próximas décadas, vai ocupar todo o espaço.
+Eu não sou um pessimista por natureza. Passei anos trabalhando com tecnologia, fascinado por seu potencial de transformar vidas. Mas quanto mais eu estudava o avanço da inteligência artificial, mais eu percebia que estávamos ignorando o elefante na sala: um elefante que cresce exponencialmente e que, em algum momento nas próximas décadas, vai ocupar todo o espaço.
 
 A pergunta não é mais "se" a IA vai substituir empregos humanos em massa. A pergunta é "quando" — e o que faremos com os bilhões de pessoas que ficarão sem função econômica.
 

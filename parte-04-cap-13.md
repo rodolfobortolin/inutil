@@ -25,7 +25,7 @@
 
 ## A Solução Mágica
 
-Quando bilionários de tecnologia são confrontados com a pergunta desconfortável — "o que acontece com as pessoas cujos empregos suas tecnologias eliminam?" — há uma resposta que surge com frequência quase ritual:
+Quando bilionários de tecnologia são confrontados com a pergunta desconfortável ("o que acontece com as pessoas cujos empregos suas tecnologias eliminam?"), há uma resposta que surge com frequência quase ritual:
 
 **Renda Básica Universal (UBI).**
 
@@ -43,7 +43,7 @@ Não necessariamente.
 
 Vamos começar pela matemática básica.
 
-A proposta emblemática de Andrew Yang era US$ 1.000 por mês para todo adulto americano. Parece modesto — é menos do que muitos gastam em aluguel nas grandes cidades.
+A proposta emblemática de Andrew Yang era US$ 1.000 por mês para todo adulto americano. Parece modesto, menos do que muitos gastam em aluguel nas grandes cidades.
 
 **Custo estimado:** US$ 2,8 a 3,0 trilhões por ano.
 
@@ -52,7 +52,7 @@ Para contexto:
 - A receita federal total é de cerca de US$ 4,9 trilhões
 - US$ 3 trilhões é mais que todo o orçamento de defesa, Medicare e Medicaid combinados
 
-Não é impossível. Mas exigiria uma das maiores reestruturações fiscais da história. E isso é para US$ 1.000/mês — um valor que não cobre necessidades básicas em muitas cidades.
+Não é impossível. Mas exigiria uma das maiores reestruturações fiscais da história. E isso é para US$ 1.000/mês, um valor que não cobre necessidades básicas em muitas cidades.
 
 ### O Problema Circular
 
@@ -62,13 +62,13 @@ O maior problema com implementar a UBI é descobrir como financiá-la. Nos Estad
 
 Se a IA elimina empregos em massa, a base tributária encolhe. Menos pessoas empregadas = menos imposto de renda. Mas mais pessoas precisando de UBI.
 
-O sistema se tornaria matematicamente insustentável: tentar ajustar a tributação para cobrir a UBI colocaria um fardo impossível sobre os poucos ainda empregados.
+O sistema se tornaria matematicamente insustentável. Tentar ajustar a tributação para cobrir a UBI colocaria um fardo impossível sobre os poucos ainda empregados.
 
 ---
 
 ## O Que os Experimentos Mostram
 
-Mais de 160 testes ou pilotos de UBI foram conduzidos nas últimas quatro décadas em diversos países. Os resultados são... mistos.
+Mais de 160 testes ou pilotos de UBI foram conduzidos nas últimas quatro décadas em diversos países. Os resultados são mistos.
 
 ### Finlândia (2017-2018)
 
@@ -116,21 +116,21 @@ UBI, nessa visão, não resolve desigualdade. Apenas administra a miséria. Mant
 
 ### 2. Substituir Bem-Estar Social É Perigoso
 
-Algumas propostas de UBI sugerem eliminar outros programas sociais — saúde, habitação, educação — e substituí-los por dinheiro.
+Algumas propostas de UBI sugerem eliminar outros programas sociais (saúde, habitação, educação) e substituí-los por dinheiro.
 
-Acemoglu chama isso de "ideia terrível": pessoas com condições de saúde graves, por exemplo, podem precisar de muito mais do que o valor padronizado da UBI. Substituir cuidados específicos por dinheiro genérico pode ser fatal para os mais vulneráveis.
+Acemoglu chama isso de "ideia terrível". Pessoas com condições de saúde graves, por exemplo, podem precisar de muito mais do que o valor padronizado da UBI. Substituir cuidados específicos por dinheiro genérico pode ser fatal para os mais vulneráveis.
 
 ### 3. Inflação e Mercados Restritos
 
-Se você distribui dinheiro em mercados onde a oferta é limitada — habitação em grandes cidades, por exemplo — você não aumenta o poder de compra. Você apenas aumenta os preços.
+Se você distribui dinheiro em mercados onde a oferta é limitada (habitação em grandes cidades, por exemplo), você não aumenta o poder de compra. Você apenas aumenta os preços.
 
 O risco? A UBI pode acabar financiando proprietários de imóveis e empresas de energia mais do que famílias.
 
 ### 4. Não Resolve Desigualdade de Ativos
 
-O capitalismo da IA verá o valor de ativos disparar — ações de empresas de tecnologia, imóveis em regiões prósperas, propriedade intelectual.
+O capitalismo da IA verá o valor de ativos disparar: ações de empresas de tecnologia, imóveis em regiões prósperas, propriedade intelectual.
 
-Aqueles com ativos ficam mais ricos. Aqueles sem ativos — mesmo recebendo UBI — não constroem patrimônio. A desigualdade de riqueza (não apenas de renda) continua crescendo.
+Aqueles com ativos ficam mais ricos. Aqueles sem ativos, mesmo recebendo UBI, não constroem patrimônio. A desigualdade de riqueza (não apenas de renda) continua crescendo.
 
 US$ 1.000/mês não compra uma casa, não compra ações da NVIDIA, não compra um futuro.
 
@@ -166,7 +166,7 @@ Os que mais promovem UBI são precisamente os que mais ganhariam com a prolifera
 
 ## E Se a Bolha Estourar?
 
-Há uma premissa implícita em todas as propostas de UBI financiada por IA: que a IA continuará gerando riqueza massiva indefinidamente.
+Há uma premissa implícita em todas as propostas de UBI financiada por IA: a IA continuará gerando riqueza massiva indefinidamente.
 
 Mas no final de 2025, analistas financeiros começaram a alertar sobre uma "Bolha de IA" comparável ao crash das pontocom. Trilhões foram investidos em infraestrutura de IA, mas a geração de receita não acompanhou o hype.
 
@@ -204,13 +204,13 @@ Mesmo que fosse perfeitamente implementada e financiada, a UBI não resolve:
 
 ## Resumo do Capítulo
 
-- **UBI custaria US$ 3 trilhões/ano** nos EUA — um valor que exigiria reestruturação fiscal sem precedentes.
+- **UBI custaria US$ 3 trilhões/ano** nos EUA, valor que exigiria reestruturação fiscal sem precedentes.
 
-- **O problema é circular:** se a IA elimina empregos, a base tributária encolhe exatamente quando mais pessoas precisam de UBI.
+- **O problema é circular.** Se a IA elimina empregos, a base tributária encolhe exatamente quando mais pessoas precisam de UBI.
 
 - **Experimentos mostram benefícios psicológicos**, mas impacto limitado em emprego. Dinheiro ajuda, mas não resolve.
 
-- **Nobel Acemoglu chama UBI de "pão e circo"** — administração da miséria, não solução de desigualdade.
+- **Nobel Acemoglu chama UBI de "pão e circo".** Administração da miséria, não solução de desigualdade.
 
 - **Bilionários de IA promovem UBI** possivelmente como forma de ganhar licença social para automação irrestrita.
 

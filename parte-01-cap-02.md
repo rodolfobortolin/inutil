@@ -17,7 +17,7 @@ Naquele dia, uma empresa de San Francisco chamada OpenAI lançou publicamente um
 
 E ainda assim, em apenas cinco dias, o ChatGPT tinha 1 milhão de usuários.
 
-Em dois meses, tinha 100 milhões — tornando-se o aplicativo de consumo de crescimento mais rápido na história da internet. Para colocar em perspectiva: o TikTok levou 9 meses para atingir essa marca. O Instagram, mais de 2 anos.
+Em dois meses, tinha 100 milhões, tornando-se o aplicativo de consumo de crescimento mais rápido na história da internet. Para colocar em perspectiva: o TikTok levou 9 meses para atingir essa marca. O Instagram, mais de 2 anos.
 
 Pela primeira vez, bilhões de pessoas comuns puderam conversar com uma inteligência artificial que parecia... inteligente. Que escrevia textos coerentes. Que respondia perguntas complexas. Que admitia quando não sabia algo.
 
@@ -67,13 +67,13 @@ Com a arquitetura Transformer em mãos, a OpenAI começou a construir modelos ca
 
 **GPT-3 (2020):** 175 bilhões de parâmetros — mais de 100 vezes maior que o GPT-2. Agora a IA podia não apenas gerar texto, mas realizar tarefas variadas com apenas alguns exemplos.
 
-**GPT-3.5 + ChatGPT (Novembro 2022):** O mesmo modelo base, mas refinado com uma técnica chamada RLHF (Reinforcement Learning from Human Feedback — Aprendizado por Reforço com Feedback Humano). Era isso que tornava o ChatGPT tão... conversável. Tão humano.
+**GPT-3.5 + ChatGPT (Novembro 2022):** O mesmo modelo base, mas refinado com uma técnica chamada RLHF (Reinforcement Learning from Human Feedback, ou Aprendizado por Reforço com Feedback Humano). Era isso que tornava o ChatGPT tão... conversável. Tão humano.
 
 **GPT-4 (Março 2023):** Estimativas sugerem algo em torno de 1,8 trilhão de parâmetros. Multimodal — capaz de processar não apenas texto, mas imagens. Passou no exame da Ordem dos Advogados americana (OAB) com nota entre os 10% melhores. Superou 90% dos candidatos no LSAT, o vestibular para faculdades de direito nos EUA.
 
 **GPT-4o (Maio 2024):** Processamento em tempo real de texto, áudio e imagem simultaneamente. Respostas tão rápidas quanto reações humanas em conversas.
 
-**o1 (Setembro 2024):** O primeiro modelo de "raciocínio" da OpenAI — capaz de "pensar" antes de responder, decompondo problemas complexos em etapas. Superou PhDs em tarefas de física, biologia e química.
+**o1 (Setembro 2024):** O primeiro modelo de "raciocínio" da OpenAI, capaz de "pensar" antes de responder, decompondo problemas complexos em etapas. Superou PhDs em tarefas de física, biologia e química.
 
 **GPT-5 (Agosto 2025):** O salto mais significativo desde o GPT-4. Alcançou 94,6% no AIME 2025 (competição de matemática), 74,9% no SWE-bench (programação real), e definiu novo estado da arte em praticamente todas as métricas. Reduziu drasticamente alucinações e melhorou a capacidade de seguir instruções complexas.
 
@@ -83,7 +83,7 @@ Com a arquitetura Transformer em mãos, a OpenAI começou a construir modelos ca
 
 **o3 e o4-mini (2025):** Modelos de raciocínio que cometem 20% menos erros graves que o o1 em tarefas difíceis do mundo real, especialmente em programação, consultoria e ideação criativa.
 
-Cada nova versão não era apenas um pouco melhor que a anterior. Era *qualitativamente* diferente — capaz de fazer coisas que a versão anterior simplesmente não conseguia fazer. E a velocidade dessa evolução está acelerando.
+Cada nova versão não era apenas um pouco melhor que a anterior. Era *qualitativamente* diferente, capaz de fazer coisas que a versão anterior simplesmente não conseguia fazer. E a velocidade dessa evolução está acelerando.
 
 ---
 
@@ -123,9 +123,9 @@ Para os trabalhadores sendo substituídos, a distinção entre "inteligência re
 
 ## A Lei de Moore da IA
 
-Há um conceito chamado "Lei de Moore" que dominou a computação por décadas: o número de transistores em um chip dobra aproximadamente a cada dois anos. Isso significava que os computadores ficavam constantemente mais rápidos e baratos.
+Há um conceito chamado "Lei de Moore" que dominou a computação por décadas. O número de transistores em um chip dobra aproximadamente a cada dois anos. Isso significava que os computadores ficavam constantemente mais rápidos e baratos.
 
-A IA está experimentando algo similar — talvez mais dramático. A cada 12 a 18 meses, as capacidades dos modelos de IA dão saltos que pareciam impossíveis pouco antes.
+A IA está experimentando algo similar, talvez mais dramático. A cada 12 a 18 meses, as capacidades dos modelos de IA dão saltos que pareciam impossíveis pouco antes.
 
 Em 2020, um modelo de IA que escrevesse um e-mail coerente era impressionante.
 
@@ -152,7 +152,7 @@ Ninguém sabe ao certo. Mas se a trajetória atual continuar — e não há raz�
 
 ## O Ponto Sem Retorno
 
-Há um conceito na pesquisa de IA chamado "singularidade" — o momento hipotético em que a inteligência artificial se torna capaz de se aprimorar recursivamente, cada geração criando uma versão mais inteligente de si mesma em um ciclo acelerado.
+Há um conceito na pesquisa de IA chamado "singularidade": o momento hipotético em que a inteligência artificial se torna capaz de se aprimorar recursivamente, cada geração criando uma versão mais inteligente de si mesma em um ciclo acelerado.
 
 Alguns pesquisadores acreditam que a singularidade pode acontecer ainda nesta década. Outros acham que é impossível ou está muito distante. O importante é que mesmo os céticos reconhecem que já passamos de um ponto sem retorno em termos de impacto econômico e social.
 

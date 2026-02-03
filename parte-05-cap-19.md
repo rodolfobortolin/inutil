@@ -11,7 +11,7 @@
 
 ## As Mortes Que Ninguém Contabiliza
 
-Em 2015, dois economistas de Princeton — Anne Case e Angus Deaton (este último, Prêmio Nobel) — fizeram uma descoberta chocante: americanos brancos de meia-idade, sem diploma universitário, estavam morrendo em taxas crescentes.
+Em 2015, dois economistas de Princeton, Anne Case e Angus Deaton (este último, Prêmio Nobel), fizeram uma descoberta chocante: americanos brancos de meia-idade, sem diploma universitário, estavam morrendo em taxas crescentes.
 
 Isso contradiz toda tendência histórica. A expectativa de vida sempre sobe. A medicina melhora. Doenças são controladas.
 
@@ -22,7 +22,7 @@ As causas? O que Case e Deaton chamaram de **"mortes por desespero"**:
 - Suicídio
 - Doenças hepáticas relacionadas ao álcool
 
-Desde os anos 1990, essas mortes aumentaram tanto que estão reduzindo a expectativa de vida geral dos americanos — algo que não acontecia desde a epidemia de gripe espanhola em 1918.
+Desde os anos 1990, essas mortes aumentaram tanto que estão reduzindo a expectativa de vida geral dos americanos. Algo que não acontecia desde a epidemia de gripe espanhola em 1918.
 
 ---
 
@@ -32,13 +32,13 @@ As mortes por desespero não estão distribuídas uniformemente. Elas se concent
 
 ### O Rust Belt
 
-Ohio, Pensilvânia, Michigan, Indiana — estados onde fábricas de aço, automóveis e manufatura fecharam desde os anos 1970.
+Ohio, Pensilvânia, Michigan, Indiana: estados onde fábricas de aço, automóveis e manufatura fecharam desde os anos 1970.
 
-Cidades que eram prósperas se tornaram ruínas. Youngstown, Flint, Gary — nomes que evocam decadência industrial.
+Cidades que eram prósperas se tornaram ruínas. Youngstown, Flint, Gary: nomes que evocam decadência industrial.
 
 ### Appalachia
 
-Montanhas do Kentucky, West Virginia, Tennessee — onde a mineração de carvão era a principal economia. O carvão colapsou. Nada o substituiu.
+Montanhas do Kentucky, West Virginia, Tennessee, onde a mineração de carvão era a principal economia. O carvão colapsou. Nada o substituiu.
 
 ### Pequenas Cidades Rurais
 
@@ -48,7 +48,7 @@ Por todo o país, pequenas cidades que dependiam de uma fábrica, uma mina, ou a
 
 Todas são regiões onde **trabalho digno desapareceu**.
 
-Não apenas desemprego — mas o fim de empregos que davam status, propósito e comunidade. Empregos onde um homem sem diploma universitário podia sustentar uma família e se orgulhar disso.
+Não apenas desemprego, mas o fim de empregos que davam status, propósito e comunidade. Empregos onde um homem sem diploma universitário podia sustentar uma família e se orgulhar disso.
 
 ---
 
@@ -56,7 +56,7 @@ Não apenas desemprego — mas o fim de empregos que davam status, propósito e 
 
 Aqui está o insight crucial: mortes por desespero não são simplesmente função de pobreza.
 
-Pobres urbanos — especialmente negros e hispânicos — também são pobres. Frequentemente mais pobres. Mas não mostram o mesmo aumento em mortes por desespero.
+Pobres urbanos, especialmente negros e hispânicos, também são pobres. Frequentemente mais pobres. Mas não mostram o mesmo aumento em mortes por desespero.
 
 Por quê?
 
@@ -74,7 +74,7 @@ Brancos sem diploma, especialmente homens, cresceram com uma promessa: trabalhe 
 
 A crise de opioides não começou por acaso onde começou.
 
-Farmacêuticas como a Purdue Pharma (fabricante do OxyContin) deliberadamente miraram regiões onde pessoas tinham dores — físicas (de trabalhos manuais pesados) e emocionais (de comunidades desmoronando).
+Farmacêuticas como a Purdue Pharma (fabricante do OxyContin) deliberadamente miraram regiões onde pessoas tinham dores, físicas (de trabalhos manuais pesados) e emocionais (de comunidades desmoronando).
 
 O opioide oferece:
 - Alívio da dor física
@@ -92,7 +92,7 @@ O padrão é claro: quando homens perdem o papel de "provedor", muitos perdem a 
 
 ### Álcool: A Morte Lenta
 
-Doenças hepáticas relacionadas ao álcool matam lentamente — ao longo de anos ou décadas. É suicídio em câmera lenta.
+Doenças hepáticas relacionadas ao álcool matam lentamente, ao longo de anos ou décadas. É suicídio em câmera lenta.
 
 O álcool é legal, socialmente aceito, barato e disponível. O "alcoolismo funcional" permite manter aparências enquanto a pessoa se destrói internamente.
 
@@ -146,19 +146,19 @@ Não precisamos esperar. Alguns sinais já estão aparecendo:
 
 ### Crise de Saúde Mental em Jovens
 
-Ansiedade e depressão entre adolescentes e jovens adultos atingiram níveis recordes, especialmente em países desenvolvidos e desde 2012 (quando smartphones se tornaram onipresentes).
+Ansiedade e depressão entre adolescentes e jovens adultos atingiram níveis recordes, especialmente em países desenvolvidos, desde 2012 (quando smartphones se tornaram onipresentes).
 
 Parte é tecnologia. Parte é também a percepção crescente de que o futuro não oferece o que foi prometido.
 
 ### Hikikomori no Japão
 
-No Japão, milhões de pessoas — principalmente jovens homens — se isolaram completamente. Não trabalham, não estudam, não socializam. Vivem em quartos, sustentados por pais.
+No Japão, milhões de pessoas, principalmente jovens homens, se isolaram completamente. Não trabalham, não estudam, não socializam. Vivem em quartos, sustentados por pais.
 
 É um fenômeno cultural específico? Ou é um presságio do que acontece quando o modelo de "trabalho → identidade → valor" se rompe?
 
 ### NEETs Globais
 
-Nem Emprego, Nem Educação, Nem Treinamento — os NEETs são um fenômeno crescente em todos os países desenvolvidos.
+Nem Emprego, Nem Educação, Nem Treinamento: os NEETs são um fenômeno crescente em todos os países desenvolvidos.
 
 Jovens que desistiram antes de começar. Que não veem ponto em entrar em um sistema que não oferece futuro.
 
@@ -220,9 +220,9 @@ Prevenir uma pandemia de desespero exigirá:
 
 - **"Mortes por desespero"** (overdose, suicídio, álcool) estão reduzindo a expectativa de vida nos EUA pela primeira vez desde 1918.
 
-- **Concentração geográfica:** Rust Belt, Appalachia, pequenas cidades — onde trabalho digno desapareceu.
+- **Concentração geográfica:** Rust Belt, Appalachia, pequenas cidades, onde trabalho digno desapareceu.
 
-- **Não é apenas pobreza:** é quebra de expectativas, perda de significado, ruptura de comunidades.
+- **Não é apenas pobreza.** É quebra de expectativas, perda de significado, ruptura de comunidades.
 
 - **É prévia do que pode vir** em escala muito maior se a IA eliminar empregos de classe média globalmente.
 

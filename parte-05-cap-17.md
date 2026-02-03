@@ -25,7 +25,7 @@
 
 ## A Pergunta Que Ninguém Quer Fazer
 
-Até agora, falamos de emprego, economia, dinheiro — questões materiais. Mas há uma dimensão mais profunda da crise que se aproxima, uma que poucos estão dispostos a confrontar diretamente:
+Até agora, falamos de emprego, economia, dinheiro. Questões materiais. Mas há uma dimensão mais profunda da crise que se aproxima, uma que poucos estão dispostos a confrontar diretamente:
 
 **Se você não é necessário para nada, qual é o sentido da sua existência?**
 
@@ -71,7 +71,7 @@ Como você se sente?
 
 ## A Crise Existencial em Massa
 
-Filósofos existencialistas do século XX — Sartre, Camus, Kierkegaard — escreveram sobre o desafio de encontrar significado em um universo indiferente.
+Filósofos existencialistas do século XX (Sartre, Camus, Kierkegaard) escreveram sobre o desafio de encontrar significado em um universo indiferente.
 
 Mas eles estavam falando de uma elite intelectual, pessoas com educação, tempo e recursos para contemplar questões abstratas.
 
@@ -79,17 +79,17 @@ O que acontece quando bilhões de pessoas comuns, sem preparação filosófica, 
 
 ### A Pesquisa de Viktor Frankl
 
-Viktor Frankl, psiquiatra sobrevivente do Holocausto, argumentou que a busca por significado é a motivação primária dos humanos. Pessoas podem suportar quase qualquer sofrimento se encontrarem sentido nele.
+Viktor Frankl, psiquiatra e sobrevivente do Holocausto, argumentou que a busca por significado é a motivação primária dos humanos. Pessoas podem suportar quase qualquer sofrimento se encontrarem sentido nele.
 
 Mas o inverso também é verdadeiro: sem sentido, mesmo conforto material se torna insuportável.
 
-Frankl observou que entre sobreviventes dos campos de concentração, os que tinham "algo pelo que viver" — uma missão, uma pessoa amada, uma obra a completar — tinham mais chances de sobreviver.
+Frankl observou que entre sobreviventes dos campos de concentração, os que tinham "algo pelo que viver" (uma missão, uma pessoa amada, uma obra a completar) tinham mais chances de sobreviver.
 
 ### A Epidemia de Desespero
 
-Nos EUA das últimas décadas, "mortes por desespero" — overdoses, suicídios, doenças relacionadas ao álcool — aumentaram dramaticamente, especialmente em regiões onde empregos industriais desapareceram.
+Nos EUA das últimas décadas, "mortes por desespero" (overdoses, suicídios, doenças relacionadas ao álcool) aumentaram dramaticamente, especialmente em regiões onde empregos industriais desapareceram.
 
-Essas mortes afetam desproporcionalmente pessoas de meia-idade, brancas, sem diploma universitário, em áreas rurais e pequenas cidades — exatamente a população que perdeu não apenas empregos, mas toda uma forma de vida.
+Essas mortes afetam desproporcionalmente pessoas de meia-idade, brancas, sem diploma universitário, em áreas rurais e pequenas cidades: exatamente a população que perdeu não apenas empregos, mas toda uma forma de vida.
 
 Não é coincidência.
 
@@ -160,7 +160,7 @@ Excelente em teoria. Mas:
 
 ## O Experimento Que Já Está Acontecendo
 
-Não precisamos especular completamente. Grupos específicos já vivem algo próximo da "irrelevância econômica":
+Não precisamos especular completamente. Alguns grupos específicos já vivem algo próximo da "irrelevância econômica":
 
 ### Aposentados Precoces
 
@@ -182,7 +182,7 @@ Estudos mostram que desemprego prolongado causa:
 
 ### "NEETs" (Nem Emprego, Nem Educação, Nem Treinamento)
 
-Jovens que não trabalham nem estudam — um fenômeno crescente em países desenvolvidos — mostram:
+Jovens que não trabalham nem estudam, um fenômeno crescente em países desenvolvidos, mostram:
 - Altas taxas de ansiedade e depressão
 - Dependência de entretenimento digital
 - Dificuldade em formar relacionamentos
@@ -198,7 +198,7 @@ Para muitas pessoas ao longo da história, a religião forneceu resposta à perg
 
 Mas sociedades modernas são crescentemente seculares. E mesmo para religiosos, a identidade frequentemente está entrelaçada com trabalho.
 
-O pastor trabalha na igreja. O muçulmano devoto pode ser comerciante. O budista pode ser monge — uma forma de trabalho.
+O pastor trabalha na igreja. O muçulmano devoto pode ser comerciante. O budista pode ser monge, uma forma de trabalho.
 
 A secularização removeu um pilar de significado. A IA pode remover outro. O que resta?
 
@@ -220,7 +220,7 @@ A secularização removeu um pilar de significado. A IA pode remover outro. O qu
 
 ## Resumo do Capítulo
 
-- **A crise não é apenas econômica — é existencial.** Se você não é necessário, qual é o sentido?
+- **A crise não é apenas econômica, é existencial.** Se você não é necessário, qual é o sentido?
 
 - **Trabalho fornece** prova de valor, lugar no mundo, narrativa de vida, identidade social.
 

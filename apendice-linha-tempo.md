@@ -178,11 +178,11 @@
 
 ## Lições da História
 
-1. **Transformações tecnológicas são inevitáveis** — resistência atrasa mas não impede
-2. **Transições são dolorosas** — gerações inteiras podem sofrer antes de adaptação
-3. **Novas oportunidades surgem** — mas não necessariamente para as mesmas pessoas
-4. **Políticas importam** — como sociedade responde faz diferença
-5. **Velocidade acelera** — cada revolução é mais rápida que a anterior
+1. **Transformações tecnológicas são inevitáveis:** resistência atrasa mas não impede
+2. **Transições são dolorosas:** gerações inteiras podem sofrer antes de adaptação
+3. **Novas oportunidades surgem,** mas não necessariamente para as mesmas pessoas
+4. **Políticas importam:** como a sociedade responde faz diferença
+5. **Velocidade acelera:** cada revolução é mais rápida que a anterior
 
 ---
 

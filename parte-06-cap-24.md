@@ -13,13 +13,13 @@
 
 Se você leu até aqui e está pensando "ok, o mundo vai mudar dramaticamente — como protejo minha família financeiramente?", este capítulo é para você.
 
-Vamos ser realistas: não existe estratégia à prova de balas. Ninguém pode garantir seu futuro financeiro em um mundo de disrupção sem precedentes. Mas podemos identificar princípios que aumentam suas chances.
+Vamos ser realistas. Não existe estratégia à prova de balas. Ninguém pode garantir seu futuro financeiro em um mundo de disrupção sem precedentes. Mas podemos identificar princípios que aumentam suas chances.
 
 ---
 
 ## O Que NÃO Fazer
 
-Antes das estratégias positivas, alguns erros a evitar:
+Antes das estratégias positivas, vejamos alguns erros a evitar.
 
 ### 1. Não Aposte Apenas em Uma Carreira
 
@@ -41,9 +41,9 @@ Não precisa ser programador. Mas precisa entender o suficiente para:
 
 ### 3. Não Confie Cegamente em Especialistas
 
-Consultores financeiros, em sua maioria, estão usando modelos do século XX. Poucos entendem as implicações de IA.
+Consultores financeiros, em sua maioria, usam modelos do século XX. Poucos entendem as implicações de IA.
 
-Mais de 80% dos projetos de IA falham, segundo pesquisas. Ao mesmo tempo, apenas 2% das firmas de private equity esperam realizar valor significativo de IA em 2026 — mas 93% antecipam benefícios substanciais em 3-5 anos.
+Mais de 80% dos projetos de IA falham, segundo pesquisas. Ao mesmo tempo, apenas 2% das firmas de private equity esperam realizar valor significativo de IA em 2026, mas 93% antecipam benefícios substanciais em 3-5 anos.
 
 A janela de oportunidade é agora. Quando "todo mundo" entender, será tarde demais para os maiores ganhos.
 
@@ -63,7 +63,7 @@ No mundo onde trabalho humano vale menos, **propriedade** vale mais.
 
 Capital não dorme, não fica doente, não é substituído por IA. O capital se multiplica.
 
-A divisão fundamental do futuro não é entre "ricos e pobres", mas entre "donos de capital" e "todos os outros".
+A divisão fundamental do futuro não será entre "ricos e pobres", mas entre "donos de capital" e "todos os outros".
 
 ### Na Prática
 
@@ -90,7 +90,7 @@ Os "Magnificent 7" (Apple, Microsoft, Google, Amazon, Nvidia, Meta, Tesla) aumen
 
 A Nvidia se tornou a primeira empresa a atingir capitalização de mercado de $5 trilhões. Em 2024, sua receita saltou 114% para $130,5 bilhões.
 
-O recado é claro: quem está construindo a infraestrutura de IA está acumulando riqueza em velocidade sem precedentes.
+O recado é claro. Quem está construindo a infraestrutura de IA está acumulando riqueza em velocidade sem precedentes.
 
 ---
 
@@ -104,7 +104,7 @@ O índice Morningstar Global Next Generation Artificial Intelligence retornou 44
 
 ### O Menos Óbvio
 
-Não basta "comprar IA". É preciso entender a cadeia de valor:
+Não basta "comprar IA". É preciso entender a cadeia de valor.
 
 **Camada 1: Hardware (Semicondutores)**
 - Nvidia é a líder absoluta
@@ -136,7 +136,7 @@ Não basta "comprar IA". É preciso entender a cadeia de valor:
 ### Cuidados
 
 - **Valuations esticados:** Muitas empresas de IA estão caras. Microsoft negocia a 34x lucros.
-- **Bolha potencial:** Nem toda empresa de IA vai ter sucesso. 30% dos projetos de IA generativa devem parar em 2026.
+- **Bolha potencial:** Nem toda empresa de IA vai ter sucesso, e 30% dos projetos de IA generativa devem parar em 2026.
 - **DeepSeek e disrupção:** O surgimento de alternativas mais baratas (como a chinesa DeepSeek) pode pressionar margens.
 
 ---
@@ -168,9 +168,9 @@ O conceito de "um emprego para a vida toda" está morto. O conceito de "uma font
 
 ### A Meta
 
-Idealmente, você quer chegar a um ponto onde renda passiva e de capital cubram seus gastos básicos — tornando renda ativa opcional.
+Idealmente, você quer chegar a um ponto onde renda passiva e de capital cubram seus gastos básicos, tornando a renda ativa opcional.
 
-Isso não é fácil. Requer disciplina, tempo e alguma sorte. Mas é a posição mais segura para o futuro.
+Isso não é fácil e requer disciplina, tempo e alguma sorte. Mas é a posição mais segura para o futuro.
 
 ---
 
@@ -191,7 +191,7 @@ Dívidas reduzem flexibilidade. Se você perde renda e tem dívidas, está encur
 
 ### Exceção
 
-Dívida para adquirir ativos produtivos (imóveis para alugar, negócios) pode fazer sentido, desde que você possa sobreviver se a renda desses ativos diminuir.
+Dívida para adquirir ativos produtivos (imóveis para alugar, negócios) pode fazer sentido, desde que você consiga sobreviver se a renda desses ativos diminuir.
 
 ---
 
@@ -268,7 +268,7 @@ E se nada disso funcionar? E se a disrupção for tão extrema que todas essas e
 
 ### Habilidades de Subsistência
 
-Em cenários extremos, habilidades práticas básicas têm valor:
+Em cenários extremos, habilidades práticas básicas têm valor.
 - Cultivo de alimentos
 - Manutenção básica (eletricidade, encanamento)
 - Primeiros socorros
@@ -276,16 +276,16 @@ Em cenários extremos, habilidades práticas básicas têm valor:
 
 ### Comunidade
 
-Nenhum indivíduo sobrevive sozinho em um colapso. Pertencer a comunidades — físicas, não digitais — é o último recurso seguro.
+Nenhum indivíduo sobrevive sozinho em um colapso. Pertencer a comunidades físicas (não digitais) é o último recurso seguro.
 
 ### Bens Tangíveis
 
-Em cenários de colapso financeiro:
+Em cenários de colapso financeiro, considere o seguinte:
 - Imóvel próprio (sem dívida) é teto garantido
 - Alguns metais preciosos físicos como seguro extremo
 - Bens práticos (ferramentas, equipamentos)
 
-Não estou sugerindo que você vire "prepper". Mas ter alguma margem de segurança para cenários extremos não é paranoia — é prudência.
+Não estou sugerindo que você vire "prepper". Mas ter alguma margem de segurança para cenários extremos não é paranoia. É prudência.
 
 ---
 

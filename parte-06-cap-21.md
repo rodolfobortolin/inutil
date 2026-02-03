@@ -25,7 +25,7 @@
 
 ## Identificando os Refúgios
 
-Até agora, este livro pintou um quadro sombrio. Mas há esperança — não na forma de utopias tecnológicas ou promessas de bilionários, mas em entender claramente onde estão as limitações da IA.
+Até agora, este livro pintou um quadro sombrio. Mas há esperança: não na forma de utopias tecnológicas ou promessas de bilionários, mas em entender claramente onde estão as limitações da IA.
 
 Essas limitações são seus refúgios potenciais. Elas definem os espaços onde humanos ainda podem ser valiosos.
 
@@ -61,13 +61,13 @@ Robôs humanoides estão avançando. Em 10-20 anos, muitos trabalhos físicos po
 
 ### O Problema
 
-IA atual (incluindo os modelos mais avançados de 2025) é extraordinariamente boa em reconhecer padrões. Mas tem dificuldades com raciocínio causal — entender POR QUE as coisas acontecem, não apenas prever O QUE vai acontecer.
+IA atual (incluindo os modelos mais avançados de 2025) é extraordinariamente boa em reconhecer padrões. Mas tem dificuldades com raciocínio causal, ou seja, entender POR QUE as coisas acontecem, não apenas prever O QUE vai acontecer.
 
 ### Exemplo
 
 Uma IA pode analisar milhares de casos médicos e identificar que pacientes com X sintomas frequentemente têm Y doença. Correlação.
 
-Mas entender o mecanismo — como exatamente a doença causa os sintomas, por que funciona assim, o que aconteceria se intervirmos de formas novas — é mais difícil.
+Mas entender o mecanismo (como exatamente a doença causa os sintomas, por que funciona assim, o que aconteceria se intervirmos de formas novas) é mais difícil.
 
 ### O Que Isso Significa
 
@@ -114,7 +114,7 @@ Quando algo dá errado, quem é responsável?
 
 Se um médico erra, ele pode ser processado, perder a licença, ir para a prisão. Existe responsabilização pessoal.
 
-Se uma IA erra... quem é culpado? A empresa que a criou? O usuário que a utilizou? O sistema simplesmente não tem accountability no sentido tradicional.
+Se uma IA erra, quem é culpado? A empresa que a criou? O usuário que a utilizou? O sistema simplesmente não tem accountability no sentido tradicional.
 
 ### O Que Isso Significa
 
@@ -125,7 +125,7 @@ Funções onde **responsabilidade pessoal é central**:
 - Advogados que representam clientes
 - Executivos que tomam decisões estratégicas
 
-Continuarão a exigir humanos — pelo menos como a "última assinatura".
+Continuarão a exigir humanos, pelo menos como a "última assinatura".
 
 ### Ressalva
 
@@ -139,7 +139,7 @@ Isso pode mudar com novas estruturas legais. Mas por enquanto, regulação e cul
 
 IA é extraordinariamente boa em recombinar padrões existentes. Pode gerar texto "criativo", arte "criativa", música "criativa".
 
-Mas criar algo genuinamente **fora dos padrões do treinamento** — algo que nenhum humano fez antes, que não existe nos dados — é muito mais difícil.
+Mas criar algo genuinamente **fora dos padrões do treinamento**, algo que nenhum humano fez antes e que não existe nos dados, é muito mais difícil.
 
 ### O Que Isso Significa
 
@@ -177,7 +177,7 @@ Decisões que exigem **julgamento ético profundo**:
 - Justiça distributiva (como dividir o bolo?)
 - Dilemas sem resposta certa
 
-Continuam a precisar de humanos — não porque somos melhores, mas porque somos responsabilizáveis e a decisão exige humanidade.
+Continuam a precisar de humanos, não porque somos melhores, mas porque somos responsabilizáveis e a decisão exige humanidade.
 
 ---
 
@@ -187,7 +187,7 @@ Continuam a precisar de humanos — não porque somos melhores, mas porque somos
 
 IA é treinada em dados do passado. Funciona bem em situações similares ao treinamento.
 
-Em ambientes radicalmente novos — sem precedentes nos dados — IA tende a falhar de formas imprevisíveis.
+Em ambientes radicalmente novos, sem precedentes nos dados, IA tende a falhar de formas imprevisíveis.
 
 ### O Que Isso Significa
 
@@ -227,15 +227,15 @@ Não invista em habilidades que IA faz bem. Invista em habilidades nas lacunas.
 
 ### 2. Combine Humano + IA
 
-A posição mais forte frequentemente é: humano que usa IA bem, em áreas onde julgamento humano ainda importa.
+A posição mais forte frequentemente é a do humano que usa IA bem, em áreas onde julgamento humano ainda importa.
 
 ### 3. Construa Capital Social
 
-Relacionamentos, reputação, rede de contatos — esses são ativos que IA não pode replicar.
+Relacionamentos, reputação e rede de contatos são ativos que IA não pode replicar.
 
 ### 4. Mantenha-se Adaptável
 
-As limitações de hoje podem não ser as de amanhã. A habilidade de mudar rapidamente é, ela mesma, uma vantagem.
+As limitações de hoje podem não ser as de amanhã. A habilidade de mudar rapidamente é, por si só, uma vantagem.
 
 ---
 

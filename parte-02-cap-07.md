@@ -11,19 +11,19 @@
 
 ## A Última Fortaleza Caindo
 
-Durante décadas, nos consolamos com uma certeza: máquinas podem fazer trabalho braçal, podem calcular, podem processar — mas criar? Criar é humano. A criatividade é nossa fortaleza impenetrável, o último bastião da superioridade humana.
+Durante décadas, nos consolamos com uma certeza: máquinas podem fazer trabalho braçal, podem calcular, podem processar. Mas criar? Criar é humano. A criatividade é nossa fortaleza impenetrável, o último bastião da superioridade humana.
 
 Essa certeza está sendo demolida em tempo real.
 
 Midjourney. DALL-E. Stable Diffusion. Sora. Suno. Claude. GPT-4.
 
-Essas ferramentas podem gerar arte visual, vídeos, música, texto — não perfeitos, não sempre melhores que humanos, mas *bons o suficiente*. E "bom o suficiente" é tudo que importa para a maioria das decisões comerciais.
+Essas ferramentas podem gerar arte visual, vídeos, música e texto. Não perfeitos, não sempre melhores que humanos, mas *bons o suficiente*. E "bom o suficiente" é tudo que importa para a maioria das decisões comerciais.
 
 ---
 
 ## O Princípio do "Bom o Suficiente"
 
-Artistas frequentemente falam sobre o princípio do "bom o suficiente" — trabalhadores criativos tipicamente não estão preocupados que sistemas de IA sejam tão bons que os tornem obsoletos, mas que trabalho gerado por IA seja considerado "aceitável" por clientes corporativos.
+Artistas frequentemente falam sobre o princípio do "bom o suficiente". Trabalhadores criativos tipicamente não estão preocupados que sistemas de IA sejam tão bons que os tornem obsoletos, mas que trabalho gerado por IA seja considerado "aceitável" por clientes corporativos.
 
 E é exatamente isso que está acontecendo.
 
@@ -37,7 +37,7 @@ A qualidade do Midjourney é inferior à de um ilustrador humano talentoso? Prov
 
 Um estudo de 2024 demonstrou que **75% das empresas de cinema** que adotaram IA reduziram, consolidaram ou eliminaram empregos após incorporar a tecnologia.
 
-O estudo, encomendado por sindicatos que representam artistas de Hollywood como animadores e cartunistas, estima que até 2026 **mais de 100.000 empregos no entretenimento americano** serão disrompidos pela IA generativa — com impacto regional particularmente pesado em empregos na Califórnia e Nova York.
+O estudo, encomendado por sindicatos que representam artistas de Hollywood como animadores e cartunistas, estima que até 2026 **mais de 100.000 empregos no entretenimento americano** serão disrompidos pela IA generativa, com impacto regional particularmente pesado na Califórnia e em Nova York.
 
 ### O Caso Sora
 
@@ -56,13 +56,13 @@ Um vídeo que antes exigia:
 
 Agora pode ser gerado por uma pessoa com uma descrição bem escrita.
 
-Não estamos falando de substituir James Cameron. Estamos falando de substituir milhares de profissionais que fazem trabalho essencial mas "invisível" — storyboarders, artistas de conceito, editores de vídeos corporativos, criadores de conteúdo para redes sociais.
+Não estamos falando de substituir James Cameron. Estamos falando de substituir milhares de profissionais que fazem trabalho essencial mas "invisível": storyboarders, artistas de conceito, editores de vídeos corporativos, criadores de conteúdo para redes sociais.
 
 ---
 
 ## Os Ilustradores: Canários na Mina
 
-Se você quer ver o futuro do trabalho criativo, olhe para os ilustradores. Eles são os "canários na mina de carvão" — os primeiros a sentir os efeitos tóxicos.
+Se você quer ver o futuro do trabalho criativo, olhe para os ilustradores. Eles são os "canários na mina de carvão", os primeiros a sentir os efeitos tóxicos.
 
 ### Antes e Depois
 
@@ -78,7 +78,7 @@ Se você quer ver o futuro do trabalho criativo, olhe para os ilustradores. Eles
 
 ### Testemunhos
 
-Artistas trabalhando em quadrinhos e publicação relatam que "foi em 2023 que pareceu que da noite para o dia todos aqueles trabalhos desapareceram."
+Artistas de quadrinhos e publicação relatam que "foi em 2023 que pareceu que da noite para o dia todos aqueles trabalhos desapareceram."
 
 Um padrão comum:
 1. Cliente envia imagem gerada por IA como "referência"
@@ -108,7 +108,7 @@ Se você achava que escrever era seguro porque "IA não tem criatividade real" o
 - Poesia genuinamente inovadora
 - Ensaios com perspectiva original
 
-O problema? A primeira lista representa 80-90% do mercado de escrita paga. A segunda lista é um nicho.
+O problema? A primeira lista representa 80-90% do mercado de escrita paga. A segunda é um nicho.
 
 ### O Colapso dos Preços
 
@@ -140,13 +140,13 @@ Músicos de sessão já enfrentam:
 - Música de fundo para conteúdo digital
 - "Functional music" (foco, relaxamento, estudo)
 
-Artistas originais com bases de fãs leais provavelmente sobreviverão. Mas os milhares de músicos que ganham a vida tocando em casamentos, fazendo trabalho de estúdio ou compondo para mídia corporativa? Terreno cada vez mais instável.
+Artistas originais com bases de fãs leais provavelmente sobreviverão. Mas para os milhares de músicos que ganham a vida tocando em casamentos, fazendo trabalho de estúdio ou compondo para mídia corporativa, o terreno é cada vez mais instável.
 
 ---
 
 ## A Questão do FOBO
 
-Mais de **um quinto dos trabalhadores nos EUA** está experimentando FOBO — "Fear of Becoming Obsolete" (Medo de Se Tornar Obsoleto) — preocupados que possam perder seus empregos para tecnologia emergente.
+Mais de **um quinto dos trabalhadores nos EUA** está experimentando FOBO, o "Fear of Becoming Obsolete" (Medo de Se Tornar Obsoleto), preocupados que possam perder seus empregos para tecnologia emergente.
 
 Entre trabalhadores criativos, esse número é provavelmente muito maior.
 
@@ -164,7 +164,7 @@ Muitos criativos ainda estão nas fases 1-3. O mercado já está na fase 5.
 
 ## A Questão Legal e Ética
 
-Um ponto de tensão: IA generativa foi treinada em bilhões de obras criativas *sem permissão* dos criadores originais.
+Um ponto de tensão importante: IA generativa foi treinada em bilhões de obras criativas *sem permissão* dos criadores originais.
 
 Midjourney aprendeu a desenhar analisando milhões de ilustrações de artistas. ChatGPT aprendeu a escrever lendo bilhões de textos de escritores. Suno aprendeu música ouvindo milhões de canções.
 
@@ -190,9 +190,9 @@ Nem todo trabalho criativo será automatizado. Algumas categorias provavelmente 
 
 ### 1. Criadores com Marca Pessoal Forte
 
-Se pessoas compram seu trabalho por causa de *você* — sua personalidade, sua história, sua perspectiva única — IA não pode substituir isso.
+Se pessoas compram seu trabalho por causa de *você* (sua personalidade, sua história, sua perspectiva única), IA não pode substituir isso.
 
-Exemplos: Artistas com estilos inconfundíveis, escritores com vozes autorais, músicos com bases de fãs leais.
+Exemplos: artistas com estilos inconfundíveis, escritores com vozes autorais, músicos com bases de fãs leais.
 
 ### 2. Trabalho que Exige Colaboração Humana Profunda
 
@@ -204,7 +204,7 @@ Performance ao vivo. Arte física que você pode tocar. Experiências presenciai
 
 ### 4. Os "Wranglers" de IA
 
-Ironia: uma nova categoria de trabalho criativo está surgindo — pessoas que sabem usar ferramentas de IA excepcionalmente bem para criar resultados que nem humanos sozinhos nem IA sozinha poderiam produzir.
+Ironia: uma nova categoria de trabalho criativo está surgindo. São pessoas que sabem usar ferramentas de IA excepcionalmente bem para criar resultados que nem humanos sozinhos nem IA sozinha poderiam produzir.
 
 ---
 
@@ -228,11 +228,11 @@ Se você trabalha no campo criativo:
 
 - **A criatividade não é mais fortaleza humana exclusiva.** IA generativa pode criar arte, texto, música e vídeo "bons o suficiente" para muitos usos comerciais.
 
-- **75% das empresas de cinema** que adotaram IA reduziram empregos. **100.000+ empregos** de entretenimento serão disrompidos até 2026.
+- **75% das empresas de cinema** que adotaram IA reduziram empregos. Mais de **100.000 empregos** de entretenimento serão disrompidos até 2026.
 
-- **Ilustradores são os canários na mina** — muitos relatam quedas de 50-90% na renda desde 2023.
+- **Ilustradores são os canários na mina.** Muitos relatam quedas de 50-90% na renda desde 2023.
 
-- **O princípio do "bom o suficiente"** está devastando mercados criativos: IA não precisa ser melhor, só precisa ser mais barata.
+- **O princípio do "bom o suficiente"** está devastando mercados criativos. IA não precisa ser melhor, só precisa ser mais barata.
 
 - **Sobreviventes serão** os que têm marca pessoal forte, fazem trabalho presencial, ou se tornam mestres em usar IA como ferramenta.
 

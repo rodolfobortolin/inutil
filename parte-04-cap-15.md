@@ -15,7 +15,7 @@ Yuval Noah Harari, o historiador israelense cujo conceito de "classe inútil" de
 
 E suas especulações são perturbadoras.
 
-Em palestras de 2017 a 2024, Harari tem falado abertamente sobre uma possibilidade sombria: a "classe inútil" pode ser mantida pacificada através de uma combinação de **realidade virtual, entretenimento infinito e substâncias**.
+Em palestras de 2017 a 2024, Harari tem falado abertamente sobre uma possibilidade sombria. A "classe inútil" pode ser mantida pacificada através de uma combinação de **realidade virtual, entretenimento infinito e substâncias**.
 
 Não como utopia. Como controle social.
 
@@ -27,15 +27,15 @@ A História oferece precedentes perturbadores.
 
 ### A China do Ópio
 
-No século XIX, a China enfrentou uma crise social massiva parcialmente alimentada pelo ópio. Milhões de chineses — muitos deles trabalhadores deslocados por mudanças econômicas — encontraram no ópio uma fuga da miséria.
+No século XIX, a China enfrentou uma crise social massiva parcialmente alimentada pelo ópio. Milhões de chineses, muitos deles trabalhadores deslocados por mudanças econômicas, encontraram no ópio uma fuga da miséria.
 
 Para potências coloniais como a Grã-Bretanha, isso era conveniente. Uma população dopada não se revolta. Não exige mudanças. Não ameaça o poder estabelecido.
 
 ### Os Guetos Americanos
 
-Nos guetos urbanos americanos das décadas de 1970-1990, crack e heroína devastaram comunidades. Jovens sem perspectivas econômicas — especialmente após a desindustrialização — encontraram nas drogas tanto escape quanto economia informal.
+Nos guetos urbanos americanos das décadas de 1970-1990, crack e heroína devastaram comunidades. Jovens sem perspectivas econômicas, especialmente após a desindustrialização, encontraram nas drogas tanto escape quanto economia informal.
 
-Teorias conspiratórias à parte, o resultado funcional foi o mesmo: comunidades inteiras neutralizadas, incapazes de organização política eficaz.
+Teorias conspiratórias à parte, o resultado funcional foi o mesmo. Comunidades inteiras neutralizadas, incapazes de organização política eficaz.
 
 ### A Crise de Opioides
 
@@ -51,7 +51,7 @@ Não precisamos de drogas químicas para pacificar populações. A tecnologia of
 
 ### O Fenômeno dos Homens Jovens Desempregados
 
-Economistas notaram um fenômeno peculiar: nos EUA, a taxa de participação na força de trabalho de homens jovens (18-25) caiu significativamente nas últimas décadas.
+Economistas notaram um fenômeno peculiar. Nos EUA, a taxa de participação na força de trabalho de homens jovens (18-25) caiu significativamente nas últimas décadas.
 
 Parte da explicação? Videogames.
 
@@ -61,7 +61,7 @@ Pesquisas mostram que para um número crescente de jovens homens, videogames ofe
 - **Identidade** (você é alguém no jogo)
 - **Estrutura** (missões, objetivos, rotinas)
 
-Exatamente o que o trabalho costumava fornecer — mas sem sair de casa, sem chefe, sem rejeição.
+Exatamente o que o trabalho costumava fornecer, mas sem sair de casa, sem chefe, sem rejeição.
 
 ### A Promessa da Realidade Virtual
 
@@ -69,7 +69,7 @@ Realidade virtual amplia exponencialmente esse potencial.
 
 Em VR, você não é mais um desempregado num apartamento apertado. Você é um herói em mundos fantásticos. Você pode ter o corpo que quiser, a casa que quiser, a vida que quiser.
 
-Empresas como Meta (antigo Facebook) estão investindo bilhões para construir esses mundos. Mark Zuckerberg chama de "metaverso". Críticos chamam de "a máquina de soma" — referência à droga de controle social em "Admirável Mundo Novo" de Aldous Huxley.
+Empresas como Meta (antigo Facebook) estão investindo bilhões para construir esses mundos. Mark Zuckerberg chama de "metaverso". Críticos chamam de "a máquina de soma", referência à droga de controle social em "Admirável Mundo Novo" de Aldous Huxley.
 
 ---
 
@@ -101,7 +101,7 @@ A indústria farmacêutica já trabalha em drogas para ansiedade, depressão, TD
 
 ## A Economia da Pacificação
 
-Do ponto de vista de elites econômicas e políticas, pacificação tem lógica fria:
+Do ponto de vista de elites econômicas e políticas, pacificação tem lógica fria.
 
 ### Custo-Benefício
 
@@ -140,20 +140,20 @@ Há algo profundamente perturbador nessa "solução".
 
 ### Consentimento
 
-As pessoas escolhem jogos, redes sociais, substâncias. Mas quanto dessa "escolha" é genuíno quando:
+As pessoas escolhem jogos, redes sociais, substâncias. Mas quanto dessa "escolha" é genuíno quando
 - Não há alternativas econômicas viáveis?
 - Os produtos são projetados por especialistas em Psicologia para criar dependência?
 - A cultura normaliza a fuga como resposta à falta de oportunidade?
 
 ### Dignidade Humana
 
-Tratar bilhões de pessoas como problemas a serem administrados — não como cidadãos com direitos e potencial — é uma forma de desumanização.
+Tratar bilhões de pessoas como problemas a serem administrados, e não como cidadãos com direitos e potencial, é uma forma de desumanização.
 
 "Mantenha-os distraídos" não é política social. É gestão de rebanho.
 
 ### O Que Perdemos
 
-Uma sociedade que pacifica seus "inúteis" em vez de integrá-los perde:
+Uma sociedade que pacifica seus "inúteis" em vez de integrá-los perde muito:
 - Talentos que nunca serão desenvolvidos
 - Perspectivas que nunca serão ouvidas
 - Inovações que nunca acontecerão
@@ -163,7 +163,7 @@ Uma sociedade que pacifica seus "inúteis" em vez de integrá-los perde:
 
 ## Sinais de Que Já Está Acontecendo
 
-Não precisamos esperar 2040. Elementos dessa dinâmica já existem:
+Não precisamos esperar 2040. Elementos dessa dinâmica já existem.
 
 1. **Epidemia de solidão** entre jovens e idosos, mascarada por conexões digitais superficiais.
 
@@ -183,7 +183,7 @@ Estamos construindo a infraestrutura da pacificação em tempo real.
 
 O oposto de pacificação é **integração**.
 
-Integração significa:
+Integração significa
 - Encontrar formas de pessoas contribuírem mesmo que IA faça o trabalho tradicional
 - Valorizar trabalho não-econômico (cuidado, comunidade, criação)
 - Distribuir não apenas dinheiro, mas também poder e propósito
@@ -211,15 +211,15 @@ Isso é muito mais difícil que pacificação. Mas é a única resposta que pres
 
 - **Harari especula** que a "classe inútil" pode ser pacificada com jogos, realidade virtual, entretenimento e drogas.
 
-- **Há precedentes históricos:** ópio na China colonial, crack em guetos americanos, opioides no *Rust Belt*.
+- **Há precedentes históricos.** Ópio na China colonial, crack em guetos americanos, opioides no *Rust Belt*.
 
-- **Videogames já oferecem** o que o trabalho oferecia: conquista, comunidade, identidade, estrutura — para homens jovens desempregados.
+- **Videogames já oferecem** o que o trabalho oferecia (conquista, comunidade, identidade, estrutura) para homens jovens desempregados.
 
 - **Realidade virtual e metaverso** ampliam exponencialmente o potencial de fuga.
 
-- **A economia da pacificação** faz sentido frio para elites: mais simples e seguro que transformação social real.
+- **A economia da pacificação** faz sentido frio para elites. Mais simples e seguro que transformação social real.
 
-- **Já vemos sinais:** epidemia de solidão, declínio cívico, normalização de substâncias, gaming disorder.
+- **Já vemos sinais.** Epidemia de solidão, declínio cívico, normalização de substâncias, gaming disorder.
 
 ---
 

@@ -136,7 +136,7 @@ Se não há trabalho para observar, como jovens aprendem a ser adultos? Que mode
 
 ## Alternativas de Identidade (Problemáticas)
 
-Se trabalho não define identidade, o que define? Algumas possibilidades — nem todas positivas:
+Se trabalho não define identidade, o que define? Algumas possibilidades, nem todas positivas:
 
 ### 1. Consumo
 
@@ -150,9 +150,9 @@ Problema: cria dependência de recursos materiais e alimenta insatisfação perp
 
 "Eu sou fã de X. Minha tribo é Y."
 
-Identidade por afinidades culturais — times, séries, jogos, celebridades.
+Identidade por afinidades culturais: times, séries, jogos, celebridades.
 
-Problema: superficial, volátil, facilmente manipulável por indústrias de entretenimento.
+Problema: é superficial, volátil e facilmente manipulável por indústrias de entretenimento.
 
 ### 3. Ideologia/Tribalismo Político
 
@@ -160,7 +160,7 @@ Problema: superficial, volátil, facilmente manipulável por indústrias de entr
 
 Identidade por alinhamento político-ideológico.
 
-Problema: polarização, desumanização do "outro", potencial para violência.
+Problema: gera polarização, desumanização do "outro" e potencial para violência.
 
 ### 4. Nacionalismo/Etnicidade
 
@@ -168,7 +168,7 @@ Problema: polarização, desumanização do "outro", potencial para violência.
 
 Identidade por pertencimento nacional ou étnico.
 
-Problema: histórico de genocídios e guerras quando isso se torna identidade primária.
+Problema: há um histórico de genocídios e guerras quando isso se torna identidade primária.
 
 ### 5. Religião
 
@@ -201,10 +201,10 @@ A ideia de que "você vale o que ganha" causa imenso sofrimento. Se trabalho é 
 
 ### Humanização
 
-Paradoxalmente, ser "inútil" economicamente pode nos tornar mais humanos:
-- Menos definidos por função, mais por essência
-- Menos instrumentais, mais intrínsecos
-- Menos máquinas produtivas, mais seres existentes
+Paradoxalmente, ser "inútil" economicamente pode nos tornar mais humanos, porque seríamos:
+- Menos definidos por função e mais por essência
+- Menos instrumentais e mais intrínsecos
+- Menos máquinas produtivas e mais seres existentes
 
 Mas isso exige uma transformação cultural profunda que não está garantida.
 
@@ -232,7 +232,7 @@ Mas isso exige uma transformação cultural profunda que não está garantida.
 
 - **A perda de trabalho causa crise de identidade,** perda de status, erosão de habilidades sociais.
 
-- **Em escala, isso significa crise coletiva** — especialmente para masculinidade tradicional e jovens sem referências.
+- **Em escala, isso significa crise coletiva,** especialmente para masculinidade tradicional e jovens sem referências.
 
 - **Alternativas de identidade** (consumo, fandom, ideologia, nacionalismo) têm problemas próprios.
 

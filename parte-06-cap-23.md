@@ -13,7 +13,7 @@
 
 Se você é pai ou mãe, provavelmente está preocupado: como preparar seus filhos para um mundo onde as regras do jogo mudaram completamente?
 
-O sistema educacional tradicional foi desenhado para a era industrial: criar trabalhadores que seguem instruções, memorizam informações e executam tarefas padronizadas. Exatamente o que IA faz melhor que humanos.
+O sistema educacional tradicional foi desenhado para a era industrial, para criar trabalhadores que seguem instruções, memorizam informações e executam tarefas padronizadas. Exatamente o que IA faz melhor que humanos.
 
 Precisamos de uma nova abordagem.
 
@@ -25,16 +25,16 @@ Precisamos de uma nova abordagem.
 
 IA tem acesso instantâneo a todo conhecimento humano. Memorizar fatos é cada vez menos valioso.
 
-Não significa que conhecimento não importa — significa que **saber onde encontrar** e **como usar** conhecimento importa mais do que memorizar.
+Não significa que conhecimento não importa. Significa que **saber onde encontrar** e **como usar** conhecimento importa mais do que memorizar.
 
 ### Habilidades Facilmente Automatizáveis
 
 - Cálculos matemáticos básicos (calculadoras existem há décadas)
-- Ortografia e gramática (corretores automáticos)
-- Tradução básica (ferramentas de tradução)
+- Ortografia e gramática (corretores automáticos resolvem)
+- Tradução básica (ferramentas de tradução fazem)
 - Programação de rotina (IA escreve código)
 
-Não ignore completamente — fundamentos importam. Mas não construa identidade ou carreira apenas nisso.
+Não ignore completamente, pois fundamentos importam. Mas não construa identidade ou carreira apenas nisso.
 
 ### Obediência Cega a Instruções
 
@@ -90,7 +90,7 @@ Muito do trabalho futuro será humanos colaborando com outros humanos (e com IA)
 
 ### 5. Adaptabilidade e Aprendizado Contínuo
 
-A habilidade mais importante: **aprender a aprender**.
+A habilidade mais importante é **aprender a aprender**.
 
 - Conforto com mudança constante
 - Capacidade de adquirir novas habilidades rapidamente
@@ -112,7 +112,7 @@ Não tecnofobia. Não tecno-dependência. Uso consciente e crítico.
 
 ### 7. Habilidades Físicas e Manuais
 
-Paradoxalmente, em um mundo digital, habilidades físicas ganham valor:
+Paradoxalmente, em um mundo digital, habilidades físicas ganham valor.
 - Trabalhos manuais (eletricidade, encanamento básico, manutenção)
 - Esportes e movimento corporal
 - Artes que envolvem o corpo (dança, teatro, artes marciais)
@@ -125,7 +125,7 @@ Robôs generalistas estão distantes. Competência no mundo físico é diferenci
 Ajude seus filhos a desenvolver:
 - Senso de identidade não dependente de emprego
 - Fontes múltiplas de significado
-- Conexão com algo maior (comunidade, espiritualidade, causas)
+- Conexão com algo maior: comunidade, espiritualidade, causas
 - Capacidade de encontrar propósito em circunstâncias variadas
 
 Se trabalho não definir quem eles são, precisam de outras âncoras.
@@ -172,11 +172,11 @@ Priorize atividades que desenvolvem:
 
 Não minta dizendo que "vai ficar tudo bem" se você não sabe. As crianças percebem a falsidade.
 
-Diga a verdade com esperança: "O mundo está mudando muito. Não sabemos exatamente como será. Mas vamos nos preparar juntos."
+Diga a verdade com esperança. "O mundo está mudando muito. Não sabemos exatamente como será. Mas vamos nos preparar juntos."
 
 ### Evite Pânico
 
-Transmitir ansiedade paralisante não ajuda. Transmita senso de agência: podemos nos adaptar.
+Transmitir ansiedade paralisante não ajuda. Transmita senso de agência, a certeza de que podemos nos adaptar.
 
 ### Foque no Que Podem Controlar
 

@@ -13,7 +13,7 @@
 
 Com base nas limitações de IA discutidas no capítulo anterior, vamos ser práticos: quais profissões têm maior probabilidade de resistir à automação nas próximas décadas?
 
-Este não é um exercício de certeza — ninguém pode garantir o futuro. Mas podemos identificar padrões e fazer apostas informadas.
+Este não é um exercício de certeza. Ninguém pode garantir o futuro. Mas podemos identificar padrões e fazer apostas informadas.
 
 ---
 
@@ -65,7 +65,7 @@ Alguém precisa assinar. Alguém precisa ser responsabilizado. Por enquanto, a l
 
 ### Profissões
 
-- **Médicos (decisões diagnósticas finais):** IA pode sugerir, humano decide e assina.
+- **Médicos (decisões diagnósticas finais):** a IA pode sugerir, o humano decide e assina.
 - **Juízes:** Decisões judiciais exigem accountability humana.
 - **Engenheiros (assinatura de projetos):** O carimbo ainda é de uma pessoa.
 - **Advogados (representação):** Alguém precisa estar no tribunal.
@@ -81,14 +81,14 @@ Haverá muito menos desses profissionais necessários. IA fará o trabalho prepa
 
 ### Por Que É Protegido
 
-IA pode gerar arte, música, texto. Mas se você é reconhecido por QUEM VOCÊ É — sua história, sua perspectiva, sua voz — isso é insubstituível.
+IA pode gerar arte, música, texto. Mas se você é reconhecido por QUEM VOCÊ É (sua história, sua perspectiva, sua voz), isso é insubstituível.
 
 ### Profissões
 
 - **Artistas com estilo único e reconhecido:** A obra é valorizada por ser SUA.
 - **Escritores com voz autoral forte:** Leitores querem seu pensamento, não qualquer texto.
 - **Músicos com base de fãs leal:** Os fãs querem conexão com a pessoa.
-- **Influenciadores autênticos:** (Ironia, mas verdade) A audiência segue a pessoa.
+- **Influenciadores autênticos:** a audiência segue a pessoa (ironia, mas verdade).
 - **Chefs criativos:** A experiência é sobre QUEM criou.
 
 ### Ressalva
@@ -106,7 +106,7 @@ Humanos confiam em outros humanos para certas funções. Relacionamentos de long
 ### Profissões
 
 - **Vendedores B2B de relacionamento:** Negócios grandes se fecham com confiança pessoal.
-- **Consultores de confiança:** Não pelo conhecimento, mas pelo relacionamento.
+- **Consultores de confiança:** valorizados não pelo conhecimento, mas pelo relacionamento.
 - **Líderes religiosos/espirituais:** Comunidade de fé exige presença humana.
 - **Políticos e líderes comunitários:** Representação exige humanidade.
 - **Networkers profissionais:** O valor é a rede de conexões humanas.
@@ -121,7 +121,7 @@ Esses papéis dependem de cultura. Se a cultura mudar para aceitar IA nessas fun
 
 ### Por Que É Protegido
 
-Situações de emergência são, por definição, fora do padrão. Exigem julgamento rápido em cenários não treinados.
+Situações de emergência são, por definição, fora do padrão e exigem julgamento rápido em cenários não treinados.
 
 ### Profissões
 
@@ -129,7 +129,7 @@ Situações de emergência são, por definição, fora do padrão. Exigem julgam
 - **Bombeiros:** Ambientes caóticos, decisões em segundos.
 - **Negociadores de crises:** Psicologia humana em tempo real.
 - **Gestores de crises corporativas:** Quando tudo dá errado, humanos decidem.
-- **Pilotos (para emergências):** Automação funciona no normal; humanos no extraordinário.
+- **Pilotos (para emergências):** automação funciona no normal, humanos no extraordinário.
 
 ### Ressalva
 

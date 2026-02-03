@@ -40,17 +40,17 @@ A IA não está apenas redistribuindo riqueza. Está criando uma nova aristocrac
 
 ### O Clube dos Trilhões
 
-**NVIDIA** — a empresa que fabrica os chips que alimentam a revolução da IA — viu suas ações mais que dobrarem novamente em 2025, empurrando sua capitalização de mercado para **mais de US$ 4 trilhões**. Isso a torna a empresa mais valiosa do mundo.
+A **NVIDIA**, empresa que fabrica os chips que alimentam a revolução da IA, viu suas ações mais que dobrarem novamente em 2025, empurrando sua capitalização de mercado para **mais de US$ 4 trilhões**. Isso a torna a empresa mais valiosa do mundo.
 
 Jensen Huang, CEO da NVIDIA, viu sua fortuna pessoal ultrapassar **US$ 120 bilhões**.
 
 Analistas estimam que mais de 70% de todo o processamento de treinamento de IA global roda em hardware da NVIDIA. Isso dá à empresa um poder de precificação não visto desde os primeiros dias da Intel.
 
-**OpenAI** — a empresa por trás do ChatGPT — tornou-se a empresa privada mais valiosa de todos os tempos no final de 2025, avaliada em **US$ 500 bilhões**. E está buscando levantar mais US$ 100 bilhões com uma avaliação de US$ 750-830 bilhões no início de 2026.
+A **OpenAI**, empresa por trás do ChatGPT, tornou-se a empresa privada mais valiosa de todos os tempos no final de 2025, avaliada em **US$ 500 bilhões**. E está buscando levantar mais US$ 100 bilhões com uma avaliação de US$ 750-830 bilhões no início de 2026.
 
 Para colocar em perspectiva: a OpenAI sozinha vale mais que o PIB de 170 países.
 
-**Anthropic** — criadora do Claude — atingiu uma avaliação de **US$ 350 bilhões** em novembro de 2025, após sua Série G de US$ 15 bilhões. A empresa quase dobrou de valor em apenas dois meses — a valorização em larga escala mais rápida na história do venture capital.
+A **Anthropic**, criadora do Claude, atingiu uma avaliação de **US$ 350 bilhões** em novembro de 2025, após sua Série G de US$ 15 bilhões. A empresa quase dobrou de valor em apenas dois meses — a valorização em larga escala mais rápida na história do venture capital.
 
 ### O Funil do Dinheiro
 
@@ -62,7 +62,7 @@ O dinheiro está fluindo para IA como nunca antes:
 
 - **US$ 122 bilhões** — mais de três quartos do financiamento americano — foram para a área da Baía de São Francisco sozinha.
 
-- **OpenAI e Anthropic combinadas** capturaram **14% de todo o investimento de venture capital global** em todos os setores em 2025.
+- **OpenAI e Anthropic combinadas** capturaram **14% de todo o investimento de venture capital global**, considerando todos os setores em 2025.
 
 Duas empresas. Quatorze por cento de todo o dinheiro de risco do planeta.
 
@@ -80,7 +80,7 @@ Quinhentos bilhões de dólares. Em data centers. Para treinar IA.
 
 ### Os Gastos dos Gigantes
 
-Big Techs como Meta, Alphabet e Microsoft comprometeram dezenas de bilhões de dólares — frequentemente **US$ 60-70 bilhões ou mais** cada — para acelerar sua própria capacidade de data centers e GPUs prontos para IA.
+Big Techs como Meta, Alphabet e Microsoft comprometeram dezenas de bilhões de dólares (frequentemente **US$ 60-70 bilhões ou mais** cada) para acelerar sua própria capacidade de data centers e GPUs prontos para IA.
 
 Essas não são empresas fazendo apostas arriscadas. São as empresas mais lucrativas do mundo, com acesso quase ilimitado a capital, apostando pesadamente que a IA vai transformar tudo.
 
@@ -94,7 +94,7 @@ Por que a riqueza da IA está se concentrando tão dramaticamente? Há várias f
 
 Construir um modelo de IA de fronteira custa bilhões em computação, dados e talento. Mas uma vez construído, o custo marginal de servir mais um usuário é mínimo.
 
-Resultado: o vencedor leva quase tudo. Não há espaço para "o quarto melhor modelo de linguagem".
+O resultado é que o vencedor leva quase tudo. Não há espaço para "o quarto melhor modelo de linguagem".
 
 ### 2. Efeitos de Rede de Dados
 
@@ -108,7 +108,7 @@ Um engenheiro de IA sênior pode ganhar **US$ 1 milhão ou mais por ano** na Ope
 
 ### 4. Regulação que Favorece Incumbentes
 
-Ironicamente, regulações de IA — que supostamente protegeriam o público — frequentemente favorecem os grandes players que têm recursos para compliance.
+Ironicamente, regulações de IA (que supostamente protegeriam o público) frequentemente favorecem os grandes players que têm recursos para compliance.
 
 Uma startup não pode contratar um departamento jurídico para navegar regulações complexas de IA. A OpenAI pode.
 
@@ -126,7 +126,7 @@ Quando a Salesforce anuncia que a IA faz "metade do trabalho" e demite 4.000 fun
 
 Quando um ilustrador perde trabalho para o Midjourney, quem captura o valor? Os fundadores e investidores do Midjourney.
 
-É uma transferência massiva de riqueza de trabalhadores para donos de capital e tecnologia — talvez a maior da história.
+É uma transferência massiva de riqueza de trabalhadores para donos de capital e tecnologia, talvez a maior da história.
 
 ---
 
@@ -142,7 +142,7 @@ Como a aristocracia feudal, eles:
 4. **Vivem em bolhas isoladas** (São Francisco, Londres, Dubai)
 5. **Têm interesses que divergem do resto da sociedade** (mais automação = mais lucro para eles)
 
-A diferença? Aristocratas feudais pelo menos fingiam ter obrigações para com seus súditos (*noblesse oblige*). Os aristocratas algorítmicos frequentemente nem fingem.
+Mas há uma diferença: aristocratas feudais pelo menos fingiam ter obrigações para com seus súditos (*noblesse oblige*). Os aristocratas algorítmicos frequentemente nem fingem.
 
 ---
 
@@ -166,7 +166,7 @@ Mas vamos fazer as contas:
 
 Se um bilionário doa 1% de sua riqueza anualmente (generoso pelos padrões atuais), e sua riqueza cresce 10% ao ano graças à IA, ele está ficando 9% mais rico a cada ano enquanto é celebrado como filantropo.
 
-A filantropia, nesse contexto, é uma forma de relações públicas que não altera a dinâmica fundamental de concentração.
+Nesse contexto, a filantropia é uma forma de relações públicas que não altera a dinâmica fundamental de concentração.
 
 ---
 
@@ -178,7 +178,7 @@ A filantropia, nesse contexto, é uma forma de relações públicas que não alt
 
 3. **A riqueza da IA não vai "gotejar" automaticamente.** Se houvesse gotejamento, veríamos salários subindo junto com lucros de IA. Não estamos.
 
-4. **Soluções precisam ser sistêmicas.** Políticas tributárias, regulação antimonopólio, redistribuição — essas são as alavancas que podem fazer diferença. Boa vontade individual não vai.
+4. **Soluções precisam ser sistêmicas.** Políticas tributárias, regulação antimonopólio, redistribuição: essas são as alavancas que podem fazer diferença. Boa vontade individual não vai.
 
 5. **Você precisa cuidar de si mesmo.** Na ausência de mudanças sistêmicas, sua melhor defesa é maximizar sua própria resiliência econômica.
 
@@ -192,7 +192,7 @@ A filantropia, nesse contexto, é uma forma de relações públicas que não alt
 
 - **US$ 500 bilhões** serão investidos apenas no projeto Stargate de data centers.
 
-- **A concentração é estrutural:** economias de escala, efeitos de rede, captura de talento e regulação favorecem os já dominantes.
+- **A concentração é estrutural.** Economias de escala, efeitos de rede, captura de talento e regulação favorecem os já dominantes.
 
 - **A mesma tecnologia que elimina empregos cria bilionários.** É uma transferência massiva de riqueza de trabalhadores para donos de capital.
 

@@ -15,7 +15,7 @@ Por décadas, a classe média foi o pilar da estabilidade social nas democracias
 
 A classe média era, em muitos sentidos, a cola que mantinha a sociedade unida.
 
-E agora ela está sendo esmagada entre duas forças: de baixo, trabalhadores de baixa qualificação competindo por empregos cada vez mais escassos e mal pagos; de cima, uma elite tecnológica e financeira que captura uma parcela cada vez maior da riqueza.
+E agora ela está sendo esmagada entre duas forças. De baixo, trabalhadores de baixa qualificação competindo por empregos cada vez mais escassos e mal pagos. De cima, uma elite tecnológica e financeira que captura uma parcela cada vez maior da riqueza.
 
 A IA está acelerando esse processo de forma dramática.
 
@@ -23,17 +23,17 @@ A IA está acelerando esse processo de forma dramática.
 
 ## A Economia do Haltere
 
-Economistas têm um termo para o que está acontecendo: a **"economia do haltere"** (barbell economy). Imagine um haltere de academia — pesado nas duas pontas, quase vazio no meio.
+Economistas têm um termo para o que está acontecendo: a **"economia do haltere"** (barbell economy). Imagine um haltere de academia, pesado nas duas pontas e quase vazio no meio.
 
 Nas duas pontas do haltere, os empregos estão crescendo:
 
-**Na ponta alta:** Engenheiros de IA, executivos de tecnologia, cientistas de dados sênior, consultores estratégicos, especialistas em cibersegurança — os mestres dos algoritmos que comandam a revolução.
+**Na ponta alta:** Engenheiros de IA, executivos de tecnologia, cientistas de dados sênior, consultores estratégicos, especialistas em cibersegurança. São os mestres dos algoritmos que comandam a revolução.
 
-**Na ponta baixa:** Cuidadores de idosos, empregados domésticos, entregadores, trabalhadores de construção — trabalhos que (ainda) exigem presença física e pagam pouco.
+**Na ponta baixa:** Cuidadores de idosos, empregados domésticos, entregadores, trabalhadores de construção. São trabalhos que (ainda) exigem presença física e pagam pouco.
 
 **No meio?** O vazio.
 
-Os empregos que pagavam salários decentes para pessoas com educação média — assistentes administrativos, analistas financeiros juniores, representantes de vendas, técnicos contábeis, paralegais — estão evaporando.
+Os empregos que pagavam salários decentes para pessoas com educação média (assistentes administrativos, analistas financeiros juniores, representantes de vendas, técnicos contábeis, paralegais) estão evaporando.
 
 ---
 
@@ -118,11 +118,11 @@ Se isso está acontecendo na Salesforce — uma empresa supostamente na vanguard
 
 Aqui está o que deveria alarmar qualquer pessoa pensante:
 
-As empresas estão mais lucrativas do que nunca. Os mercados de ações batem recordes. Os bilionários ficam mais bilionários.
+As empresas estão mais lucrativas do que nunca. Os mercados de ações batem recordes. Os bilionários ficam ainda mais ricos.
 
 E, ao mesmo tempo, estão demitindo em massa.
 
-Isso inverte a lógica tradicional de que empresas demitem quando vão mal. Agora, empresas demitem porque podem — porque a tecnologia permite fazer mais com menos.
+Isso inverte a lógica tradicional de que empresas demitem quando vão mal. Agora, empresas demitem porque podem, porque a tecnologia permite fazer mais com menos.
 
 É um divórcio completo entre prosperidade corporativa e prosperidade dos trabalhadores.
 
@@ -143,7 +143,7 @@ O Brasil tem um dos sistemas bancários mais digitalizados do mundo. Isso é ót
 
 ### O Setor de Serviços
 
-Call centers, processamento de documentos, atendimento ao cliente — todos os setores que empregam milhões de brasileiros de classe média estão na mira da automação.
+Call centers, processamento de documentos, atendimento ao cliente: todos os setores que empregam milhões de brasileiros de classe média estão na mira da automação.
 
 ### O Efeito Cascata
 
@@ -186,7 +186,7 @@ Vamos examinar esse argumento em detalhes no próximo capítulo. Spoiler: desta 
 
 ## O Que Isso Significa Para Você
 
-Se você é classe média — especialmente se trabalha com conhecimento, análise, ou processamento de informação — a mensagem é clara:
+Se você é classe média, especialmente se trabalha com conhecimento, análise ou processamento de informação, a mensagem é clara:
 
 1. **Seu emprego não é tão seguro quanto você pensa.** Diploma universitário não é proteção. Experiência não é proteção. Apenas ser humano não é proteção.
 
@@ -200,15 +200,15 @@ Se você é classe média — especialmente se trabalha com conhecimento, análi
 
 ## Resumo do Capítulo
 
-- **A "economia do haltere"** está esmagando o centro: empregos crescem nas pontas (alta e baixa), mas desaparecem no meio.
+- **A "economia do haltere"** está esmagando o centro. Empregos crescem nas pontas (alta e baixa), mas desaparecem no meio.
 
 - **40% dos candidatos** a empregos de colarinho branco em 2024 não conseguiram nenhuma entrevista.
 
-- **Vagas juniores em tecnologia** caíram 46-67% em mercados desenvolvidos — exatamente os empregos de "entrada" para a classe média.
+- **Vagas juniores em tecnologia** caíram 46-67% em mercados desenvolvidos, exatamente os empregos de "entrada" para a classe média.
 
 - **Empresas lucrativas estão demitindo** não por crise, mas porque a tecnologia permite fazer mais com menos.
 
-- **O ciclo é vicioso:** classe média desempregada = menos consumo = mais demissões.
+- **O ciclo é vicioso.** Classe média desempregada significa menos consumo, que leva a mais demissões.
 
 ---
 

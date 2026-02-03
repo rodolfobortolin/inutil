@@ -8,36 +8,36 @@
 
 ### Sobre Futuro do Trabalho e IA
 
-**"21 Lições para o Século 21"** — Yuval Noah Harari (2018)
+**"21 Lições para o Século 21"**, Yuval Noah Harari (2018)
 Análise acessível dos desafios que IA e automação trazem para sociedade. Capítulo sobre "classe inútil" é particularmente relevante.
 
-**"Homo Deus: Uma Breve História do Amanhã"** — Yuval Noah Harari (2016)
+**"Homo Deus: Uma Breve História do Amanhã"**, Yuval Noah Harari (2016)
 Explora futuros possíveis para humanidade, incluindo cenários onde IA supera capacidades humanas.
 
-**"Superintelligence: Paths, Dangers, Strategies"** — Nick Bostrom (2014)
+**"Superintelligence: Paths, Dangers, Strategies"**, Nick Bostrom (2014)
 Análise rigorosa dos riscos de superinteligência artificial. Denso mas fundamental para entender o debate sobre segurança de IA.
 
-**"The Second Machine Age"** — Erik Brynjolfsson e Andrew McAfee (2014)
+**"The Second Machine Age"**, Erik Brynjolfsson e Andrew McAfee (2014)
 Economistas do MIT analisam como tecnologias digitais estão transformando economia e trabalho.
 
-**"Rise of the Robots"** — Martin Ford (2015)
+**"Rise of the Robots"**, Martin Ford (2015)
 Jornalista de tecnologia explora como automação está eliminando empregos e o que isso significa.
 
-**"Deaths of Despair and the Future of Capitalism"** — Anne Case e Angus Deaton (2020)
+**"Deaths of Despair and the Future of Capitalism"**, Anne Case e Angus Deaton (2020)
 Análise das "mortes por desespero" nos EUA e sua relação com mudanças econômicas. Nobel de economia Deaton é coautor.
 
-**"AI 2041: Ten Visions for Our Future"** — Kai-Fu Lee e Chen Qiufan (2021)
+**"AI 2041: Ten Visions for Our Future"**, Kai-Fu Lee e Chen Qiufan (2021)
 Combina ficção científica com análise para explorar como IA pode transformar vidas nas próximas duas décadas.
 
 ### Sobre Tecnologia e Sociedade
 
-**"The Age of Surveillance Capitalism"** — Shoshana Zuboff (2019)
+**"The Age of Surveillance Capitalism"**, Shoshana Zuboff (2019)
 Como empresas de tecnologia transformaram dados humanos em produto. Fundamental para entender modelo de negócios das big techs.
 
-**"The Alignment Problem"** — Brian Christian (2020)
+**"The Alignment Problem"**, Brian Christian (2020)
 Exploração acessível do problema de alinhar IA com valores humanos. Combina história, filosofia e ciência.
 
-**"Life 3.0: Being Human in the Age of Artificial Intelligence"** — Max Tegmark (2017)
+**"Life 3.0: Being Human in the Age of Artificial Intelligence"**, Max Tegmark (2017)
 Físico do MIT explora cenários futuros para IA e humanidade, desde utópicos até catastróficos.
 
 ---
@@ -103,7 +103,7 @@ Padrões éticos para desenvolvimento de IA.
 
 ## Podcasts
 
-**"The AI Podcast"** — Nvidia
+**"The AI Podcast"** (Nvidia)
 Entrevistas com pesquisadores e praticantes de IA.
 
 **"Lex Fridman Podcast"**
@@ -138,18 +138,18 @@ Análises de desenvolvimentos recentes em IA.
 
 ### Newsletters
 
-**Import AI** — Jack Clark
+**Import AI**, Jack Clark
 Resumo semanal de desenvolvimentos em IA.
 [importai.net](https://importai.net)
 
-**The Batch** — Andrew Ng
+**The Batch**, Andrew Ng
 Newsletter da DeepLearning.AI.
 [deeplearning.ai/the-batch](https://www.deeplearning.ai/the-batch)
 
 **AI Weekly**
 Curadoria de notícias de IA.
 
-**Stratechery** — Ben Thompson
+**Stratechery**, Ben Thompson
 Análise de estratégia de tecnologia.
 [stratechery.com](https://stratechery.com)
 
@@ -159,10 +159,10 @@ Análise de estratégia de tecnologia.
 
 ### Gratuitos
 
-**CS50: Introduction to AI with Python** — Harvard/edX
+**CS50: Introduction to AI with Python** (Harvard/edX)
 Introdução a conceitos de IA.
 
-**Machine Learning** — Andrew Ng/Coursera
+**Machine Learning** (Andrew Ng/Coursera)
 Curso clássico de aprendizado de máquina.
 
 **Fast.ai**
@@ -175,10 +175,10 @@ Introdução não-técnica a IA.
 
 ### Pagos
 
-**Deep Learning Specialization** — Coursera/DeepLearning.AI
+**Deep Learning Specialization** (Coursera/DeepLearning.AI)
 Cinco cursos sobre deep learning.
 
-**AI for Everyone** — Coursera
+**AI for Everyone** (Coursera)
 Curso não-técnico para líderes de negócio.
 
 ---
@@ -190,7 +190,7 @@ Curso não-técnico para líderes de negócio.
 - **ChatGPT** — [chat.openai.com](https://chat.openai.com)
 - **Claude** — [claude.ai](https://claude.ai)
 - **Gemini** — [gemini.google.com](https://gemini.google.com)
-- **Perplexity** — [perplexity.ai](https://perplexity.ai) (busca com IA)
+- **Perplexity** (busca com IA): [perplexity.ai](https://perplexity.ai)
 
 ### Geração de Imagens
 
@@ -208,8 +208,8 @@ Curso não-técnico para líderes de negócio.
 ### Produtividade
 
 - **Notion AI** — [notion.so](https://www.notion.so)
-- **Otter.ai** — Transcrição de reuniões
-- **Grammarly** — Escrita assistida
+- **Otter.ai** (transcrição de reuniões)
+- **Grammarly** (escrita assistida)
 
 ---
 
@@ -246,9 +246,9 @@ Procure grupos de IA/ML em sua cidade.
 
 ### Para Papers Técnicos
 
-- **arXiv** — [arxiv.org](https://arxiv.org) (preprints)
-- **Papers With Code** — [paperswithcode.com](https://paperswithcode.com)
-- **Google Scholar** — [scholar.google.com](https://scholar.google.com)
+- **arXiv** (preprints): [arxiv.org](https://arxiv.org)
+- **Papers With Code**: [paperswithcode.com](https://paperswithcode.com)
+- **Google Scholar**: [scholar.google.com](https://scholar.google.com)
 
 ---
 
@@ -258,13 +258,13 @@ Procure grupos de IA/ML em sua cidade.
 A maioria dos livros mencionados tem tradução em português disponível.
 
 ### Canais Brasileiros
-- **Filipe Deschamps** — YouTube sobre programação e tecnologia
-- **Código Fonte TV** — Tecnologia em geral
-- **Programador BR** — Carreira em tecnologia
+- **Filipe Deschamps**: YouTube sobre programação e tecnologia
+- **Código Fonte TV**: tecnologia em geral
+- **Programador BR**: carreira em tecnologia
 
 ### Comunidades
-- **Data Hackers** — Comunidade de ciência de dados
-- **AI Brasil** — Grupos em várias plataformas
+- **Data Hackers**: comunidade de ciência de dados
+- **AI Brasil**: grupos em várias plataformas
 
 ---
 

@@ -23,7 +23,7 @@ O mais fascinante — e perturbador — é que muitos deles estão entre os que 
 
 Em 2017, durante uma palestra em Davos, o historiador israelense Yuval Noah Harari apresentou ao mundo um conceito que daria nome a este livro: a **classe inútil**.
 
-Harari argumentou que, assim como a industrialização em massa criou a classe trabalhadora no século XIX, a revolução da IA criará uma nova classe no século XXI: pessoas que não são apenas desempregadas, mas **inempregáveis**.
+Harari argumentou que, assim como a industrialização em massa criou a classe trabalhadora no século XIX, a revolução da IA criará uma nova classe no século XXI. Pessoas que não são apenas desempregadas, mas **inempregáveis**.
 
 *"No século XXI, podemos testemunhar a criação de uma nova classe massiva de não-trabalhadores: pessoas desprovidas de qualquer valor econômico, político ou até mesmo artístico, que não contribuem em nada para a prosperidade, poder e glória da sociedade."*
 
@@ -35,7 +35,7 @@ Harari é particularmente cético sobre a ideia de que podemos simplesmente "ret
 
 *"A automação em breve eliminará milhões e milhões de empregos, e enquanto novos empregos certamente serão criados, não está claro se as pessoas serão capazes de aprender as novas habilidades necessárias rápido o suficiente."*
 
-Ele usa um exemplo que se tornou icônico: imagine um caminhoneiro de 50 anos que perde seu emprego para um veículo autônomo. Novos empregos existem em design de software ou em ensinar yoga para engenheiros. Como esse caminhoneiro se reinventa?
+Ele usa um exemplo que se tornou icônico. Imagine um caminhoneiro de 50 anos que perde seu emprego para um veículo autônomo. Novos empregos existem em design de software ou em ensinar yoga para engenheiros. Como esse caminhoneiro se reinventa?
 
 A resposta honesta é: na maioria dos casos, ele não consegue. Não por falta de inteligência ou de vontade, mas porque as barreiras de tempo, recursos e viés de idade são intransponíveis.
 
@@ -61,7 +61,7 @@ Ele estima que isso acontecerá em **10 a 20 anos**. Não em um futuro distante.
 
 ### Universal High Income (UHI)
 
-Musk propõe o que ele chama de "Universal High Income" (Renda Universal Alta) — uma versão turbinada da Renda Básica Universal:
+Musk propõe o que ele chama de "Universal High Income" (Renda Universal Alta), uma versão turbinada da Renda Básica Universal:
 
 *"Em um cenário benigno, provavelmente nenhum de nós terá um emprego. Haverá renda universal alta — não renda básica universal — renda universal ALTA. Não haverá escassez de bens ou serviços."*
 
@@ -81,7 +81,7 @@ Ele foi tão longe a ponto de financiar um dos maiores experimentos de Renda Bá
 
 Os resultados foram... decepcionantes. O estudo concluiu que, embora os beneficiários usassem o dinheiro principalmente para necessidades básicas, "os efeitos médios em todos os resultados foram limitados."
 
-Mais recentemente, Altman ajustou sua visão. Em vez de simplesmente dar dinheiro às pessoas, ele agora propõe o que chama de "riqueza extrema universal" — cada pessoa receberia uma participação acionária em tudo que a IA criar.
+Mais recentemente, Altman ajustou sua visão. Em vez de simplesmente dar dinheiro às pessoas, ele agora propõe o que chama de "riqueza extrema universal": cada pessoa receberia uma participação acionária em tudo que a IA criar.
 
 *"Acho que a sociedade vai dizer muito rapidamente: 'Ok, precisamos de algum novo modelo econômico onde compartilhamos e distribuímos isso para as pessoas.'"*
 
@@ -109,7 +109,7 @@ Bill Gates, fundador da Microsoft, propôs uma abordagem diferente: se robôs v�
 
 *"Se um trabalhador humano faz US$ 50.000 em trabalho em uma fábrica, essa renda é tributada. Se um robô faz a mesma coisa, devemos tributar o robô em um nível similar."*
 
-A ideia tem uma certa elegância: usar os ganhos de produtividade da automação para financiar a transição dos trabalhadores deslocados. Mas enfrenta obstáculos práticos enormes:
+A ideia tem uma certa elegância. Usar os ganhos de produtividade da automação para financiar a transição dos trabalhadores deslocados. Mas enfrenta obstáculos práticos enormes:
 
 1. **Como definir um "robô"?** Uma planilha de Excel que automatiza cálculos conta? Um software de IA que escreve relatórios conta?
 
@@ -121,7 +121,7 @@ A ideia tem uma certa elegância: usar os ganhos de produtividade da automação
 
 ## O Problema das "Soluções"
 
-O padrão é claro: quando confrontados com a magnitude do problema, os profetas do apocalipse econômico tendem a propor soluções que parecem boas no papel, mas enfrentam obstáculos práticos imensos:
+O padrão é claro. Quando confrontados com a magnitude do problema, os profetas do apocalipse econômico tendem a propor soluções que parecem boas no papel, mas enfrentam obstáculos práticos imensos:
 
 - **Renda Básica Universal:** De onde vem o dinheiro? Quanto é "suficiente"? O que acontece com a dignidade humana?
 
@@ -129,7 +129,7 @@ O padrão é claro: quando confrontados com a magnitude do problema, os profetas
 
 - **Requalificação em massa:** Quem paga? Quanto tempo leva? E os que não conseguem?
 
-- **Redistribuição de riqueza de IA:** Quem decide? Como se evita que os poderosos manipulem as regras?
+- **Redistribuição de riqueza de IA:** Quem decide? Como evitar que os poderosos manipulem as regras?
 
 Isso não significa que devemos desistir de buscar soluções. Significa que devemos ser honestos sobre a dificuldade do problema.
 

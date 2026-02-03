@@ -11,9 +11,9 @@
 
 ## A Matemática do Descarte
 
-Vamos fazer um exercício que poucos economistas têm coragem de fazer: escalar o problema para a magnitude real.
+Vamos fazer um exercício que poucos economistas têm coragem de fazer. Escalar o problema para a magnitude real.
 
-A população mundial em 2025 é de aproximadamente 8 bilhões de pessoas. Destes, cerca de 3,5 bilhões estão na força de trabalho global — pessoas que trabalham ou procuram trabalho ativamente.
+A população mundial em 2025 é de aproximadamente 8 bilhões de pessoas. Destes, cerca de 3,5 bilhões estão na força de trabalho global (pessoas que trabalham ou procuram trabalho ativamente).
 
 Segundo o Fundo Monetário Internacional (FMI), **quase 40% do emprego global está exposto à IA**. Nas economias avançadas, essa exposição chega a **60%**.
 
@@ -43,15 +43,15 @@ Por décadas, o caminho para o desenvolvimento econômico seguia uma sequência 
 
 China, Coreia do Sul, Taiwan e, mais recentemente, Vietnã e Bangladesh, todos escalaram essa "escada do desenvolvimento", usando sua vantagem de mão de obra barata para atrair fábricas e, gradualmente, subir na cadeia de valor.
 
-O problema? A IA e a automação estão **quebrando os degraus da escada**.
+O problema é que a IA e a automação estão **quebrando os degraus da escada**.
 
-A manufatura está se tornando cada vez mais intensiva em capital e tecnologia, reduzindo sua capacidade de fornecer emprego em massa. Como resultado, sua participação no PIB e no emprego de muitos países em desenvolvimento está diminuindo — **antes mesmo de esses países terem completado sua transição**.
+A manufatura está se tornando cada vez mais intensiva em capital e tecnologia, reduzindo sua capacidade de fornecer emprego em massa. Como resultado, sua participação no PIB e no emprego de muitos países em desenvolvimento está diminuindo, **antes mesmo de esses países terem completado sua transição**.
 
 Bangladesh pode fazer camisetas mais baratas que a Alemanha. Mas quando robôs podem fazer camisetas *ainda mais baratas*, sem precisar de salários, sem precisar de condições de trabalho, sem precisar de nada além de eletricidade e manutenção, o que sobra para Bangladesh?
 
 ### O Abismo Digital
 
-Há ainda um problema adicional: os países pobres estão menos preparados para os empregos que a IA *cria*.
+Há ainda um problema adicional. Os países pobres estão menos preparados para os empregos que a IA *cria*.
 
 Em 2024, **93% da população de países de alta renda** usava a internet. Em países de baixa renda? Apenas **27%**.
 
@@ -70,18 +70,18 @@ A situação da África é particularmente preocupante.
 
 O continente africano tem a população mais jovem do mundo e a que mais cresce. Até 2050, espera-se que a África tenha mais de 2 bilhões de habitantes, com uma proporção enorme em idade ativa.
 
-Historicamente, uma "explosão demográfica jovem" era vista como uma oportunidade: mão de obra abundante que poderia impulsionar o crescimento econômico. A China construiu sua ascensão sobre essa base.
+Historicamente, uma "explosão demográfica jovem" era vista como uma oportunidade, pois mão de obra abundante poderia impulsionar o crescimento econômico. A China construiu sua ascensão sobre essa base.
 
 Mas o que acontece quando essa mão de obra jovem não tem trabalho?
 
 ### Os Números Africanos
 
-Pesquisas sugerem que a proporção de trabalhadores em alto risco de automação na África é:
+Pesquisas sugerem que a proporção de trabalhadores em alto risco de automação na África é a seguinte:
 
 - **40%** entre aqueles com educação secundária inferior
 - **Mais de 50%** entre aqueles com educação primária ou menos
 
-Muitos trabalhadores africanos estão empregados em agricultura, manufatura e comércio informal — setores agora enfrentando disrupção. Equipamentos agrícolas automatizados reduzem a necessidade de trabalho humano. Bots de atendimento ao cliente substituem agentes de call center — uma indústria que era vista como uma grande oportunidade para a África.
+Muitos trabalhadores africanos estão empregados em agricultura, manufatura e comércio informal, setores agora enfrentando disrupção. Equipamentos agrícolas automatizados reduzem a necessidade de trabalho humano. Bots de atendimento ao cliente substituem agentes de call center — uma indústria que era vista como uma grande oportunidade para a África.
 
 ### O Caso dos Call Centers
 
@@ -103,7 +103,7 @@ A maioria dos empregos de call center de nível básico pode ser automatizada. E
 
 A Índia apresenta um caso fascinante e assustador.
 
-Por décadas, a Índia se posicionou como o "escritório do mundo" — o destino de escolha para terceirização de serviços de TI, processamento de dados, contabilidade e suporte técnico.
+Por décadas, a Índia se posicionou como o "escritório do mundo", o destino de escolha para terceirização de serviços de TI, processamento de dados, contabilidade e suporte técnico.
 
 Empresas como Infosys, Wipro e TCS construíram impérios bilionários sobre a premissa de que trabalhadores indianos educados e falantes de inglês podiam fazer trabalho intelectual por uma fração do custo de trabalhadores americanos ou europeus.
 
@@ -111,7 +111,7 @@ Essa premissa está sendo destruída em tempo real.
 
 ### O Que a IA Pode Fazer Agora
 
-Os trabalhos que fizeram da Índia uma potência de serviços são precisamente os mais vulneráveis à automação:
+Os trabalhos que fizeram da Índia uma potência de serviços são precisamente os mais vulneráveis à automação.
 
 - **Entrada de dados:** IA lê e processa documentos automaticamente
 - **Suporte técnico básico:** Chatbots resolvem 80% das consultas
@@ -131,31 +131,31 @@ Onde vão trabalhar?
 
 ## Brasil e América Latina: A Armadilha do Meio
 
-O Brasil e outros países latino-americanos enfrentam um problema diferente: estão presos no meio.
+O Brasil e outros países latino-americanos enfrentam um problema diferente. Estão presos no meio.
 
 Não são pobres o suficiente para ter mão de obra ultra-barata que ainda compete com robôs em algumas funções. Não são ricos o suficiente para ter a infraestrutura digital e educacional para os novos empregos de IA.
 
 ### Os Setores Vulneráveis Brasileiros
 
-O Brasil tem setores particularmente expostos:
+O Brasil tem setores particularmente expostos.
 
 **Agronegócio:** Drones e IA já monitoram plantações. Tratores autônomos existem. A agricultura de precisão reduz drasticamente a necessidade de mão de obra.
 
-**Bancos e Serviços Financeiros:** O Brasil tem um setor bancário digitalizado — o que é ótimo para consumidores, péssimo para funcionários. Agências fecham. Caixas desaparecem. Atendentes são substituídos por apps.
+**Bancos e Serviços Financeiros:** O Brasil tem um setor bancário digitalizado, o que é ótimo para consumidores, péssimo para funcionários. Agências fecham. Caixas desaparecem. Atendentes são substituídos por apps.
 
 **Call Centers:** Milhares de brasileiros trabalham em call centers. O mesmo destino que ameaça a África ameaça o Brasil.
 
-**Comércio:** Caixas de supermercado, atendentes de loja, vendedores — todos na linha de frente da automação.
+**Comércio:** Caixas de supermercado, atendentes de loja e vendedores estão na linha de frente da automação.
 
 ---
 
 ## A Geografia da Desigualdade
 
-A automação não afetará o mundo uniformemente. Ela aprofundará desigualdades existentes de três formas:
+A automação não afetará o mundo uniformemente. Ela aprofundará desigualdades existentes de três formas.
 
 ### 1. Entre Países
 
-Países com forte infraestrutura digital, educação de qualidade e capital para investir em IA serão os vencedores: EUA, China, partes da Europa, Japão, Coreia do Sul.
+Países com forte infraestrutura digital, educação de qualidade e capital para investir em IA serão os vencedores (EUA, China, partes da Europa, Japão, Coreia do Sul).
 
 Países sem esses recursos serão duplamente penalizados: perderão empregos para a automação E não conseguirão capturar os novos empregos criados.
 
@@ -163,19 +163,19 @@ Países sem esses recursos serão duplamente penalizados: perderão empregos par
 
 Em cada país, a automação beneficiará as elites educadas com habilidades em demanda, enquanto devastará trabalhadores de baixa e média qualificação.
 
-A classe média — historicamente o pilar da estabilidade social — será esmagada entre os dois extremos.
+A classe média, historicamente o pilar da estabilidade social, será esmagada entre os dois extremos.
 
 ### 3. Entre Gerações
 
 Jovens entrando no mercado de trabalho enfrentam um cenário mais difícil que seus pais. Mas também têm mais tempo para se adaptar.
 
-Trabalhadores de meia-idade são os mais vulneráveis: velhos demais para recomeçar facilmente, jovens demais para se aposentar.
+Trabalhadores de meia-idade são os mais vulneráveis, pois são velhos demais para recomeçar facilmente e jovens demais para se aposentar.
 
 ---
 
 ## O Que Isso Significa Para Você
 
-A escala global do problema pode parecer abstrata. Mas tem implicações concretas para sua vida:
+A escala global do problema pode parecer abstrata. Mas tem implicações concretas para sua vida.
 
 1. **Seu emprego compete globalmente.** Se uma IA em San Francisco pode fazer seu trabalho, você não compete apenas com seus colegas locais.
 

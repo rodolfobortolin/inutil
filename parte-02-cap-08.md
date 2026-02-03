@@ -112,7 +112,7 @@ Não há "outra categoria" óbvia para onde os trabalhadores deslocados possam m
 
 ### 3. A Velocidade é Sem Precedentes
 
-A mecanização agrícola levou **séculos**. A Revolução Industrial levou **décadas**. A revolução dos computadores levou **décadas**.
+A mecanização agrícola levou **séculos**. A Revolução Industrial levou **décadas**. A revolução dos computadores também levou **décadas**.
 
 A revolução da IA está acontecendo em **anos**.
 
@@ -128,7 +128,7 @@ Economistas otimistas argumentam: "Maior produtividade sempre levou a mais empre
 
 Há um problema fatal com esse argumento.
 
-**Entre 1979 e 2021, a produtividade nos EUA cresceu 64,6%. Os salários por hora cresceram apenas 17,3%.**
+**Entre 1979 e 2021, a produtividade nos EUA cresceu 64,6%, mas os salários por hora cresceram apenas 17,3%.**
 
 Essa discrepância mostra que avanços tecnológicos aumentam eficiência e produção, mas **não necessariamente melhoram os padrões de vida dos trabalhadores**.
 
@@ -139,7 +139,7 @@ Os ganhos de produtividade foram capturados por:
 
 Mas não por trabalhadores (salários maiores).
 
-Se os ganhos da IA seguirem o mesmo padrão — e não há razão para acreditar que não seguirão — a produtividade vai disparar, mas os benefícios não chegarão aos trabalhadores comuns.
+Se os ganhos da IA seguirem o mesmo padrão (e não há razão para acreditar que não seguirão), a produtividade vai disparar, mas os benefícios não chegarão aos trabalhadores comuns.
 
 ---
 
@@ -148,16 +148,16 @@ Se os ganhos da IA seguirem o mesmo padrão — e não há razão para acreditar
 Os empregos criados pela IA existem. Mas observe quem os consegue:
 
 **Empregos em crescimento:**
-- Engenheiro de Machine Learning (requer PhD ou experiência equivalente)
-- Cientista de Dados Sênior (requer matemática avançada + programação)
-- Especialista em Ética de IA (requer formação interdisciplinar rara)
-- Engenheiro de Prompts (novo, ainda mal definido)
+- Engenheiro de Machine Learning: requer PhD ou experiência equivalente
+- Cientista de Dados Sênior: requer matemática avançada e programação
+- Especialista em Ética de IA: requer formação interdisciplinar rara
+- Engenheiro de Prompts: novo, ainda mal definido
 
 **Empregos em declínio:**
-- Assistente administrativo (qualquer escolaridade)
-- Operador de telemarketing (ensino médio)
-- Caixa de banco (ensino médio)
-- Analista júnior (graduação)
+- Assistente administrativo: qualquer escolaridade
+- Operador de telemarketing: ensino médio
+- Caixa de banco: ensino médio
+- Analista júnior: graduação
 
 Vê o padrão? Os empregos destruídos são acessíveis a muitos. Os empregos criados são acessíveis a poucos.
 
@@ -181,7 +181,7 @@ Mas há razões para cautela:
 
 3. **Os dados escondem precarização.** Uma pessoa que perdeu emprego de R$ 5.000/mês e agora faz entregas por R$ 1.500/mês não aparece como "desempregada".
 
-4. **Os jovens são os canários.** O desemprego entre jovens em ocupações expostas à IA já está aumentando significativamente — um sinal de alerta para o que vem depois.
+4. **Os jovens são os canários.** O desemprego entre jovens em ocupações expostas à IA já está aumentando significativamente, um sinal de alerta para o que vem depois.
 
 ---
 
@@ -189,13 +189,13 @@ Mas há razões para cautela:
 
 A lição verdadeira da história não é "tudo vai ficar bem". É:
 
-1. **Transições tecnológicas causam sofrimento massivo** para gerações que as vivem, mesmo que eventualmente a sociedade se adapte.
+1. **Transições tecnológicas causam sofrimento massivo** para as gerações que as vivem, mesmo que eventualmente a sociedade se adapte.
 
-2. **A adaptação leva décadas** — tempo que trabalhadores individuais não têm.
+2. **A adaptação leva décadas**, tempo que trabalhadores individuais não têm.
 
-3. **Os benefícios são distribuídos desigualmente** — alguns ganham muito, outros perdem tudo.
+3. **Os benefícios são distribuídos desigualmente.** Alguns ganham muito, outros perdem tudo.
 
-4. **A intervenção social faz diferença** — direitos trabalhistas, seguridade social, educação pública foram respostas às disrupções do passado. Sem elas, o sofrimento teria sido ainda maior.
+4. **A intervenção social faz diferença.** Direitos trabalhistas, seguridade social e educação pública foram respostas às disrupções do passado. Sem elas, o sofrimento teria sido ainda maior.
 
 A questão não é se haverá empregos no futuro. Provavelmente haverá. A questão é: **haverá empregos para você?** Para seus filhos? Para a sociedade que conhecemos?
 
@@ -217,15 +217,15 @@ A questão não é se haverá empregos no futuro. Provavelmente haverá. A quest
 
 ## Resumo do Capítulo
 
-- **"Sempre haverá novos empregos" é historicamente verdadeiro** — mas esconde sofrimento massivo durante transições e não garante que os novos empregos sejam para as mesmas pessoas.
+- **"Sempre haverá novos empregos" é historicamente verdadeiro**, mas esconde sofrimento massivo durante transições e não garante que os novos empregos sejam para as mesmas pessoas.
 
 - **A IA é diferente** porque automatiza intuição e julgamento, não apenas força física ou processamento de regras.
 
-- **A amplitude é inédita:** IA afeta trabalho manual, administrativo, analítico, criativo e de conhecimento simultaneamente.
+- **A amplitude é inédita.** IA afeta trabalho manual, administrativo, analítico, criativo e de conhecimento simultaneamente.
 
-- **A velocidade é sem precedentes:** mudanças que levavam décadas estão acontecendo em anos.
+- **A velocidade é sem precedentes.** Mudanças que levavam décadas estão acontecendo em anos.
 
-- **Os ganhos de produtividade não chegam aos trabalhadores:** entre 1979-2021, produtividade subiu 64,6%, salários apenas 17,3%.
+- **Os ganhos de produtividade não chegam aos trabalhadores.** Entre 1979-2021, produtividade subiu 64,6%, salários apenas 17,3%.
 
 ---
 

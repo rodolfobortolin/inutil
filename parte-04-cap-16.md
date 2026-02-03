@@ -13,9 +13,9 @@
 
 Entre as promessas mais radicais dos tecno-otimistas está a ideia de que a IA e a robótica criarão tal abundância que o dinheiro se tornará irrelevante.
 
-Musk articula isso com frequência: em um futuro onde robôs produzem tudo, não haverá escassez. Se não há escassez, para que serve dinheiro?
+Musk articula isso com frequência. Em um futuro onde robôs produzem tudo, não haverá escassez. Se não há escassez, para que serve dinheiro?
 
-É uma visão sedutora. Imagine: comida gratuita, moradia gratuita, transporte gratuito, entretenimento gratuito. A economia como a conhecemos se dissolve em uma utopia pós-escassez.
+É uma visão sedutora. Imagine comida gratuita, moradia gratuita, transporte gratuito, entretenimento gratuito. A economia como a conhecemos se dissolve em uma utopia pós-escassez.
 
 Mas essa visão ignora realidades econômicas, políticas e psicológicas fundamentais.
 
@@ -23,17 +23,17 @@ Mas essa visão ignora realidades econômicas, políticas e psicológicas fundam
 
 ## Por Que o Dinheiro Existe
 
-Dinheiro não é apenas "meio de troca". É:
+Dinheiro não é apenas "meio de troca". É muito mais.
 
 ### 1. Sistema de Informação
 
 Os preços comunicam informações sobre escassez, preferências, prioridades. Quando algo fica caro, sinaliza que é escasso ou desejado. Quando fica barato, sinaliza abundância ou desinteresse.
 
-Como uma economia sem preços decide o que produzir? Quem decide que recursos vão para hospitais vs. estádios? Quem decide que você ganha uma casa maior que seu vizinho?
+Como uma economia sem preços decide o que produzir? Quem decide que recursos vão para hospitais ou estádios? Quem decide que você ganha uma casa maior que seu vizinho?
 
 ### 2. Mecanismo de Alocação
 
-O dinheiro determina quem consegue o quê. Pode ser injusto — ricos conseguem mais que pobres — mas é um sistema. Sem ele, precisamos de outro.
+O dinheiro determina quem consegue o quê. Pode ser injusto (ricos conseguem mais que pobres), mas é um sistema. Sem ele, precisamos de outro.
 
 Filas? Loteria? Decisão de comitês? Todos têm problemas sérios em escala.
 
@@ -53,7 +53,7 @@ Sem isso, como funciona aposentadoria? Herança? Preparação para emergências?
 
 ## A Escassez Que Não Desaparece
 
-Mesmo que robôs produzissem infinitos bens materiais, algumas coisas permaneceriam escassas:
+Mesmo que robôs produzissem infinitos bens materiais, algumas coisas permaneceriam escassas.
 
 ### Localização
 
@@ -63,7 +63,7 @@ A terra é finita. Localizações desejáveis são limitadas. Como alocar sem pr
 
 ### Tempo de Pessoas Específicas
 
-Mesmo com robôs, você pode querer a atenção de um humano específico — um médico renomado, um artista famoso, um mentor experiente.
+Mesmo com robôs, você pode querer a atenção de um humano específico: um médico renomado, um artista famoso, um mentor experiente.
 
 O tempo dessas pessoas é finito. Como decidir quem tem acesso?
 
@@ -71,25 +71,25 @@ O tempo dessas pessoas é finito. Como decidir quem tem acesso?
 
 Os humanos são animais de status. Sempre haverá desejo de ter "mais que os outros" — se não em dinheiro, em outra métrica.
 
-Elimine dinheiro, e competição por status migra para outra dimensão: seguidores, likes, acesso a círculos exclusivos.
+Elimine dinheiro, e a competição por status migra para outra dimensão. Seguidores, likes, acesso a círculos exclusivos.
 
 ### Poder
 
 Mesmo em abundância material, alguém decide as regras. Alguém controla os robôs. Alguém programa os algoritmos.
 
-Esse poder é escasso por definição — não pode ser compartilhado igualmente.
+Esse poder é escasso por definição. Não pode ser compartilhado igualmente.
 
 ---
 
 ## As Tentativas Históricas
 
-Já tentamos economias sem dinheiro (ou com dinheiro minimizado):
+Já tentamos economias sem dinheiro (ou com dinheiro minimizado).
 
 ### Comunismo Soviético
 
 A URSS tentou planejamento central sem mecanismo de preços de mercado.
 
-Resultado: escassez crônica, filas intermináveis, produção desalinhada com necessidades reais, e eventualmente colapso econômico.
+Resultado: escassez crônica, filas intermináveis, produção desalinhada com necessidades reais, e eventualmente o colapso econômico.
 
 Bilhões de pessoas viveram décadas de privação desnecessária.
 
@@ -103,19 +103,19 @@ Muitos funcionaram por décadas. Mas a maioria eventualmente reintroduziu elemen
 
 Comunas nos EUA, Europa e outros lugares tentaram variações de economia sem dinheiro.
 
-Padrão: funcionam em pequena escala, com pessoas altamente motivadas, por períodos limitados. Falham quando escalam ou enfrentam estresse.
+O padrão é claro: funcionam em pequena escala, com pessoas altamente motivadas, por períodos limitados. Falham quando escalam ou enfrentam estresse.
 
 ---
 
 ## O Que Provavelmente Acontece
 
-O dinheiro não vai "acabar". Mas pode mudar de forma:
+O dinheiro não vai "acabar". Mas pode mudar de forma.
 
 ### 1. Dinheiro Tradicional Continua (Mais Provável)
 
 Dólares, reais, euros continuam existindo. UBI é apenas um fluxo adicional no sistema monetário existente.
 
-Nada de radical muda — apenas as transferências são maiores.
+Nada de radical muda. Apenas as transferências são maiores.
 
 ### 2. Moeda Digital do Banco Central (CBDC)
 
@@ -125,13 +125,13 @@ Potencialmente mais controle: o governo pode programar o dinheiro (expira se nã
 
 ### 3. Crédito Social Estilo China
 
-Em vez de dinheiro puro, acesso a recursos depende de "pontuação social" — comportamento, conformidade, contribuição à sociedade.
+Em vez de dinheiro puro, acesso a recursos depende de "pontuação social": comportamento, conformidade, contribuição à sociedade.
 
 Distópico para sensibilidades ocidentais, mas funcionalmente possível.
 
 ### 4. Economia Fragmentada
 
-Diferentes sistemas coexistem: dinheiro tradicional para elites, UBI/*tokens* digitais para massas, criptomoedas para nichos.
+Diferentes sistemas coexistem. Dinheiro tradicional para elites, UBI e *tokens* digitais para massas, criptomoedas para nichos.
 
 Estratificação formal da economia.
 
@@ -139,17 +139,17 @@ Estratificação formal da economia.
 
 ## A Armadilha do "Pós-Escassez"
 
-A promessa de "mundo sem dinheiro" pode ser usada para:
+A promessa de "mundo sem dinheiro" pode ser usada para diversos fins.
 
 ### Justificar Concentração
 
-"Não se preocupe que bilionários controlam tudo — em breve dinheiro será irrelevante!"
+"Não se preocupe que bilionários controlam tudo. Em breve dinheiro será irrelevante!"
 
 Enquanto isso, poder real (controle de tecnologia, terra, recursos) continua concentrando.
 
 ### Adiar Redistribuição
 
-"Não precisamos redistribuir agora — em breve haverá abundância para todos!"
+"Não precisamos redistribuir agora. Em breve haverá abundância para todos!"
 
 Enquanto isso, desigualdade cresce a cada dia.
 
@@ -174,11 +174,11 @@ Quem tem dinheiro pode:
 - Garantir segurança para si e família
 - Transmitir vantagens para descendentes
 
-Eliminar dinheiro não elimina essas dinâmicas. Apenas as transfere para outros mecanismos — potencialmente menos visíveis e menos democráticos.
+Eliminar dinheiro não elimina essas dinâmicas. Apenas as transfere para outros mecanismos, potencialmente menos visíveis e menos democráticos.
 
 Pelo menos com dinheiro, você sabe onde está. Pode acumular, pode competir, pode ascender.
 
-Em sistemas alternativos, as regras podem ser mais opacas, mais sujeitas à discricionariedade de quem controla.
+Em sistemas alternativos, as regras podem ser mais opacas e mais sujeitas à discricionariedade de quem controla.
 
 ---
 
@@ -186,13 +186,13 @@ Em sistemas alternativos, as regras podem ser mais opacas, mais sujeitas à disc
 
 1. **Não aposte em utopia pós-escassez.** O dinheiro provavelmente continuará existindo e importando por muito tempo.
 
-2. **Acumule ativos, não apenas renda.** Se o trabalho remunerado vai diminuir, a propriedade de ativos (imóveis, ações, negócios) se torna mais importante.
+2. **Acumule ativos, não apenas renda.** Se o trabalho remunerado vai diminuir, a propriedade de ativos como imóveis, ações e negócios se torna mais importante.
 
 3. **Desconfie de promessas de abundância universal.** Pergunte quem controla os meios de produção dessa abundância.
 
-4. **Preste atenção em mudanças monetárias.** CBDCs, moedas digitais, sistemas de crédito social — essas mudanças podem afetar dramaticamente sua vida.
+4. **Preste atenção em mudanças monetárias.** CBDCs, moedas digitais, sistemas de crédito social. Essas mudanças podem afetar dramaticamente sua vida.
 
-5. **Construa riqueza real.** Habilidades, relacionamentos, saúde, conhecimento — formas de "capital" que transcendem dinheiro.
+5. **Construa riqueza real.** Habilidades, relacionamentos, saúde, conhecimento: formas de "capital" que transcendem dinheiro.
 
 ---
 
@@ -200,9 +200,9 @@ Em sistemas alternativos, as regras podem ser mais opacas, mais sujeitas à disc
 
 - **"Dinheiro vai acabar" é promessa sedutora** de tecno-otimistas, baseada na premissa de abundância total.
 
-- **O dinheiro serve funções essenciais:** informação, alocação, incentivo, reserva de valor. Eliminá-lo exige substitutos.
+- **O dinheiro serve funções essenciais.** Informação, alocação, incentivo, reserva de valor. Eliminá-lo exige substitutos.
 
-- **Algumas escassezes persistem:** localização, tempo de pessoas específicas, status, poder.
+- **Algumas escassezes persistem.** Localização, tempo de pessoas específicas, status, poder.
 
 - **Tentativas históricas** de economias sem dinheiro (URSS, kibbutzim, comunas) tiveram problemas sérios.
 

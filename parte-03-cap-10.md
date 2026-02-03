@@ -11,17 +11,17 @@
 
 ## O Próximo Salto
 
-Até agora, falamos principalmente de IA como software — algoritmos que processam texto, imagens e dados. Mas há uma segunda frente da revolução que está prestes a se abrir: **robôs humanoides**.
+Até agora, falamos principalmente de IA como software, algoritmos que processam texto, imagens e dados. Mas há uma segunda frente da revolução que está prestes a se abrir: **robôs humanoides**.
 
 Se a IA é o cérebro, robôs humanoides são o corpo. E juntos, eles podem fazer praticamente qualquer trabalho físico que humanos fazem.
 
-Não estamos falando de robôs industriais presos em gaiolas de segurança, repetindo a mesma tarefa milhares de vezes. Estamos falando de robôs que caminham, manipulam objetos, navegam ambientes imprevisíveis — robôs que podem, teoricamente, fazer qualquer trabalho que um humano pode fazer.
+Não estamos falando de robôs industriais presos em gaiolas de segurança, repetindo a mesma tarefa milhares de vezes. Estamos falando de robôs que caminham, manipulam objetos, navegam ambientes imprevisíveis. Robôs que podem, teoricamente, fazer qualquer trabalho que um humano pode fazer.
 
 ---
 
 ## O Optimus da Tesla
 
-Em agosto de 2021, Elon Musk subiu ao palco do AI Day da Tesla e fez um anúncio que muitos consideraram absurdo: a Tesla estava desenvolvendo um robô humanoide chamado Optimus.
+Em agosto de 2021, Elon Musk subiu ao palco do AI Day da Tesla e fez um anúncio que muitos consideraram absurdo. A Tesla estava desenvolvendo um robô humanoide chamado Optimus.
 
 Nas palavras de Musk, o Optimus seria capaz de realizar uma ampla gama de tarefas cotidianas dentro e fora de casa, e seria vendido por aproximadamente **US$ 30.000**.
 
@@ -47,7 +47,7 @@ Mas há uma distância enorme entre promessas e realidade:
 
 - **Não há evidências** de que a Tesla produziu milhares ou mesmo centenas de robôs em 2025, apesar das promessas.
 
-- Até agora, a Tesla só demonstrou o Optimus realizando **tarefas muito simples**, como entregar garrafas de água — e mesmo assim dependendo de teleoperação (controle humano remoto) com sucesso limitado.
+- Até agora, a Tesla só demonstrou o Optimus realizando **tarefas muito simples**, como entregar garrafas de água, e mesmo assim dependendo de teleoperação (controle humano remoto) com sucesso limitado.
 
 - Rodney Brooks, cofundador da iRobot (criadora do Roomba), chamou a ideia de robôs humanoides como assistentes universais de **"pura fantasia"**, em parte porque robôs têm dificuldades fundamentais de coordenação.
 
@@ -61,15 +61,15 @@ A Tesla não está sozinha nessa corrida.
 
 ### Boston Dynamics Atlas
 
-A Boston Dynamics — famosa por seus vídeos virais de robôs fazendo parkour — acaba de anunciar que está começando a **produção comercial** da versão final do Atlas.
+A Boston Dynamics, famosa por seus vídeos virais de robôs fazendo parkour, acaba de anunciar que está começando a **produção comercial** da versão final do Atlas.
 
-Mais impressionante: a empresa solidificou planos para implantar **dezenas de milhares de unidades Atlas** em instalações de manufatura do Hyundai Motor Group (que é dono da Boston Dynamics).
+Mais impressionante ainda, a empresa solidificou planos para implantar **dezenas de milhares de unidades Atlas** em instalações de manufatura do Hyundai Motor Group (que é dono da Boston Dynamics).
 
 Enquanto o Optimus ainda luta para realizar tarefas básicas sem teleoperação, o Atlas já está sendo preparado para implantação em escala industrial.
 
 ### Figure
 
-A Figure — startup fundada em 2022 — está desenvolvendo um robô humanoide destinado a trabalhar em armazéns e manufatura. Atraiu investimentos da OpenAI, Microsoft, NVIDIA e Jeff Bezos.
+A Figure, startup fundada em 2022, está desenvolvendo um robô humanoide destinado a trabalhar em armazéns e manufatura. Atraiu investimentos da OpenAI, Microsoft, NVIDIA e Jeff Bezos.
 
 ### 1X (NEO)
 
@@ -87,11 +87,11 @@ Empresas chinesas como UBTECH, Fourier Intelligence e Unitree estão desenvolven
 
 ## Por Que Humanoides?
 
-Uma pergunta legítima: por que robôs com forma humana? Por que não simplesmente construir máquinas especializadas para cada tarefa?
+Uma pergunta legítima surge: por que robôs com forma humana? Por que não simplesmente construir máquinas especializadas para cada tarefa?
 
 ### A Vantagem do Design Humano
 
-O mundo foi construído para humanos. Portas, escadas, maçanetas, interruptores, veículos, ferramentas — tudo foi projetado para seres com dois braços, duas pernas, duas mãos com dedos.
+O mundo foi construído para humanos. Portas, escadas, maçanetas, interruptores, veículos, ferramentas: tudo foi projetado para seres com dois braços, duas pernas, duas mãos com dedos.
 
 Um robô humanoide pode, teoricamente, operar em qualquer ambiente projetado para humanos sem modificações. Pode usar as mesmas ferramentas, operar os mesmos equipamentos, navegar os mesmos espaços.
 
@@ -165,7 +165,7 @@ Dadas as dificuldades técnicas demonstradas até agora, um cronograma mais real
 - A maioria dos trabalhos físicos pode ser feita por robôs
 - Transformação social comparável à Revolução Industrial
 
-É importante notar: esse cronograma é especulativo. A tecnologia pode avançar mais rápido ou mais devagar do que previsto. Mas a direção parece clara.
+É importante notar que esse cronograma é especulativo. A tecnologia pode avançar mais rápido ou mais devagar do que previsto. Mas a direção parece clara.
 
 ---
 
@@ -175,15 +175,15 @@ Se robôs humanoides se tornarem economicamente viáveis, as implicações para 
 
 ### Os Setores Mais Vulneráveis
 
-**Manufatura:** Já altamente automatizada, mas robôs humanoides podem automatizar as tarefas remanescentes que exigem flexibilidade.
+**Manufatura.** Já altamente automatizada, mas robôs humanoides podem automatizar as tarefas remanescentes que exigem flexibilidade.
 
-**Logística e Armazéns:** Milhões de trabalhadores globalmente. Empresas como Amazon já estão testando robôs.
+**Logística e Armazéns.** Milhões de trabalhadores globalmente. Empresas como Amazon já estão testando robôs.
 
-**Limpeza:** Um dos maiores setores de emprego de baixa qualificação. Robôs já estão sendo desenvolvidos para isso.
+**Limpeza.** Um dos maiores setores de emprego de baixa qualificação. Robôs já estão sendo desenvolvidos para isso.
 
-**Construção:** Historicamente resistente à automação devido à imprevisibilidade do ambiente. Robôs humanoides podem mudar isso.
+**Construção.** Historicamente resistente à automação devido à imprevisibilidade do ambiente. Robôs humanoides podem mudar isso.
 
-**Serviços de Alimentação:** Cozinhas e restaurantes são ambientes complexos, mas protótipos já existem.
+**Serviços de Alimentação.** Cozinhas e restaurantes são ambientes complexos, mas protótipos já existem.
 
 ### Os Números
 
@@ -194,13 +194,13 @@ Só nos Estados Unidos:
 - ~8 milhões em construção
 - ~13 milhões em serviços de alimentação
 
-Dezenas de milhões de empregos potencialmente afetados — e isso é apenas um país.
+Dezenas de milhões de empregos potencialmente afetados, e isso é apenas um país.
 
 ---
 
 ## A Questão do Custo
 
-O argumento econômico é simples:
+O argumento econômico é simples.
 
 Um trabalhador de armazém nos EUA custa ~US$ 40.000/ano em salário mais encargos e benefícios. Um robô que custa US$ 100.000 e dura 5 anos custa ~US$ 20.000/ano em depreciação, mais manutenção e energia.
 
@@ -218,13 +218,13 @@ E o custo dos robôs vai cair. Sempre cai. Assim como TVs de tela plana, smartph
 
 3. **Empregos que parecem seguros podem não ser.** Construção, cuidado de idosos, limpeza — todos serão afetados.
 
-4. **O trabalho puramente humano se tornará mais valioso.** Empatia genuína, relacionamentos profundos, criatividade autêntica — coisas que robôs não podem replicar.
+4. **O trabalho puramente humano se tornará mais valioso.** Empatia genuína, relacionamentos profundos, criatividade autêntica: coisas que robôs não podem replicar.
 
 ---
 
 ## Resumo do Capítulo
 
-- **Robôs humanoides são a próxima fronteira da automação**, combinando IA avançada com corpos físicos capazes.
+- **Robôs humanoides são a próxima fronteira da automação**, que combina IA avançada com corpos físicos capazes.
 
 - **Tesla Optimus** promete muito (US$ 10 trilhões em receita, eliminar pobreza), mas até agora entrega pouco (tarefas simples com teleoperação).
 

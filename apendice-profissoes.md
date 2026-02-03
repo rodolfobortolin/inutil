@@ -7,7 +7,7 @@
 ## Metodologia
 
 As probabilidades abaixo são baseadas em múltiplas fontes:
-- Estudo de Frey & Osborne (Oxford, 2013) — atualizado
+- Estudo de Frey & Osborne (Oxford, 2013, atualizado)
 - Relatórios do World Economic Forum (2023-2025)
 - Análises do McKinsey Global Institute
 - Avaliações de especialistas em IA
@@ -20,9 +20,9 @@ As probabilidades abaixo são baseadas em múltiplas fontes:
 
 ## Legenda
 
-- **[ALTO]** Alto risco (>70%) — Maioria das tarefas automatizável
-- **[MÉDIO]** Risco médio (40-70%) — Parcialmente automatizável
-- **[BAIXO]** Baixo risco (<40%) — Núcleo da profissão resiste
+- **[ALTO]** Alto risco (>70%): maioria das tarefas automatizável
+- **[MÉDIO]** Risco médio (40-70%): parcialmente automatizável
+- **[BAIXO]** Baixo risco (<40%): núcleo da profissão resiste
 
 ---
 
@@ -244,11 +244,11 @@ As probabilidades abaixo são baseadas em múltiplas fontes:
 
 Estas probabilidades são **estimativas baseadas em conhecimento atual**. Fatores que podem alterá-las:
 
-1. **Velocidade de avanço de IA** — pode acelerar ou desacelerar
-2. **Regulação** — governos podem proteger certas profissões
-3. **Custo de implementação** — automação cara pode preservar empregos
-4. **Preferência de consumidores** — pessoas podem preferir humanos
-5. **Resistência social** — movimentos podem retardar automação
+1. **Velocidade de avanço de IA:** pode acelerar ou desacelerar
+2. **Regulação:** governos podem proteger certas profissões
+3. **Custo de implementação:** automação cara pode preservar empregos
+4. **Preferência de consumidores:** pessoas podem preferir humanos
+5. **Resistência social:** movimentos podem retardar automação
 
 **Use esta tabela como ponto de partida para reflexão, não como verdade absoluta.**
 

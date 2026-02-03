@@ -11,7 +11,7 @@
 
 ## O Sonho Tecnolibertário
 
-Imagine um mundo onde você acorda quando quer. Não há alarme, não há chefe, não há reunião às 8h. Robôs e IA produzem tudo que a sociedade precisa — comida, energia, bens, serviços. Você recebe sua renda universal e passa o dia fazendo... o que quiser.
+Imagine um mundo onde você acorda quando quer. Não há alarme, não há chefe, não há reunião às 8h. Robôs e IA produzem tudo que a sociedade precisa: comida, energia, bens, serviços. Você recebe sua renda universal e passa o dia fazendo... o que quiser.
 
 Pintar. Escrever. Viajar. Jogar videogame. Meditar. Passar tempo com família. Perseguir suas paixões sem a tirania do relógio de ponto.
 
@@ -23,7 +23,7 @@ Parece utópico. E é exatamente o problema.
 
 ## A Falácia da Extrapolação
 
-A visão do "trabalho opcional" comete um erro clássico: assume que a sociedade pode mudar radicalmente em uma dimensão (tecnológica) enquanto permanece estável em todas as outras.
+A visão do "trabalho opcional" comete um erro clássico. Assume que a sociedade pode mudar radicalmente em uma dimensão (tecnológica) enquanto permanece estável em todas as outras.
 
 ### O Que a Visão Assume
 
@@ -61,7 +61,7 @@ O que substitui isso?
 
 ### 4. Propósito
 
-Saber que seu trabalho contribui para algo — mesmo que modestamente — dá sensação de propósito. Você importa. Alguém depende do que você faz.
+Saber que seu trabalho contribui para algo, mesmo que modestamente, dá sensação de propósito. Você importa. Alguém depende do que você faz.
 
 Ser permanentemente dispensável destrói isso.
 
@@ -75,7 +75,7 @@ Os dados são reveladores:
 
 - **Declínio cognitivo acelera** após aposentadoria para muitos
 - **Depressão aumenta** significativamente nos primeiros anos
-- **Mortalidade sobe** — aposentados precoces têm expectativa de vida menor
+- **Mortalidade sobe.** Aposentados precoces têm expectativa de vida menor
 - **Isolamento social** é uma epidemia entre idosos sem trabalho
 
 E isso para pessoas que **escolheram** parar de trabalhar após uma carreira completa, frequentemente com recursos financeiros adequados.
@@ -126,7 +126,7 @@ A palavra "opcional" mascara uma assimetria brutal de poder.
 
 Já existiram sociedades onde uma classe não trabalhava: as aristocracias tradicionais.
 
-Nobres europeus, latifundiários coloniais, castas superiores em várias culturas — todos viviam do trabalho de outros.
+Nobres europeus, latifundiários coloniais, castas superiores em várias culturas. Todos viviam do trabalho de outros.
 
 Como eles preenchiam o tempo?
 - Rituais sociais elaborados
@@ -176,7 +176,7 @@ Parece inspirador. Mas ignora realidades psicológicas:
 
 1. **A maioria das pessoas não sabe o que ama** fazer fora do contexto de trabalho. A identidade foi construída em torno da função profissional.
 
-2. **Paixões requerem recursos.** Viajar, fazer arte, empreender — tudo custa dinheiro além da UBI básica.
+2. **Paixões requerem recursos.** Viajar, fazer arte, empreender: tudo custa dinheiro além da UBI básica.
 
 3. **Fazer "o que ama" sem reconhecimento externo** é difícil de sustentar. Artistas querem audiência. Escritores querem leitores. Sem validação, a motivação evapora.
 
@@ -194,19 +194,19 @@ Parece inspirador. Mas ignora realidades psicológicas:
 
 4. **Desenvolva habilidades de autodireção.** Se tempo livre ilimitado é o futuro, aprenda a usá-lo bem antes de ser forçado.
 
-5. **Cultive comunidade fora do trabalho.** Relacionamentos, hobbies, causas — construa uma vida que não dependa do emprego para ter sentido.
+5. **Cultive comunidade fora do trabalho.** Relacionamentos, hobbies, causas. Construa uma vida que não dependa do emprego para ter sentido.
 
 ---
 
 ## Resumo do Capítulo
 
-- **"Trabalho opcional" assume premissas** que provavelmente não se confirmarão: abundância total, distribuição justa, estabilidade social, instituições adaptadas.
+- **"Trabalho opcional" assume premissas** que provavelmente não se confirmarão (abundância total, distribuição justa, estabilidade social, instituições adaptadas).
 
-- **O trabalho é mais que salário:** identidade, estrutura, comunidade e propósito. Removê-lo cria vácuo existencial.
+- **O trabalho é mais que salário.** Identidade, estrutura, comunidade e propósito. Removê-lo cria vácuo existencial.
 
-- **A aposentadoria mostra o problema:** declínio cognitivo, depressão, isolamento e mortalidade aumentam sem trabalho.
+- **A aposentadoria mostra o problema.** Declínio cognitivo, depressão, isolamento e mortalidade aumentam sem trabalho.
 
-- **A economia da atenção** provavelmente preencherá o vazio — e é projetada para extrair valor, não para enriquecer vidas.
+- **A economia da atenção** provavelmente preencherá o vazio, e é projetada para extrair valor, não para enriquecer vidas.
 
 - **"Opcional" significa coisas diferentes** para bilionários (liberdade) e para a maioria (ausência de opção).
 
