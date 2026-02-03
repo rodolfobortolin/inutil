@@ -57,7 +57,7 @@ Em 2024, **93% da população de países de alta renda** usava a internet. Em pa
 
 Os novos empregos em IA, análise de dados e engenharia de software — todos exigem infraestrutura digital, educação avançada e acesso a tecnologia que simplesmente não existem em grande parte do mundo em desenvolvimento.
 
-Então, enquanto os países ricos perdem empregos para a IA mas potencialmente criam outros, os países pobres:
+Então, enquanto os países ricos perdem empregos para a IA, mas potencialmente criam outros, os países pobres:
 - Perdem os empregos de manufatura que seriam seu caminho para o desenvolvimento
 - Não conseguem acessar os novos empregos criados
 - Ficam presos em um limbo econômico

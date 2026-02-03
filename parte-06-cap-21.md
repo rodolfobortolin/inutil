@@ -87,7 +87,7 @@ Ainda dependem de humanos que entendem causas, não apenas correlações.
 
 IA pode simular empatia. ChatGPT pode dizer "sinto muito que você está passando por isso" com tom apropriado.
 
-Mas há uma diferença entre simulação e realidade. E humanos frequentemente conseguem perceber a diferença.
+Há, porém, uma diferença entre simulação e realidade. E humanos frequentemente conseguem perceber a diferença.
 
 ### O Que Isso Significa
 

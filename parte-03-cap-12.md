@@ -85,7 +85,7 @@ O "reshoring" (trazer manufatura de volta para países desenvolvidos) já está 
 
 A África deveria ser a próxima fronteira da manufatura. População jovem crescente, mão de obra abundante, baixos custos.
 
-Mas se robôs eliminam a vantagem de mão de obra barata, a África perde sua principal carta negocial. O continente pode ser pulado completamente na cadeia de desenvolvimento.
+Se robôs eliminam a vantagem de mão de obra barata, porém, a África perde sua principal carta negocial. O continente pode ser pulado completamente na cadeia de desenvolvimento.
 
 Uma geração inteira de africanos pode chegar à idade adulta sem que exista um modelo viável de desenvolvimento para absorvê-los economicamente.
 

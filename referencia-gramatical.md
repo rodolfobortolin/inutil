@@ -525,4 +525,102 @@ Evite preposições redundantes ou desnecessárias:
 
 ---
 
+## Estilo de Escrita
+
+### Uso do "Mas" e Vírgulas
+
+#### 1. Vírgula Obrigatória ANTES de "Mas" (Sentido Adversativo)
+
+A vírgula é **obrigatória antes** de "mas" quando ele separa duas orações com verbos, indicando ideia contrária.
+
+**Regra:** [Oração 1]**,** mas [Oração 2]
+
+- *O time jogou bem**, mas** não conseguiu vencer.*
+- *A sentença foi justa**, mas** ainda caberia recurso.*
+- *Ele estudou muito**, mas** não passou na prova.*
+
+#### 2. Vírgula Facultativa (Sentido Aditivo)
+
+Quando "mas" tem valor de adição (geralmente com "também" ou em "não só... mas também"), a vírgula é opcional.
+
+**Regra:** [Não só]... [mas (também)]...
+
+- *Ele não só lavou a louça**, mas também** estendeu a roupa.*
+- *É um carro rápido mas também econômico.* (sem vírgula é aceitável)
+
+#### 3. Sem Vírgula (Liga Palavras, Não Orações)
+
+**Não** se usa vírgula antes de "mas" quando ele liga palavras ou expressões sem formar orações distintas (sem verbo na sequência).
+
+- *Ele é atrapalhado mas muito inteligente.*
+- *Compramos uma casa pequena mas aconchegante.*
+- *Um processo lento mas necessário.*
+
+#### 4. Vírgula DEPOIS de "Mas" (Elemento Intercalado)
+
+A vírgula só aparece **após** o "mas" se houver oração ou termo intercalado imediatamente depois.
+
+- *A sentença foi justa, mas**, na opinião do advogado,** ainda caberia recurso.*
+- *Ele não quer obediência, mas**, sim,** respeito.*
+- *Mas**, se pensarmos bem,** isso faz sentido.*
+- *Mas**, João,** você precisa entender.* (vocativo)
+
+**Regra prática:** Se após "mas" vier diretamente o sujeito ou verbo, não use vírgula. Se houver elemento intercalado, isole-o com vírgulas.
+
+---
+
+### Parágrafos de Frase Única
+
+**Evite parágrafos com uma única frase curta**, especialmente quando isolados entre parágrafos maiores. Isso pode:
+- Quebrar o fluxo de leitura
+- Parecer fragmentado ou incompleto
+- Dar peso desproporcional a uma ideia simples
+
+**Problema:**
+> A IA está transformando o mercado de trabalho.
+>
+> Mas há esperança.
+>
+> Especialistas acreditam que novas profissões surgirão para compensar as perdas...
+
+**Solução 1 — Integrar ao parágrafo anterior ou posterior:**
+> A IA está transformando o mercado de trabalho. Mas há esperança: especialistas acreditam que novas profissões surgirão para compensar as perdas...
+
+**Solução 2 — Expandir a frase única:**
+> A IA está transformando o mercado de trabalho.
+>
+> Mas há esperança, e ela vem de uma direção inesperada.
+>
+> Especialistas acreditam que novas profissões surgirão...
+
+**Exceções aceitáveis:**
+- Frases de transição dramática intencional: *"E então tudo mudou."*
+- Citações destacadas
+- Conclusões enfáticas de seção
+- Elementos retóricos deliberados
+
+**Regra prática:** Se uma frase sozinha não tem peso suficiente para justificar um parágrafo próprio, integre-a ao contexto ou expanda-a.
+
+---
+
+### Repetição de Estruturas
+
+Evite iniciar muitos parágrafos consecutivos com a mesma palavra ou estrutura:
+
+**Problema:**
+> Mas o relatório também mostra...
+>
+> Mas há um problema...
+>
+> Mas as empresas insistem...
+
+**Solução — Variar as construções:**
+> O relatório também mostra...
+>
+> Há, porém, um problema...
+>
+> Ainda assim, as empresas insistem...
+
+---
+
 *Documento criado para referência em projetos de escrita em português.*

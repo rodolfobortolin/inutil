@@ -186,7 +186,7 @@ Não tenho todas as respostas. Ninguém tem. O futuro é genuinamente incerto.
 
 O que sei é que a pior posição é a ignorância confortável: não saber o que está vindo e não se preparar.
 
-A segunda pior posição é saber e não agir, entender os riscos mas paralisar.
+A segunda pior posição é saber e não agir, entender os riscos, mas paralisar.
 
 A melhor posição é saber e agir, entender o que está vindo e tomar medidas, mesmo imperfeitas, para navegar.
 

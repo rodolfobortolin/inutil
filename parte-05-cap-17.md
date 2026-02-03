@@ -73,7 +73,7 @@ Como você se sente?
 
 Filósofos existencialistas do século XX (Sartre, Camus, Kierkegaard) escreveram sobre o desafio de encontrar significado em um universo indiferente.
 
-Mas eles estavam falando de uma elite intelectual, pessoas com educação, tempo e recursos para contemplar questões abstratas.
+Eles, porém, estavam falando de uma elite intelectual, pessoas com educação, tempo e recursos para contemplar questões abstratas.
 
 O que acontece quando bilhões de pessoas comuns, sem preparação filosófica, são forçadas a confrontar a pergunta?
 

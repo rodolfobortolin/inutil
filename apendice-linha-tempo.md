@@ -69,7 +69,7 @@
 | 1987-1993 | Segundo "Inverno da IA" |
 | 1989 | Tim Berners-Lee inventa a World Wide Web |
 
-**Impacto:** IA passa por ciclos de hype e desilusão. Redes neurais são aprimoradas mas ainda limitadas por hardware.
+**Impacto:** IA passa por ciclos de hype e desilusão. Redes neurais são aprimoradas, mas ainda limitadas por hardware.
 
 ---
 
@@ -178,7 +178,7 @@
 
 ## Lições da História
 
-1. **Transformações tecnológicas são inevitáveis:** resistência atrasa mas não impede
+1. **Transformações tecnológicas são inevitáveis:** resistência atrasa, mas não impede
 2. **Transições são dolorosas:** gerações inteiras podem sofrer antes de adaptação
 3. **Novas oportunidades surgem,** mas não necessariamente para as mesmas pessoas
 4. **Políticas importam:** como a sociedade responde faz diferença
