@@ -232,15 +232,19 @@ A melhor posição é saber e agir, entender o que está vindo e tomar medidas, 
 
 # Agradecimentos
 
-Este livro não existiria sem as contribuições de muitos pensadores que vieram antes.
+Este livro nasceu de uma preocupação que muitos compartilham hoje: o que o avanço acelerado da inteligência artificial significa para o futuro do trabalho, da sociedade e das próximas gerações.
 
-Agradeço especialmente a Yuval Noah Harari, cujo conceito de "classe inútil" inspirou o título e muito da reflexão. A Geoffrey Hinton, por ter a coragem de alertar sobre os riscos da tecnologia que ajudou a criar. A Anne Case e Angus Deaton, por documentar as "mortes por desespero" que prenunciam crises maiores. A todos os pesquisadores, economistas e tecnólogos que estudam esses temas com seriedade.
+À minha esposa **Luíza**: obrigado por acreditar neste projeto e me apoiar em cada etapa. Sua paciência e suas opiniões sinceras tornaram este livro melhor. Você é minha parceira em tudo.
 
-Agradeço aos leitores que chegaram até aqui. Espero que este livro seja útil — não como profecia definitiva, mas como provocação para ação.
+Aos meus filhos **Arthur** e **Eduardo**: vocês são a razão pela qual escrevi este livro. Cada capítulo foi escrito pensando no mundo que vocês vão herdar. A busca por excelência que me move todos os dias existe porque quero deixar algo que faça diferença para vocês — e para a geração de vocês.
+
+À minha família, que sempre me apoiou a seguir caminhos não convencionais.
+
+E a você, leitor, que chegou até aqui: espero que este livro seja útil. Não como profecia definitiva, mas como um chamado para ação.
 
 O futuro é incerto. Mas é nosso para moldar.
 
 ---
 
 *Rodolfo Bortolin*
-*2025*
+*2026*
