@@ -74,7 +74,7 @@ Isso acontece mesmo quando a pessoa tem recursos financeiros. Não é sobre dinh
 
 ### Perda de Status
 
-Toda sociedade tem hierarquias de status. Trabalho é um dos principais determinantes.
+Toda sociedade tem hierarquias de status. O trabalho é um dos principais determinantes.
 
 Perder emprego significa:
 - Cair na hierarquia social
@@ -128,7 +128,7 @@ Se a automação remove a possibilidade de "ser provedor", que modelo de masculi
 
 ### Gerações Sem Referência
 
-Jovens aprendem como ser adultos observando adultos ao redor — especialmente trabalhando.
+Jovens aprendem como ser adultos observando adultos ao redor, especialmente quando estão trabalhando.
 
 Se não há trabalho para observar, como jovens aprendem a ser adultos? Que modelo seguem?
 
