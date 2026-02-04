@@ -1,0 +1,1742 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Posts - @a.classe.inutil</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0a0f;
+            min-height: 100vh;
+            color: white;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #0f0f15 0%, #1a1a25 100%);
+            padding: 30px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header p {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            background: rgba(255,255,255,0.05);
+            padding: 12px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ff2d55, #ff6b35);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.15);
+            color: #aaa;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            background: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+        .filter-btn.active {
+            background: linear-gradient(135deg, #ff2d55, #ff6b35);
+            border-color: transparent;
+            color: white;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        /* Post Grid */
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 30px;
+        }
+
+        /* Post Card */
+        .post-card {
+            background: #12121a;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .post-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .post-card.posted {
+            opacity: 0.5;
+        }
+
+        .post-card.posted:hover {
+            opacity: 0.8;
+        }
+
+        /* Post Image Container */
+        .post-image-container {
+            position: relative;
+            aspect-ratio: 1;
+            overflow: hidden;
+        }
+
+        .post-image {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Post Types */
+        .post-stat {
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a0510 100%);
+        }
+
+        .post-stat::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,45,85,0.15) 0%, transparent 60%);
+        }
+
+        .post-risk {
+            background: linear-gradient(180deg, #0f0a0a 0%, #1a0a0f 100%);
+        }
+
+        .post-safe {
+            background: linear-gradient(135deg, #0a0f0a 0%, #0a1a15 100%);
+        }
+
+        .post-question {
+            background: linear-gradient(135deg, #ff2d55 0%, #ff6b35 50%, #ffd60a 100%);
+        }
+
+        .post-news {
+            background: #0a0a0f;
+        }
+
+        .post-curiosity {
+            background: linear-gradient(135deg, #0f0a1a 0%, #1a0f25 100%);
+        }
+
+        .post-curiosity::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 30%, rgba(138,43,226,0.15) 0%, transparent 60%);
+        }
+
+        .post-cta {
+            background: #0a0a0f;
+        }
+
+        .post-cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 20% 80%, rgba(255,45,85,0.2) 0%, transparent 40%),
+                radial-gradient(circle at 80% 20%, rgba(255,214,10,0.15) 0%, transparent 40%);
+        }
+
+        /* Content inside post */
+        .post-content {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .post-tag {
+            background: rgba(255,45,85,0.2);
+            border: 1px solid rgba(255,45,85,0.4);
+            color: #ff2d55;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 8px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .post-tag.green {
+            background: rgba(0,212,170,0.2);
+            border-color: rgba(0,212,170,0.4);
+            color: #00d4aa;
+        }
+
+        .post-tag.purple {
+            background: rgba(138,43,226,0.2);
+            border-color: rgba(138,43,226,0.4);
+            color: #a855f7;
+        }
+
+        .post-tag.orange {
+            background: rgba(255,107,53,0.2);
+            border-color: rgba(255,107,53,0.4);
+            color: #ff6b35;
+        }
+
+        .big-number {
+            font-size: 70px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #ff2d55, #ff6b35, #ffd60a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .big-number.green {
+            background: linear-gradient(135deg, #00d4aa, #00ff88);
+            -webkit-background-clip: text;
+        }
+
+        .post-headline {
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.3;
+            max-width: 280px;
+        }
+
+        .post-headline span {
+            color: #ff6b35;
+        }
+
+        .post-headline span.green {
+            color: #00d4aa;
+        }
+
+        .post-source {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: #444;
+            font-size: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .post-handle {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            color: #555;
+            font-size: 9px;
+            font-weight: 600;
+        }
+
+        .post-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        /* Question post specific */
+        .post-question .post-headline {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 800;
+            text-shadow: 0 2px 20px rgba(0,0,0,0.2);
+        }
+
+        .post-question .post-sub {
+            color: rgba(255,255,255,0.85);
+            font-size: 13px;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        /* Post Info */
+        .post-info {
+            padding: 20px;
+        }
+
+        .post-category {
+            display: inline-block;
+            background: rgba(255,107,53,0.15);
+            color: #ff6b35;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+
+        .post-category.risk { background: rgba(255,45,85,0.15); color: #ff2d55; }
+        .post-category.safe { background: rgba(0,212,170,0.15); color: #00d4aa; }
+        .post-category.question { background: rgba(255,214,10,0.15); color: #ffd60a; }
+        .post-category.news { background: rgba(255,107,53,0.15); color: #ff6b35; }
+        .post-category.curiosity { background: rgba(138,43,226,0.15); color: #a855f7; }
+        .post-category.cta { background: rgba(255,45,85,0.15); color: #ff2d55; }
+
+        .post-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .post-description {
+            font-size: 12px;
+            color: #999;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .post-source-link {
+            font-size: 10px;
+            color: #666;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .post-source-link a {
+            color: #ff6b35;
+            text-decoration: none;
+        }
+
+        .post-source-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Actions */
+        .post-actions {
+            display: flex;
+            gap: 10px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .action-btn {
+            flex: 1;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .btn-download {
+            background: rgba(255,255,255,0.08);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+
+        .btn-download:hover {
+            background: rgba(255,255,255,0.15);
+        }
+
+        .btn-posted {
+            background: rgba(0,212,170,0.1);
+            color: #00d4aa;
+            border: 1px solid rgba(0,212,170,0.3);
+        }
+
+        .btn-posted:hover {
+            background: rgba(0,212,170,0.2);
+        }
+
+        .btn-posted.is-posted {
+            background: #00d4aa;
+            color: #0a0a0f;
+        }
+
+        /* Caption Section */
+        .caption-section {
+            background: rgba(255,255,255,0.03);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .caption-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .caption-label {
+            font-size: 10px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .copy-btn {
+            background: rgba(255,107,53,0.2);
+            color: #ff6b35;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+
+        .copy-btn:hover {
+            background: rgba(255,107,53,0.3);
+        }
+
+        .caption-text {
+            font-size: 11px;
+            color: #bbb;
+            line-height: 1.6;
+            white-space: pre-wrap;
+        }
+
+        .hashtags {
+            margin-top: 10px;
+            font-size: 10px;
+            color: #666;
+        }
+
+        /* Hidden post for rendering */
+        .render-post {
+            position: fixed;
+            left: -9999px;
+            width: 1080px;
+            height: 1080px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #00d4aa;
+            color: #0a0a0f;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 14px;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>📱 Gerenciador de Posts <span style="color: #ff6b35">@a.classe.inutil</span></h1>
+            <p>Posts baseados em pesquisas reais com fontes verificáveis</p>
+
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-number" id="total-posts">0</div>
+                    <div class="stat-label">Total de Posts</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="posted-count">0</div>
+                    <div class="stat-label">Postados</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="pending-count">0</div>
+                    <div class="stat-label">Pendentes</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="progress-percent">0%</div>
+                    <div class="stat-label">Progresso</div>
+                </div>
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="stat">📊 Estatísticas</button>
+                <button class="filter-btn" data-filter="risk">⚠️ Profissões em Risco</button>
+                <button class="filter-btn" data-filter="safe">🛡️ Profissões Seguras</button>
+                <button class="filter-btn" data-filter="question">🤔 Perguntas</button>
+                <button class="filter-btn" data-filter="news">📰 Notícias</button>
+                <button class="filter-btn" data-filter="curiosity">🧠 Curiosidades</button>
+                <button class="filter-btn" data-filter="pending">⏳ Pendentes</button>
+                <button class="filter-btn" data-filter="posted">✅ Postados</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="posts-grid" id="posts-grid">
+            <!-- Posts will be injected here -->
+        </div>
+    </main>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // Posts data with real research and sources
+        const postsData = [
+            // ESTATÍSTICAS CHOCANTES
+            {
+                id: 1,
+                category: 'stat',
+                categoryLabel: '📊 Estatística',
+                number: '22%',
+                headline: 'dos empregos globais serão <span>DISROMPIDOS</span> até 2030',
+                source: 'World Economic Forum 2025',
+                sourceUrl: 'https://www.weforum.org/publications/the-future-of-jobs-report-2025/',
+                title: '22% dos empregos vão mudar radicalmente até 2030',
+                description: 'Segundo o relatório Future of Jobs 2025 do World Economic Forum, baseado em pesquisa com mais de 1.000 das maiores empresas do mundo (representando 14 milhões de trabalhadores), mais de um em cada cinco empregos que existem hoje serão profundamente transformados ou simplesmente deixarão de existir nos próximos 5 anos.',
+                caption: `22% dos empregos globais vão ser "disrompidos" até 2030.
+
+Não é previsão de futurista. É dado do World Economic Forum, baseado em pesquisa com mais de 1.000 das maiores empresas do mundo.
+
+Isso significa que mais de 1 em cada 5 empregos que existem HOJE vão mudar radicalmente ou simplesmente deixar de existir.
+
+A pergunta é: você está se preparando ou esperando acontecer?
+
+📖 Link na bio para o guia completo de sobrevivência.`,
+                hashtags: '#inteligenciaartificial #futuro #empregos #ia #tecnologia #carreira #trabalho #automacao #wef #economia'
+            },
+            {
+                id: 2,
+                category: 'stat',
+                categoryLabel: '📊 Estatística',
+                number: '375M',
+                headline: 'de pessoas precisarão <span>MUDAR DE CARREIRA</span> até 2030',
+                source: 'McKinsey Global Institute',
+                sourceUrl: 'https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work',
+                title: '375 milhões precisarão mudar completamente de profissão',
+                description: 'A McKinsey estima que 375 milhões de trabalhadores — 14% da força de trabalho global — precisarão mudar completamente de carreira devido aos impactos da IA. Não estamos falando de aprender uma nova ferramenta. Estamos falando de abandonar completamente uma profissão e começar do zero em outra.',
+                caption: `375 MILHÕES de pessoas vão precisar mudar completamente de carreira até 2030.
+
+Não é "aprender Excel" ou "fazer um cursinho".
+
+É abandonar tudo que você sabe fazer e começar do ZERO em outra profissão.
+
+14% da força de trabalho global.
+
+E a pergunta que ninguém quer responder: você tem tempo e dinheiro para se requalificar?
+
+Porque seu empregador provavelmente não vai pagar por isso.
+
+📖 Link na bio.`,
+                hashtags: '#carreira #requalificacao #futuro #ia #inteligenciaartificial #mckinsey #trabalho #emprego #automacao'
+            },
+            {
+                id: 3,
+                category: 'stat',
+                categoryLabel: '📊 Estatística',
+                number: '39%',
+                headline: 'das suas habilidades atuais serão <span>INÚTEIS</span> em 2030',
+                source: 'World Economic Forum 2025',
+                sourceUrl: 'https://www.weforum.org/publications/the-future-of-jobs-report-2025/',
+                title: 'Quase metade do que você sabe fazer não terá valor',
+                description: 'O relatório do WEF é claro: 39% das habilidades atuais dos trabalhadores se tornarão obsoletas até 2030. Quase metade do que você sabe fazer hoje não terá valor no mercado em cinco anos. E não são só habilidades técnicas — são formas inteiras de trabalhar.',
+                caption: `39% das habilidades que você tem HOJE serão inúteis em 2030.
+
+Quase metade.
+
+De TUDO que você sabe fazer.
+
+Não vai ter valor no mercado em 5 anos.
+
+E sabe o pior? As empresas sabem disso. Você não.
+
+Enquanto você acha que seu "Excel avançado" te protege, o mercado já está olhando pra frente.
+
+A pergunta: você está aprendendo as habilidades de 2030 ou polindo as de 2015?
+
+📖 Link na bio.`,
+                hashtags: '#habilidades #skills #futuro #carreira #ia #inteligenciaartificial #trabalho #educacao #aprendizado'
+            },
+            {
+                id: 4,
+                category: 'stat',
+                categoryLabel: '📊 Estatística',
+                number: '41%',
+                headline: 'das empresas planejam <span>DEMITIR</span> por causa da IA',
+                source: 'World Economic Forum 2025',
+                sourceUrl: 'https://www.weforum.org/publications/the-future-of-jobs-report-2025/',
+                title: '41% das empresas vão reduzir funcionários por automação',
+                description: '41% das empresas pesquisadas pelo WEF planejam reduzir sua força de trabalho à medida que a IA automatiza tarefas. Não são demissões por crise ou má gestão. São demissões planejadas, estratégicas, porque a tecnologia simplesmente tornou certas funções humanas desnecessárias.',
+                caption: `41% das empresas já estão PLANEJANDO demitir funcionários por causa da IA.
+
+Não é "se a crise vier".
+Não é "se o faturamento cair".
+
+É uma decisão ESTRATÉGICA.
+
+A tecnologia simplesmente tornou certas funções humanas desnecessárias.
+
+E enquanto você lê isso, o RH da sua empresa pode estar fazendo as contas de quantas pessoas a IA pode substituir.
+
+Você está na lista ou está se preparando?
+
+📖 Link na bio.`,
+                hashtags: '#demissoes #ia #inteligenciaartificial #automacao #empresas #trabalho #carreira #rh #tecnologia'
+            },
+            {
+                id: 5,
+                category: 'stat',
+                categoryLabel: '📊 Estatística',
+                number: '300M',
+                headline: 'de empregos podem ser <span>SUBSTITUÍDOS</span> pela IA',
+                source: 'Goldman Sachs',
+                sourceUrl: 'https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-global-workforce',
+                title: 'Goldman Sachs: 300 milhões de empregos em risco',
+                description: 'O Goldman Sachs estima que a IA pode substituir o equivalente a 300 milhões de empregos em tempo integral globalmente. Nos EUA e Europa, cerca de um quarto de todas as tarefas de trabalho pode ser totalmente automatizado. É a maior transformação do mercado de trabalho da história.',
+                caption: `O Goldman Sachs fez as contas.
+
+300 MILHÕES de empregos podem ser substituídos pela IA.
+
+Nos EUA e Europa, 1/4 de TODAS as tarefas de trabalho podem ser automatizadas.
+
+Não é previsão de youtuber. É análise do maior banco de investimentos do mundo.
+
+Eles sabem porque estão investindo bilhões nisso.
+
+A pergunta é: você está do lado de quem investe ou de quem será substituído?
+
+📖 Link na bio.`,
+                hashtags: '#goldmansachs #ia #inteligenciaartificial #automacao #empregos #economia #investimentos #futuro'
+            },
+            {
+                id: 6,
+                category: 'stat',
+                categoryLabel: '📊 Estatística',
+                number: '47%',
+                headline: 'dos empregos americanos têm <span>ALTO RISCO</span> de automação',
+                source: 'Estudo Oxford University (Frey & Osborne)',
+                sourceUrl: 'https://www.oxfordmartin.ox.ac.uk/publications/the-future-of-employment/',
+                title: 'Estudo de Oxford: quase metade dos empregos em risco',
+                description: 'Em 2013, pesquisadores de Oxford analisaram 702 profissões e concluíram que 47% de todos os empregos americanos estavam em alto risco de automação. Na época, muitos acharam alarmista. Aí veio o ChatGPT. E de repente, as previsões não parecem mais tão exageradas.',
+                caption: `Em 2013, pesquisadores de Oxford fizeram uma previsão: 47% dos empregos americanos estavam em alto risco de automação.
+
+Na época, todo mundo achou exagero.
+
+Aí veio o ChatGPT.
+Aí veio o Midjourney.
+Aí veio o Claude.
+
+E de repente... não parece mais tão absurdo.
+
+O estudo tinha "apenas" 10 anos de antecedência.
+
+A pergunta é: daqui a 10 anos, o que vão dizer sobre HOJE?
+
+📖 Link na bio.`,
+                hashtags: '#oxford #pesquisa #ia #inteligenciaartificial #automacao #empregos #futuro #tecnologia #chatgpt'
+            },
+            {
+                id: 7,
+                category: 'stat',
+                categoryLabel: '📊 Estatística',
+                number: '40%',
+                headline: 'dos candidatos não conseguem <span>SEQUER UMA ENTREVISTA</span>',
+                source: 'Análise de mercado 2024',
+                sourceUrl: 'https://www.whatjobs.com/news/alarming-ai-revolution-how-artificial-intelligence-is-rapidly-eliminating-middle-class-jobs-in-2025/',
+                title: '40% dos candidatos são "invisíveis" para empresas',
+                description: '40% dos candidatos a empregos de colarinho branco em 2024 não conseguiram sequer uma entrevista. Não é rejeição. É invisibilidade. São centenas de currículos enviados sem uma única resposta. Seu currículo está sendo lido por um humano ou filtrado automaticamente por IA?',
+                caption: `40% dos candidatos a empregos de escritório em 2024 não conseguiram SEQUER UMA ENTREVISTA.
+
+Não é rejeição.
+É invisibilidade.
+
+Centenas de currículos.
+Zero respostas.
+
+Sabe por quê? Porque antes de um humano ver seu currículo, um algoritmo de IA já decidiu se você "vale a pena".
+
+Você não está competindo com outros candidatos.
+
+Você está competindo com um filtro de IA que não sabe nada sobre você.
+
+📖 Link na bio.`,
+                hashtags: '#emprego #curriculo #entrevista #ia #rh #vagas #trabalho #carreira #automacao'
+            },
+            {
+                id: 8,
+                category: 'stat',
+                categoryLabel: '📊 Estatística',
+                number: '-67%',
+                headline: 'de queda nas vagas para <span>DESENVOLVEDORES JUNIORES</span>',
+                source: 'Rest of World / Análise de mercado',
+                sourceUrl: 'https://restofworld.org/2025/engineering-graduates-ai-job-losses/',
+                title: 'Vagas para programadores iniciantes despencaram 67%',
+                description: 'Vagas para desenvolvedores juniores caíram 67% em algumas plataformas. A ironia: os criadores da automação estão sendo automatizados. GitHub Copilot e GPT-4 podem escrever código funcional, debugar programas e converter linguagens. Se você precisa de 1 programador onde antes precisava de 3.',
+                caption: `Vagas para programadores juniores caíram 67%.
+
+A ironia suprema: os criadores da automação estão sendo automatizados.
+
+GitHub Copilot.
+Claude Code.
+GPT-4.
+
+Todos podem escrever código funcional a partir de linguagem natural.
+
+Desenvolvedores relatam ganhos de produtividade de 3x.
+
+Tradução: você precisa de 1 programador onde antes precisava de 3.
+
+E os outros 2? "Aprendam a usar a ferramenta" ou sumam.
+
+Nem programador está seguro.
+
+📖 Link na bio.`,
+                hashtags: '#programacao #desenvolvedor #codigo #ia #tecnologia #vagas #emprego #github #automacao'
+            },
+            // PROFISSÕES EM RISCO
+            {
+                id: 9,
+                category: 'risk',
+                categoryLabel: '⚠️ Em Risco',
+                number: '99%',
+                headline: 'de risco de automação para <span>TELEMARKETING</span>',
+                source: 'Estudo Oxford University',
+                sourceUrl: 'https://research.com/careers/job-automation-risks',
+                title: 'Telemarketing: a profissão com maior risco de automação',
+                description: 'Telemarketing tem 99% de probabilidade de automação segundo o estudo de Oxford. No Brasil, o setor emprega cerca de 1,4 milhão de pessoas. É uma porta de entrada no mercado para jovens sem experiência. Quando essa porta fechar, para onde vão?',
+                caption: `99% de chance de automação.
+
+TELEMARKETING é a profissão com maior risco de ser substituída por IA.
+
+Chatbots que:
+• Ligam 24 horas por dia
+• Nunca ficam cansados ou irritados
+• Adaptam o roteiro em tempo real
+• Têm paciência infinita
+
+No Brasil, 1,4 MILHÃO de pessoas trabalham com telemarketing.
+
+É a porta de entrada para jovens sem experiência.
+
+E essa porta está fechando.
+
+📖 Link na bio.`,
+                hashtags: '#telemarketing #automacao #ia #emprego #callcenter #trabalho #carreira #chatbot #vendas'
+            },
+            {
+                id: 10,
+                category: 'risk',
+                categoryLabel: '⚠️ Em Risco',
+                number: '96%',
+                headline: 'de risco para <span>ASSISTENTES ADMINISTRATIVOS</span>',
+                source: 'World Economic Forum 2025',
+                sourceUrl: 'https://www.weforum.org/publications/the-future-of-jobs-report-2025/',
+                title: 'Assistentes administrativos: declínio absoluto confirmado',
+                description: 'Agendar reuniões. Organizar arquivos. Responder e-mails de rotina. Preparar relatórios. Tudo isso já pode ser feito por IA. O WEF confirma: assistentes administrativos terão o maior declínio em números absolutos nos próximos anos.',
+                caption: `96% de risco de automação.
+
+Agendar reuniões? IA faz.
+Organizar arquivos? IA faz.
+Responder e-mails de rotina? IA faz.
+Preparar relatórios? IA faz.
+
+Microsoft Copilot.
+Google Workspace AI.
+Claude.
+
+Todos podem executar essas funções.
+
+O World Economic Forum confirma: assistentes administrativos terão o MAIOR DECLÍNIO em números absolutos.
+
+Se esse é seu trabalho, a pergunta não é SE vai mudar.
+
+É QUANDO.
+
+📖 Link na bio.`,
+                hashtags: '#administrativo #secretaria #automacao #ia #microsoft #google #trabalho #carreira #emprego'
+            },
+            {
+                id: 11,
+                category: 'risk',
+                categoryLabel: '⚠️ Em Risco',
+                number: '-25%',
+                headline: 'de queda na contratação de <span>ADVOGADOS JUNIORES</span>',
+                source: 'American Bar Association',
+                sourceUrl: 'https://www.finalroundai.com/blog/white-collar-jobs-most-at-risk-from-ai-in-2025',
+                title: 'Escritórios de advocacia cortaram 25% das contratações de iniciantes',
+                description: 'A American Bar Association notou que os maiores escritórios americanos cortaram contratações de nível inicial em quase 25%. A IA pode revisar milhares de documentos em horas, identificar cláusulas problemáticas e pesquisar precedentes. O trabalho braçal legal está desaparecendo.',
+                caption: `Os maiores escritórios de advocacia dos EUA cortaram 25% das contratações de advogados juniores.
+
+Por quê?
+
+A IA pode:
+• Revisar milhares de documentos em HORAS (humanos levavam semanas)
+• Identificar cláusulas problemáticas em contratos
+• Pesquisar precedentes legais
+• Redigir minutas de documentos
+
+Todo aquele trabalho "braçal" que advogados iniciantes faziam?
+
+Está desaparecendo.
+
+Faculdade de Direito não é mais garantia de emprego.
+
+📖 Link na bio.`,
+                hashtags: '#direito #advogado #advocacia #ia #automacao #carreira #oab #juridico #emprego'
+            },
+            {
+                id: 12,
+                category: 'risk',
+                categoryLabel: '⚠️ Em Risco',
+                number: '75%',
+                headline: 'das empresas de cinema que adotaram IA <span>DEMITIRAM</span>',
+                source: 'Estudo encomendado por sindicatos de Hollywood',
+                sourceUrl: 'https://www.brookings.edu/articles/how-openais-sora-hurts-the-creative-industries/',
+                title: 'Hollywood: 100.000 empregos disrompidos até 2026',
+                description: '75% das empresas de cinema que adotaram IA reduziram ou eliminaram empregos. Estima-se que mais de 100.000 empregos no entretenimento americano serão disrompidos pela IA generativa até 2026. Artistas de conceito, storyboarders, editores — todos na linha de frente.',
+                caption: `75% das empresas de cinema que adotaram IA reduziram empregos.
+
+Mais de 100.000 empregos no entretenimento americano serão disrompidos até 2026.
+
+Não estamos falando de substituir James Cameron.
+
+Estamos falando de milhares de profissionais "invisíveis":
+• Storyboarders
+• Artistas de conceito
+• Editores de vídeo
+• Criadores de conteúdo
+
+O Sora da OpenAI pode gerar vídeos que antes exigiam equipes inteiras.
+
+Criatividade não é mais exclusividade humana.
+
+📖 Link na bio.`,
+                hashtags: '#cinema #hollywood #ia #sora #openai #arte #criatividade #entretenimento #video #automacao'
+            },
+            // PROFISSÕES SEGURAS
+            {
+                id: 13,
+                category: 'safe',
+                categoryLabel: '🛡️ Segura',
+                number: '✓',
+                headline: 'Profissões que exigem <span class="green">PRESENÇA FÍSICA</span> ainda estão protegidas',
+                source: 'Análise de mercado',
+                sourceUrl: 'https://research.com/careers/job-automation-risks',
+                title: 'Eletricistas, encanadores, técnicos: proteção temporária',
+                description: 'Trabalho manual ainda é difícil de automatizar porque exige robôs físicos caros, navegação em ambientes não estruturados e adaptação a situações imprevisíveis. Eletricistas, encanadores e técnicos de manutenção têm uma janela de proteção — por enquanto.',
+                caption: `Robôs não sobem em telhados.
+Robôs não entram em buracos.
+Robôs não improvisam quando algo dá errado.
+
+Eletricistas.
+Encanadores.
+Técnicos de manutenção.
+
+Essas profissões ainda estão protegidas porque exigem:
+• Presença física em ambientes variados
+• Adaptação a situações imprevisíveis
+• Resolução de problemas únicos
+
+A IA é muito boa com informação.
+Ainda é péssima com o mundo físico.
+
+Aproveite essa janela. Mas saiba que ela não é eterna.
+
+📖 Link na bio.`,
+                hashtags: '#eletricista #encanador #manutencao #trabalho #profissao #carreira #seguranca #futuro'
+            },
+            {
+                id: 14,
+                category: 'safe',
+                categoryLabel: '🛡️ Segura',
+                number: '✓',
+                headline: 'Profissões que exigem <span class="green">EMPATIA REAL</span> resistem à automação',
+                source: 'Análise de limitações da IA',
+                sourceUrl: 'https://www.weforum.org/stories/2024/02/ai-creative-industries-davos/',
+                title: 'Psicólogos, terapeutas, cuidadores: conexão humana é o valor',
+                description: 'IA pode simular empatia. Pode dizer "sinto muito" com tom apropriado. Mas há uma diferença entre simulação e realidade. Em profissões onde conexão humana genuína é o valor central, humanos ainda são insubstituíveis — por enquanto.',
+                caption: `A IA pode dizer "sinto muito que você está passando por isso".
+
+Mas ela não SENTE nada.
+
+Psicólogos.
+Terapeutas.
+Cuidadores de idosos.
+Enfermeiros.
+
+Em profissões onde a CONEXÃO HUMANA é o valor central, humanos ainda são insubstituíveis.
+
+Não porque a IA não consegue imitar.
+
+Mas porque humanos conseguem perceber a diferença entre empatia real e simulação.
+
+Pelo menos por enquanto.
+
+📖 Link na bio.`,
+                hashtags: '#psicologia #terapia #saude #cuidador #enfermagem #empatia #humano #conexao #carreira'
+            },
+            // PERGUNTAS PROVOCATIVAS
+            {
+                id: 15,
+                category: 'question',
+                categoryLabel: '🤔 Pergunta',
+                number: '',
+                headline: 'Se um robô pode fazer seu trabalho...',
+                subtext: 'Por que a empresa te pagaria?',
+                source: '',
+                sourceUrl: '',
+                title: 'A pergunta que ninguém quer responder',
+                description: 'A matemática é simples. Se uma IA pode fazer seu trabalho por uma fração do custo, sem férias, sem 13º, sem reclamações, por que uma empresa continuaria te pagando? A resposta não é "porque sou humano". É "porque faço algo que a IA não consegue".',
+                caption: `Se um robô pode fazer seu trabalho...
+
+Por que a empresa te pagaria?
+
+A matemática é brutal:
+
+IA: trabalha 24/7, não pede férias, não reclama, custa centavos por hora.
+
+Você: trabalha 8h, precisa de férias, tem 13º, encargos, benefícios.
+
+A resposta NÃO é "porque sou humano".
+
+A resposta é "porque faço algo que a IA não consegue".
+
+Você consegue responder O QUÊ?
+
+📖 Link na bio.`,
+                hashtags: '#pergunta #reflexao #ia #trabalho #emprego #automacao #futuro #carreira'
+            },
+            {
+                id: 16,
+                category: 'question',
+                categoryLabel: '🤔 Pergunta',
+                number: '',
+                headline: 'Seus filhos estão estudando para empregos...',
+                subtext: 'Que não vão existir?',
+                source: '',
+                sourceUrl: '',
+                title: 'A educação de hoje prepara para o mundo de ontem',
+                description: 'O sistema educacional foi desenhado para a era industrial. Decorar, repetir, seguir instruções. Mas essas são exatamente as habilidades que a IA faz melhor. Estamos preparando crianças para competir com máquinas no jogo das máquinas.',
+                caption: `Seus filhos estão estudando para empregos que não vão existir?
+
+O sistema educacional foi desenhado para a era industrial:
+• Decorar
+• Repetir
+• Seguir instruções
+
+Mas essas são EXATAMENTE as habilidades que a IA faz melhor.
+
+Estamos preparando crianças para competir com máquinas...
+
+...no jogo das máquinas.
+
+É como treinar para uma maratona enquanto o mundo muda para corrida de drones.
+
+📖 Link na bio.`,
+                hashtags: '#educacao #filhos #escola #futuro #ia #criancas #aprendizado #carreira #pais'
+            },
+            {
+                id: 17,
+                category: 'question',
+                categoryLabel: '🤔 Pergunta',
+                number: '',
+                headline: 'Quanto do seu trabalho é repetitivo?',
+                subtext: 'Isso é o que a IA automatiza primeiro.',
+                source: '',
+                sourceUrl: '',
+                title: 'O alvo da automação: previsibilidade',
+                description: 'Se você pode descrever seu trabalho como uma série de passos, se existe um "jeito certo" de fazer, se você faz a mesma coisa todo dia — você está na mira. A IA não começa pelo difícil. Começa pelo repetitivo.',
+                caption: `Quanto do seu trabalho é repetitivo?
+
+Pense bem.
+
+Se você pode descrever como uma série de passos...
+Se existe um "jeito certo" de fazer...
+Se você faz a mesma coisa todo dia...
+
+Você está na mira.
+
+A IA não começa automatizando o difícil.
+
+Começa pelo repetitivo.
+
+E o repetitivo é 70-80% da maioria dos empregos.
+
+Qual é a parte do SEU trabalho que não pode ser descrita em um fluxograma?
+
+📖 Link na bio.`,
+                hashtags: '#automacao #ia #trabalho #rotina #emprego #repetitivo #carreira #reflexao'
+            },
+            // NOTÍCIAS
+            {
+                id: 18,
+                category: 'news',
+                categoryLabel: '📰 Notícia',
+                number: '7.800',
+                headline: 'funcionários demitidos pela <span>IBM</span> para substituição por IA',
+                source: 'IBM, 2024',
+                sourceUrl: 'https://www.demandsage.com/ai-job-replacement-stats/',
+                title: 'IBM demitiu 7.800 e vai substituir por IA',
+                description: 'A IBM anunciou a demissão de 7.800 funcionários que serão substituídos por inteligência artificial. Não é rumor. É estratégia oficial da empresa. As funções de RH e back-office são as primeiras a ir.',
+                caption: `IBM demitiu 7.800 funcionários.
+
+Não por crise.
+Não por prejuízo.
+
+Para substituir por IA.
+
+Funções de RH. Back-office. Administrativo.
+
+Tudo o que pode ser automatizado, será.
+
+E não é só a IBM.
+
+É um sinal do que está por vir em TODAS as grandes empresas.
+
+Sua empresa provavelmente está fazendo os mesmos cálculos agora.
+
+Você está na conta de "manter" ou "substituir"?
+
+📖 Link na bio.`,
+                hashtags: '#ibm #demissao #ia #automacao #tecnologia #emprego #rh #noticias #trabalho'
+            },
+            {
+                id: 19,
+                category: 'news',
+                categoryLabel: '📰 Notícia',
+                number: '50%',
+                headline: 'do trabalho da <span>SALESFORCE</span> agora é feito por IA',
+                source: 'Marc Benioff, CEO Salesforce',
+                sourceUrl: 'https://www.whatjobs.com/news/alarming-ai-revolution-how-artificial-intelligence-is-rapidly-eliminating-middle-class-jobs-in-2025/',
+                title: 'CEO da Salesforce: IA faz metade do trabalho',
+                description: 'O CEO da Salesforce, Marc Benioff, foi brutalmente honesto: a IA agora lida com até metade do trabalho que era feito por humanos na empresa. Metade. E eles demitiram 4.000 funcionários. Se isso está acontecendo na vanguarda da tecnologia, imagine nas outras empresas.',
+                caption: `O CEO da Salesforce foi brutalmente honesto:
+
+"A IA agora faz METADE do trabalho que humanos faziam."
+
+METADE.
+
+E eles demitiram 4.000 funcionários.
+
+Salesforce é uma empresa de tecnologia de ponta.
+
+Se isso está acontecendo LÁ...
+
+O que você acha que vai acontecer na sua empresa quando eles finalmente adotarem IA?
+
+A única pergunta é: você vai estar preparado?
+
+📖 Link na bio.`,
+                hashtags: '#salesforce #ia #ceo #automacao #tecnologia #demissao #empresa #trabalho #noticias'
+            },
+            {
+                id: 20,
+                category: 'news',
+                categoryLabel: '📰 Notícia',
+                number: '$500B',
+                headline: 'bilhões no projeto <span>STARGATE</span> de data centers para IA',
+                source: 'OpenAI, SoftBank, Oracle',
+                sourceUrl: 'https://ceoworld.biz/2025/12/25/ai-billionaire-boom-how-2025-minted-more-than-50-new-fortunes/',
+                title: 'Meio trilhão de dólares em infraestrutura de IA',
+                description: 'OpenAI, SoftBank e Oracle vão investir US$ 500 bilhões em data centers para IA no projeto Stargate. Para colocar em perspectiva: é mais que o PIB de 170 países. Esse dinheiro não está sendo investido para criar empregos. Está sendo investido para eliminá-los.',
+                caption: `$500 BILHÕES.
+
+Meio trilhão de dólares.
+
+É quanto OpenAI, SoftBank e Oracle vão investir em data centers para treinar IA.
+
+Para colocar em perspectiva: é mais que o PIB de 170 países.
+
+JUNTOS.
+
+Esse dinheiro não está sendo investido para criar empregos.
+
+Está sendo investido para criar sistemas que ELIMINAM empregos.
+
+E você ainda acha que é exagero se preocupar?
+
+📖 Link na bio.`,
+                hashtags: '#stargate #openai #investimento #ia #datacenter #tecnologia #bilhoes #futuro #economia'
+            },
+            // CURIOSIDADES
+            {
+                id: 21,
+                category: 'curiosity',
+                categoryLabel: '🧠 Curiosidade',
+                number: '50+',
+                headline: 'novos <span>BILIONÁRIOS</span> criados pela IA apenas em 2025',
+                source: 'CNBC / Fortune',
+                sourceUrl: 'https://www.cnbc.com/2025/08/10/ai-artificial-intelligence-billionaires-wealth.html',
+                title: 'IA criou mais de 50 bilionários em um único ano',
+                description: 'Mais de 50 fundadores e executivos foram catapultados para a classe dos bilionários graças à IA apenas em 2025. Os fundadores da Mercor tornaram-se bilionários aos 22 anos. A mesma tecnologia que elimina empregos cria fortunas sem precedentes.',
+                caption: `Mais de 50 NOVOS BILIONÁRIOS foram criados pela IA apenas em 2025.
+
+Os fundadores da Mercor? Bilionários aos 22 anos.
+
+A mesma tecnologia que está eliminando milhões de empregos...
+
+...está criando as maiores fortunas da história.
+
+Não são fenômenos separados.
+
+É o MESMO fenômeno visto de ângulos diferentes.
+
+A riqueza não desaparece quando você perde o emprego.
+
+Ela vai para outro lugar.
+
+📖 Link na bio.`,
+                hashtags: '#bilionarios #ia #riqueza #tecnologia #economia #mercor #fortunas #desigualdade'
+            },
+            {
+                id: 22,
+                category: 'curiosity',
+                categoryLabel: '🧠 Curiosidade',
+                number: '$4T',
+                headline: 'é o valor da <span>NVIDIA</span> — a empresa mais valiosa do mundo',
+                source: 'Mercado de ações, 2025',
+                sourceUrl: 'https://europeanbusinessmagazine.com/business/ai-boom-adds-500bn-to-net-worth-of-us-tech-billionaires/',
+                title: 'NVIDIA: 4 trilhões de dólares. Mais que o PIB do Brasil.',
+                description: 'A NVIDIA, que fabrica os chips que alimentam a IA, vale mais de 4 trilhões de dólares. É a empresa mais valiosa do mundo. Mais de 70% de todo o processamento de IA global roda em hardware da NVIDIA. Um monopólio sobre o futuro.',
+                caption: `A NVIDIA vale 4 TRILHÕES de dólares.
+
+É a empresa mais valiosa do MUNDO.
+
+Mais de 70% de todo o processamento de IA global roda em chips da NVIDIA.
+
+Para comparar: é mais que o PIB do Brasil.
+
+Uma única empresa.
+
+Ela não fabrica produtos que você compra.
+
+Ela fabrica os chips que estão eliminando empregos.
+
+E está ficando mais rica a cada demissão anunciada.
+
+📖 Link na bio.`,
+                hashtags: '#nvidia #trilhoes #chips #ia #tecnologia #bolsa #investimento #economia #jensen'
+            },
+            {
+                id: 23,
+                category: 'curiosity',
+                categoryLabel: '🧠 Curiosidade',
+                number: '14%',
+                headline: 'de TODO o capital de risco global foi para <span>APENAS 2 EMPRESAS</span>',
+                source: 'Análise de mercado VC 2025',
+                sourceUrl: 'https://fortune.com/2025/08/13/ai-creating-billionaire-boom-record-pace-now-498-ai-unicorns-worth-2-7-trillion/',
+                title: 'OpenAI e Anthropic: 14% de todo o dinheiro de investimento do planeta',
+                description: 'OpenAI e Anthropic combinadas capturaram 14% de todo o investimento de venture capital global em 2025. Duas empresas. Quatorze por cento de todo o dinheiro de risco do planeta. Nunca houve uma concentração assim na história.',
+                caption: `Duas empresas capturaram 14% de TODO o capital de risco do PLANETA.
+
+OpenAI. Anthropic.
+
+Não 14% do setor de tecnologia.
+Não 14% do setor de IA.
+
+14% de TODOS os investimentos de risco globais.
+
+Considerando TODOS os setores.
+
+É a maior concentração de capital da história do venture capital.
+
+Todo esse dinheiro está apostando numa coisa:
+
+Que você vai ser substituído.
+
+📖 Link na bio.`,
+                hashtags: '#openai #anthropic #investimento #venturecapital #ia #concentracao #dinheiro #economia'
+            },
+            // CTAs
+            {
+                id: 24,
+                category: 'cta',
+                categoryLabel: '🔥 CTA',
+                number: '5',
+                headline: '<span>ANOS.</span> É o tempo que você tem para se reinventar.',
+                source: '',
+                sourceUrl: '',
+                title: 'O relógio está correndo',
+                description: 'As projeções são claras: até 2030, o mercado de trabalho será irreconhecível. Você tem aproximadamente 5 anos para se posicionar. Não é pessimismo. É matemática. A pergunta é: você vai agir ou esperar?',
+                caption: `5 anos.
+
+É o tempo que você tem para se reinventar.
+
+Até 2030:
+• 22% dos empregos vão mudar radicalmente
+• 375 milhões precisarão trocar de carreira
+• 39% das habilidades atuais serão obsoletas
+
+O relógio está correndo.
+
+Você pode:
+1. Ignorar e torcer para estar errado
+2. Agir agora e se preparar
+
+Uma decisão errada hoje pode custar sua carreira inteira amanhã.
+
+📖 Link na bio — o guia completo de sobrevivência.`,
+                hashtags: '#urgencia #futuro #ia #carreira #tempo #acao #preparacao #trabalho #2030'
+            },
+            {
+                id: 25,
+                category: 'cta',
+                categoryLabel: '🔥 CTA',
+                number: '',
+                headline: 'A IA não vai roubar seu emprego.',
+                subtext: 'Alguém que sabe usar IA vai.',
+                source: '',
+                sourceUrl: '',
+                title: 'A verdadeira ameaça não é a máquina',
+                description: 'A IA sozinha não demite ninguém. São pessoas que sabem usar IA que tornam outras pessoas obsoletas. A questão não é homem vs. máquina. É humano + máquina vs. humano sozinho. E quem está sozinho vai perder.',
+                caption: `A IA não vai roubar seu emprego.
+
+Alguém que sabe usar IA vai.
+
+A questão não é homem vs. máquina.
+
+É humano + máquina vs. humano sozinho.
+
+E quem está sozinho vai perder.
+
+Sempre.
+
+A pergunta é simples:
+
+Você está do lado de quem usa a ferramenta...
+
+Ou do lado de quem será substituído por ela?
+
+📖 Link na bio.`,
+                hashtags: '#ia #ferramenta #trabalho #carreira #competicao #futuro #automacao #habilidades'
+            },
+            {
+                id: 26,
+                category: 'stat',
+                categoryLabel: '📊 Estatística',
+                number: '30%',
+                headline: 'das horas de trabalho nos EUA podem ser <span>AUTOMATIZADAS</span> até 2030',
+                source: 'McKinsey',
+                sourceUrl: 'https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work',
+                title: 'Um terço de todo o trabalho americano pode ser automatizado',
+                description: 'A McKinsey projeta que até 2030, a IA poderá automatizar 30% das horas de trabalho nos Estados Unidos, ao mesmo tempo que adiciona US$ 13 trilhões à economia global. Mais riqueza será criada, mas menos humanos serão necessários para criá-la.',
+                caption: `30% de TODAS as horas trabalhadas nos EUA podem ser automatizadas até 2030.
+
+E ao mesmo tempo, a IA vai adicionar $13 TRILHÕES à economia global.
+
+Leu isso direito?
+
+MAIS riqueza será criada.
+MENOS humanos serão necessários.
+
+A economia vai crescer.
+Os empregos vão diminuir.
+
+Onde você acha que vai parar esse dinheiro extra?
+
+Spoiler: não é no seu bolso.
+
+📖 Link na bio.`,
+                hashtags: '#mckinsey #automacao #economia #ia #riqueza #trabalho #emprego #futuro #trilhoes'
+            },
+            {
+                id: 27,
+                category: 'risk',
+                categoryLabel: '⚠️ Em Risco',
+                number: '-50%',
+                headline: 'de queda na renda de <span>ILUSTRADORES</span> desde 2023',
+                source: 'Blood in the Machine',
+                sourceUrl: 'https://www.bloodinthemachine.com/p/artists-are-losing-work-wages-and',
+                title: 'Ilustradores: canários na mina de carvão',
+                description: 'Muitos ilustradores relatam quedas de 50-90% na renda desde 2023. O Midjourney gera em segundos o que eles levavam dias. Não precisa ser melhor. Só precisa ser 98% mais barato. Para a maioria dos usos comerciais, essa matemática é irresistível.',
+                caption: `Ilustradores relatam quedas de 50-90% na renda desde 2023.
+
+"Foi em 2023 que pareceu que da noite para o dia todos aqueles trabalhos desapareceram."
+
+O padrão:
+1. Cliente envia imagem de IA como "referência"
+2. Pede para "limpar" ou "melhorar"
+3. Paga uma fração do valor
+4. Eventualmente dispensa o humano
+
+Midjourney não precisa ser melhor que artistas.
+
+Só precisa ser 98% mais barato.
+
+E é.
+
+📖 Link na bio.`,
+                hashtags: '#ilustracao #arte #design #midjourney #ia #criatividade #freelancer #artista #automacao'
+            },
+            {
+                id: 28,
+                category: 'curiosity',
+                categoryLabel: '🧠 Curiosidade',
+                number: '22',
+                headline: 'anos. É a idade dos <span>BILIONÁRIOS</span> mais jovens da história',
+                source: 'CNBC / Visual Capitalist',
+                sourceUrl: 'https://www.visualcapitalist.com/meet-the-new-ai-billionaires-of-2025/',
+                title: 'Fundadores da Mercor: bilionários aos 22 anos',
+                description: 'Os fundadores da Mercor — Brendan Foody, Adarsh Hiremath e Surya Midha — acumularam US$ 2,2 bilhões CADA UM aos 22 anos, tornando-se os bilionários self-made mais jovens de todos os tempos. Enquanto isso, milhões de trabalhadores perdem empregos para a tecnologia que eles criaram.',
+                caption: `Os bilionários self-made mais jovens de TODOS OS TEMPOS.
+
+22 anos.
+
+$2,2 BILHÕES cada um.
+
+Fundadores da Mercor — uma startup de IA.
+
+Enquanto você se preocupa se vai ter emprego em 5 anos...
+
+Garotos de 22 anos estão ficando bilionários criando a tecnologia que vai te substituir.
+
+O jogo mudou.
+
+Você está jogando ou sendo jogado?
+
+📖 Link na bio.`,
+                hashtags: '#bilionarios #jovens #mercor #ia #startup #riqueza #tecnologia #futuro'
+            },
+            {
+                id: 29,
+                category: 'question',
+                categoryLabel: '🤔 Pergunta',
+                number: '',
+                headline: 'Se você perdesse o emprego amanhã...',
+                subtext: 'Qual seria seu plano B?',
+                source: '',
+                sourceUrl: '',
+                title: 'A pergunta do plano B',
+                description: 'A maioria das pessoas não tem plano B. Trabalham décadas na mesma área e nunca pensam no que fariam se essa área desaparecesse. Mas áreas inteiras estão desaparecendo. E a velocidade só aumenta.',
+                caption: `Se você perdesse o emprego amanhã...
+
+Qual seria seu plano B?
+
+A maioria das pessoas não tem um.
+
+Trabalham décadas na mesma área.
+Nunca pensam no que fariam se ela desaparecesse.
+
+Mas áreas INTEIRAS estão desaparecendo.
+
+E a velocidade só aumenta.
+
+Você tem:
+• Reserva financeira?
+• Habilidades transferíveis?
+• Uma rede de contatos ativa?
+• Conhecimento em áreas adjacentes?
+
+Se a resposta é "não"... o momento de mudar isso é AGORA.
+
+📖 Link na bio.`,
+                hashtags: '#planob #carreira #seguranca #financeiro #emprego #demissao #preparacao #futuro'
+            },
+            {
+                id: 30,
+                category: 'news',
+                categoryLabel: '📰 Notícia',
+                number: '55K',
+                headline: 'demissões nos EUA foram <span>ATRIBUÍDAS À IA</span> só em 2025',
+                source: 'Yale Budget Lab',
+                sourceUrl: 'https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs',
+                title: '55.000 demissões por IA em 2025 — aumento de 58%',
+                description: 'Em 2025, quase 55.000 demissões nos EUA foram diretamente atribuídas à IA, de um total de 1,2 milhão de cortes. É um aumento de 58% em relação a 2024 e o maior número desde a pandemia de 2020. E isso é só o começo.',
+                caption: `55.000 demissões nos EUA foram DIRETAMENTE atribuídas à IA em 2025.
+
+Aumento de 58% em relação a 2024.
+
+Maior número desde a pandemia de 2020.
+
+E isso é só o que as empresas ADMITEM.
+
+Muitas demissões por IA são disfarçadas de "reestruturação", "otimização", "transformação digital".
+
+O número real é muito maior.
+
+E vai continuar crescendo.
+
+Exponencialmente.
+
+📖 Link na bio.`,
+                hashtags: '#demissoes #ia #eua #estatisticas #yale #trabalho #automacao #noticias #2025'
+            }
+        ];
+
+        // State
+        let postedPosts = JSON.parse(localStorage.getItem('postedPosts')) || [];
+        let currentFilter = 'all';
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            renderPosts();
+            updateStats();
+            setupFilters();
+        });
+
+        // Render posts
+        function renderPosts() {
+            const grid = document.getElementById('posts-grid');
+            grid.innerHTML = '';
+
+            const filteredPosts = postsData.filter(post => {
+                if (currentFilter === 'all') return true;
+                if (currentFilter === 'pending') return !postedPosts.includes(post.id);
+                if (currentFilter === 'posted') return postedPosts.includes(post.id);
+                return post.category === currentFilter;
+            });
+
+            filteredPosts.forEach(post => {
+                const isPosted = postedPosts.includes(post.id);
+                const card = createPostCard(post, isPosted);
+                grid.appendChild(card);
+            });
+        }
+
+        // Create post card
+        function createPostCard(post, isPosted) {
+            const card = document.createElement('div');
+            card.className = `post-card ${isPosted ? 'posted' : ''}`;
+            card.dataset.id = post.id;
+
+            const postTypeClass = getPostTypeClass(post.category);
+            const tagClass = getTagClass(post.category);
+
+            card.innerHTML = `
+                <div class="post-image-container">
+                    <div class="post-image ${postTypeClass}" id="post-image-${post.id}">
+                        <div class="post-content">
+                            ${post.category !== 'question' && post.category !== 'cta' ? `<div class="post-tag ${tagClass}">${post.categoryLabel}</div>` : ''}
+                            ${post.number ? `<div class="big-number ${post.category === 'safe' ? 'green' : ''}">${post.number}</div>` : ''}
+                            ${post.category === 'question' || post.category === 'cta' ? `<div class="post-icon">${post.category === 'question' ? '🤔' : '⏰'}</div>` : ''}
+                            <div class="post-headline">${post.headline}</div>
+                            ${post.subtext ? `<div class="post-sub">${post.subtext}</div>` : ''}
+                            ${post.source ? `<div class="post-source">Fonte: ${post.source}</div>` : ''}
+                            <div class="post-handle">@a.classe.inutil</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-info">
+                    <span class="post-category ${post.category}">${post.categoryLabel}</span>
+                    <h3 class="post-title">${post.title}</h3>
+                    <p class="post-description">${post.description}</p>
+                    ${post.sourceUrl ? `<span class="post-source-link">Fonte: <a href="${post.sourceUrl}" target="_blank">${post.source}</a></span>` : ''}
+
+                    <div class="caption-section">
+                        <div class="caption-header">
+                            <span class="caption-label">Legenda do Post</span>
+                            <button class="copy-btn" onclick="copyCaption(${post.id})">Copiar</button>
+                        </div>
+                        <div class="caption-text">${post.caption}</div>
+                        <div class="hashtags">${post.hashtags}</div>
+                    </div>
+
+                    <div class="post-actions">
+                        <button class="action-btn btn-download" onclick="downloadPost(${post.id})">
+                            ⬇️ Baixar PNG
+                        </button>
+                        <button class="action-btn btn-posted ${isPosted ? 'is-posted' : ''}" onclick="togglePosted(${post.id})">
+                            ${isPosted ? '✓ Postado' : '◯ Marcar como Postado'}
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            return card;
+        }
+
+        // Get post type class
+        function getPostTypeClass(category) {
+            const classes = {
+                'stat': 'post-stat',
+                'risk': 'post-risk',
+                'safe': 'post-safe',
+                'question': 'post-question',
+                'news': 'post-news',
+                'curiosity': 'post-curiosity',
+                'cta': 'post-cta'
+            };
+            return classes[category] || 'post-stat';
+        }
+
+        // Get tag class
+        function getTagClass(category) {
+            if (category === 'safe') return 'green';
+            if (category === 'curiosity') return 'purple';
+            if (category === 'news') return 'orange';
+            return '';
+        }
+
+        // Toggle posted status
+        function togglePosted(postId) {
+            if (postedPosts.includes(postId)) {
+                postedPosts = postedPosts.filter(id => id !== postId);
+            } else {
+                postedPosts.push(postId);
+            }
+            localStorage.setItem('postedPosts', JSON.stringify(postedPosts));
+            renderPosts();
+            updateStats();
+            showToast('Status atualizado!');
+        }
+
+        // Copy caption
+        function copyCaption(postId) {
+            const post = postsData.find(p => p.id === postId);
+            const text = post.caption + '\n\n' + post.hashtags;
+            navigator.clipboard.writeText(text).then(() => {
+                showToast('Legenda copiada!');
+            });
+        }
+
+        // Download post - creates element with inline styles for correct rendering
+        async function downloadPost(postId) {
+            const post = postsData.find(p => p.id === postId);
+
+            // Create render container with all styles inline
+            const renderContainer = document.createElement('div');
+            renderContainer.style.cssText = `
+                position: fixed;
+                left: -9999px;
+                top: 0;
+                width: 1080px;
+                height: 1080px;
+                font-family: 'Inter', sans-serif;
+            `;
+
+            // Get background based on category
+            const backgrounds = {
+                'stat': 'linear-gradient(135deg, #0a0a0f 0%, #1a0510 100%)',
+                'risk': 'linear-gradient(180deg, #0f0a0a 0%, #1a0a0f 100%)',
+                'safe': 'linear-gradient(135deg, #0a0f0a 0%, #0a1a15 100%)',
+                'question': 'linear-gradient(135deg, #ff2d55 0%, #ff6b35 50%, #ffd60a 100%)',
+                'news': '#0a0a0f',
+                'curiosity': 'linear-gradient(135deg, #0f0a1a 0%, #1a0f25 100%)',
+                'cta': '#0a0a0f'
+            };
+
+            const tagColors = {
+                'stat': { bg: 'rgba(255,45,85,0.2)', border: 'rgba(255,45,85,0.4)', color: '#ff2d55' },
+                'risk': { bg: 'rgba(255,45,85,0.2)', border: 'rgba(255,45,85,0.4)', color: '#ff2d55' },
+                'safe': { bg: 'rgba(0,212,170,0.2)', border: 'rgba(0,212,170,0.4)', color: '#00d4aa' },
+                'news': { bg: 'rgba(255,107,53,0.2)', border: 'rgba(255,107,53,0.4)', color: '#ff6b35' },
+                'curiosity': { bg: 'rgba(138,43,226,0.2)', border: 'rgba(138,43,226,0.4)', color: '#a855f7' },
+                'cta': { bg: 'rgba(255,45,85,0.2)', border: 'rgba(255,45,85,0.4)', color: '#ff2d55' }
+            };
+
+            const numberGradient = post.category === 'safe'
+                ? 'linear-gradient(135deg, #00d4aa, #00ff88)'
+                : 'linear-gradient(135deg, #ff2d55, #ff6b35, #ffd60a)';
+
+            const highlightColor = post.category === 'safe' ? '#00d4aa' : '#ff6b35';
+            const tagStyle = tagColors[post.category] || tagColors['stat'];
+
+            // Build the HTML
+            let overlayHtml = '';
+            if (post.category === 'stat') {
+                overlayHtml = `<div style="position:absolute;top:-50%;right:-50%;width:100%;height:100%;background:radial-gradient(circle, rgba(255,45,85,0.15) 0%, transparent 60%);"></div>`;
+            } else if (post.category === 'curiosity') {
+                overlayHtml = `<div style="position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(circle at 50% 30%, rgba(138,43,226,0.15) 0%, transparent 60%);"></div>`;
+            } else if (post.category === 'cta') {
+                overlayHtml = `<div style="position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(circle at 20% 80%, rgba(255,45,85,0.2) 0%, transparent 40%),radial-gradient(circle at 80% 20%, rgba(255,214,10,0.15) 0%, transparent 40%);"></div>`;
+            }
+
+            // Format headline - replace <span> with styled version
+            const formattedHeadline = post.headline
+                .replace(/<span>/g, `<span style="color:${highlightColor};">`)
+                .replace(/<span class="green">/g, `<span style="color:#00d4aa;">`);
+
+            let contentHtml = '';
+
+            if (post.category === 'question' || post.category === 'cta') {
+                // Question/CTA style
+                const icon = post.category === 'question' ? '🤔' : '⏰';
+                contentHtml = `
+                    <div style="font-size:120px;margin-bottom:30px;">${icon}</div>
+                    <div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:800;color:white;line-height:1.2;text-align:center;max-width:900px;${post.category === 'question' ? 'text-shadow:0 2px 20px rgba(0,0,0,0.2);' : ''}">${formattedHeadline}</div>
+                    ${post.subtext ? `<div style="color:${post.category === 'question' ? 'rgba(255,255,255,0.85)' : '#888'};font-size:36px;margin-top:40px;font-weight:500;text-align:center;">${post.subtext}</div>` : ''}
+                `;
+            } else {
+                // Standard style with number
+                contentHtml = `
+                    <div style="background:${tagStyle.bg};border:2px solid ${tagStyle.border};color:${tagStyle.color};padding:12px 28px;border-radius:30px;font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin-bottom:40px;">${post.categoryLabel}</div>
+                    ${post.number ? `<div style="font-size:180px;font-weight:900;color:${post.category === 'safe' ? '#00d4aa' : '#ff6b35'};line-height:1;margin-bottom:30px;">${post.number}</div>` : ''}
+                    <div style="color:white;font-size:42px;font-weight:600;line-height:1.4;text-align:center;max-width:850px;">${formattedHeadline}</div>
+                `;
+            }
+
+            renderContainer.innerHTML = `
+                <div style="width:1080px;height:1080px;background:${backgrounds[post.category]};position:relative;overflow:hidden;">
+                    ${overlayHtml}
+                    <div style="position:relative;z-index:1;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:60px;text-align:center;">
+                        ${contentHtml}
+                    </div>
+                    ${post.source ? `<div style="position:absolute;bottom:40px;left:40px;color:#555;font-size:20px;text-transform:uppercase;letter-spacing:1px;">Fonte: ${post.source}</div>` : ''}
+                    <div style="position:absolute;bottom:40px;right:40px;color:#666;font-size:24px;font-weight:600;">@a.classe.inutil</div>
+                </div>
+            `;
+
+            document.body.appendChild(renderContainer);
+
+            // Wait for fonts to load
+            await document.fonts.ready;
+            await new Promise(resolve => setTimeout(resolve, 100));
+
+            try {
+                const canvas = await html2canvas(renderContainer.firstElementChild, {
+                    width: 1080,
+                    height: 1080,
+                    scale: 1,
+                    useCORS: true,
+                    backgroundColor: null,
+                    logging: false
+                });
+
+                const link = document.createElement('a');
+                link.download = `post-${postId}-${post.category}-classe-inutil.png`;
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+                showToast('Imagem baixada!');
+            } catch (error) {
+                console.error('Error:', error);
+                showToast('Erro ao gerar imagem');
+            } finally {
+                document.body.removeChild(renderContainer);
+            }
+        }
+
+        // Update stats
+        function updateStats() {
+            const total = postsData.length;
+            const posted = postedPosts.length;
+            const pending = total - posted;
+            const percent = Math.round((posted / total) * 100);
+
+            document.getElementById('total-posts').textContent = total;
+            document.getElementById('posted-count').textContent = posted;
+            document.getElementById('pending-count').textContent = pending;
+            document.getElementById('progress-percent').textContent = percent + '%';
+        }
+
+        // Setup filters
+        function setupFilters() {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentFilter = btn.dataset.filter;
+                    renderPosts();
+                });
+            });
+        }
+
+        // Show toast
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 2000);
+        }
+    </script>
+</body>
+</html>

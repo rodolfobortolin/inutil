@@ -339,13 +339,14 @@
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            background: var(--gradient-danger);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Playfair Display', serif;
-            font-size: 4rem;
-            font-weight: 700;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .author-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .author-info {
@@ -573,6 +574,73 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        /* Book Section */
+        .book-section {
+            padding: 100px 20px;
+            background: var(--bg-secondary);
+            position: relative;
+            z-index: 2;
+        }
+
+        .book-showcase {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .book-mockup {
+            text-align: center;
+            position: relative;
+        }
+
+        .book-mockup img {
+            max-width: 100%;
+            width: 350px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5), 0 0 60px rgba(255, 45, 85, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .book-mockup img:hover {
+            transform: scale(1.02);
+        }
+
+        .book-intro {
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .book-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin-bottom: 20px;
+        }
+
+        .book-intro h2 .highlight {
+            background: var(--gradient-danger);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .book-intro p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .book-section {
+                padding: 60px 20px;
+            }
+
+            .book-mockup img {
+                width: 280px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -603,7 +671,7 @@
                     <div class="stat-label">de empregos serão<br>substituídos por IA</div>
                 </div>
             </div>
-            <a href="SEU_LINK_HOTMART_AQUI" class="cta-button">
+            <a href="https://pay.kiwify.com.br/RlL9y4D" class="cta-button">
                 QUERO ME PROTEGER AGORA
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -636,6 +704,21 @@
                     <div class="pain-icon">🤷</div>
                     <h3 class="pain-title">Sem saber o que fazer</h3>
                     <p class="pain-text">Informações contraditórias em todo lugar. Uns dizem para se especializar em IA, outros dizem que é inútil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Section -->
+    <section class="book-section">
+        <div class="container">
+            <div class="book-showcase">
+                <div class="book-mockup fade-in">
+                    <img src="/images/capa.png" alt="A Classe Inútil - Capa do Livro">
+                </div>
+                <div class="book-intro fade-in">
+                    <h2>O livro que vai abrir <span class="highlight">seus olhos</span></h2>
+                    <p>Uma análise profunda e realista sobre como a inteligência artificial está transformando o mercado de trabalho — e o que você pode fazer para não ficar para trás.</p>
                 </div>
             </div>
         </div>
@@ -690,7 +773,7 @@
         <div class="container">
             <h2 class="section-title fade-in">Quem escreveu este livro</h2>
             <div class="author-box fade-in">
-                <div class="author-image">RB</div>
+                <div class="author-image"><img src="images/autor.jpg" alt="Rodolfo Bortolin"></div>
                 <div class="author-info">
                     <h3 class="author-name">Rodolfo Bortolin</h3>
                     <p class="author-title">Especialista em IA & Transformação Digital</p>
@@ -714,10 +797,10 @@
                 </p>
                 <div class="price-box">
                     <div class="price-old">De R$ 97,00</div>
-                    <div class="price-new">R$ 47,00</div>
-                    <div class="price-installments">ou 4x de R$ 12,42 sem juros</div>
+                    <div class="price-new">R$ 39,90</div>
+                    <div class="price-installments">ou 4x de R$ 9,98 sem juros</div>
                 </div>
-                <a href="SEU_LINK_HOTMART_AQUI" class="cta-button">
+                <a href="https://pay.kiwify.com.br/RlL9y4D" class="cta-button">
                     GARANTIR MINHA CÓPIA AGORA
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -749,7 +832,7 @@
                 </div>
                 <div class="faq-item fade-in">
                     <div class="faq-question">Como recebo o livro?</div>
-                    <p class="faq-answer">Imediatamente após a confirmação do pagamento, você recebe o eBook em formato PDF diretamente no seu email. Pode ler no celular, tablet ou computador.</p>
+                    <p class="faq-answer">Imediatamente após a confirmação do pagamento na Kiwify, você recebe acesso à área de membros onde pode baixar o eBook em formato PDF. Pode ler no celular, tablet ou computador.</p>
                 </div>
                 <div class="faq-item fade-in">
                     <div class="faq-question">E se eu não gostar?</div>
@@ -769,7 +852,7 @@
                 Daqui a 5 anos, você vai olhar para trás e lembrar deste momento. 
                 A pergunta é: você vai se orgulhar da decisão que tomou?
             </p>
-            <a href="SEU_LINK_HOTMART_AQUI" class="cta-button">
+            <a href="https://pay.kiwify.com.br/RlL9y4D" class="cta-button">
                 SIM, QUERO ME PREPARAR PARA O FUTURO
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -780,7 +863,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>© 2025 A Classe Inútil — Todos os direitos reservados</p>
+        <p>© 2026 A Classe Inútil — Todos os direitos reservados</p>
         <p style="margin-top: 10px;">Este produto é vendido e entregue pela Hotmart.</p>
     </footer>
 

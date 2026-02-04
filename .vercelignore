@@ -1,0 +1,17 @@
+# Livro (todo conteúdo)
+livro/
+
+# Instagram (ferramentas internas)
+instagram/
+
+# Scripts
+scripts/
+
+# Arquivos de configuração
+CLAUDE.md
+README.md
+*.zip
+
+# Outros
+*.jsonl
+.env*

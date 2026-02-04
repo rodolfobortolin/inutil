@@ -1,6 +1,6 @@
 # Instruções para Claude Code
 
-Este arquivo contém diretrizes para manutenção e desenvolvimento do livro "A CLASSE INÚTIL".
+Este arquivo contém diretrizes para manutenção e desenvolvimento do projeto "A CLASSE INÚTIL".
 
 ---
 
@@ -8,24 +8,60 @@ Este arquivo contém diretrizes para manutenção e desenvolvimento do livro "A 
 
 **Título:** A CLASSE INÚTIL — Como a Inteligência Artificial Vai Tornar Bilhões de Pessoas Dispensáveis
 
-**Objetivo:** Criar um livro de não-ficção impactante sobre o futuro do trabalho na era da IA.
+**Objetivo:** Criar um livro de não-ficção impactante sobre o futuro do trabalho na era da IA, com landing pages para venda e ferramentas de marketing para Instagram.
 
 ---
 
-## Estrutura de Arquivos
+## Estrutura de Pastas
 
-### Convenção de Nomenclatura
-- `parte-XX-cap-YY.md` — Capítulos (XX = número da parte, YY = número do capítulo)
-- `apendice-*.md` — Apêndices
-- `epilogo.md` — Epílogo
-- `ebook-inutil.md` — Arquivo principal com capa, prefácio e metadata
-
-### Ordem dos Arquivos para PDF
-A ordem está definida no script `gerar-pdf.sh`. Qualquer novo arquivo deve ser adicionado ao array `CAPITULOS`.
+```
+inutil/
+├── livro/                    # 📚 Conteúdo do livro
+│   ├── parte-XX-cap-YY.md    # Capítulos
+│   ├── apendice-*.md         # Apêndices
+│   ├── epilogo.md            # Epílogo
+│   ├── ebook-inutil.md       # Capa, prefácio e metadata
+│   ├── referencia-gramatical.md
+│   └── a-classe-inutil.pdf   # PDF gerado
+│
+├── instagram/                # 📱 Ferramentas de marketing
+│   ├── instagram-posts-manager.html  # Gerador de posts
+│   ├── reels-generator.html          # Gerador de reels
+│   └── prompts-musica-suno.md        # Prompts para músicas
+│
+├── scripts/                  # ⚙️ Scripts de automação
+│   └── gerar-pdf.sh          # Gerador de PDF
+│
+├── images/                   # 🖼️ Imagens do site
+│   ├── autor.jpg
+│   └── capa*.png
+│
+├── v1.html, v2.html, v3.html # 🌐 Landing pages
+├── carrossel.html            # Página de carrossel
+├── 404.html                  # Página de erro
+├── index.html                # Redirecionamento
+└── vercel.json               # Configuração Vercel
+```
 
 ---
 
-## Tom e Estilo
+## Site (Vercel)
+
+**URL:** https://a-classe-inutil.vercel.app
+
+O `.vercelignore` garante que apenas o site seja publicado:
+- Landing pages (v1.html, v2.html, v3.html)
+- Imagens (images/)
+- Página 404
+
+**Arquivos privados (não publicados):**
+- livro/ (conteúdo do livro)
+- instagram/ (ferramentas internas)
+- scripts/
+
+---
+
+## Tom e Estilo do Livro
 
 ### Características Obrigatórias
 - Linguagem acessível mas impactante
@@ -83,12 +119,6 @@ A ordem está definida no script `gerar-pdf.sh`. Qualquer novo arquivo deve ser 
 
 ---
 
-## Seção Principal 2
-
-[Continua o padrão]
-
----
-
 ## O Que Isso Significa Para Você
 
 [Seção prática conectando o conteúdo à vida do leitor]
@@ -119,17 +149,28 @@ A ordem está definida no script `gerar-pdf.sh`. Qualquer novo arquivo deve ser 
 
 ### Gerar PDF
 ```bash
-./gerar-pdf.sh
+./scripts/gerar-pdf.sh
 ```
 
 ### Contar palavras de um capítulo
 ```bash
-wc -w parte-01-cap-01.md
+wc -w livro/parte-01-cap-01.md
 ```
 
 ### Contar palavras totais
 ```bash
-cat *.md | wc -w
+cat livro/*.md | wc -w
+```
+
+### Deploy para Vercel
+```bash
+vercel --prod --yes
+```
+
+### Servir ferramentas Instagram localmente
+```bash
+python3 -m http.server 8888
+# Acesse: http://localhost:8888/instagram/
 ```
 
 ---
@@ -170,10 +211,10 @@ Antes de finalizar um capítulo, verificar:
 
 ## Geração do PDF
 
-O script `gerar-pdf.sh`:
+O script `scripts/gerar-pdf.sh`:
 1. Verifica dependências (pandoc, xelatex)
 2. Concatena todos os arquivos na ordem correta
-3. Gera o PDF com índice automático
+3. Gera o PDF em `livro/a-classe-inutil.pdf`
 4. Mostra estatísticas (palavras, tamanho)
 
 ### Requisitos
@@ -185,12 +226,15 @@ O script `gerar-pdf.sh`:
 ## Manutenção
 
 ### Adicionar Novo Capítulo
-1. Criar arquivo seguindo a convenção de nome
-2. Adicionar ao array `CAPITULOS` em `gerar-pdf.sh`
-3. Atualizar índice em `ebook-inutil.md`
-4. Atualizar README.md se necessário
+1. Criar arquivo em `livro/` seguindo a convenção de nome
+2. Adicionar ao array `CAPITULOS` em `scripts/gerar-pdf.sh`
+3. Atualizar índice em `livro/ebook-inutil.md`
 
 ### Atualizar Dados
 - Verificar anualmente se estatísticas ainda são relevantes
 - Atualizar referências com dados mais recentes
 - Adicionar novos desenvolvimentos em IA ao conteúdo
+
+### Atualizar Site
+- Editar arquivos v1.html, v2.html, v3.html na raiz
+- Fazer deploy: `vercel --prod --yes`

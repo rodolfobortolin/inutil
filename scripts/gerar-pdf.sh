@@ -6,6 +6,9 @@
 
 set -e  # Para em caso de erro
 
+# Diretório do livro
+LIVRO_DIR="livro"
+
 echo "📚 Gerando PDF do Ebook 'A Classe Inútil'"
 echo "==========================================================="
 echo ""
@@ -66,8 +69,8 @@ CAPITULOS=(
 
 # Verifica se todos os arquivos existem
 echo "🔍 Verificando arquivos..."
-if [ ! -f "ebook-inutil.md" ]; then
-    echo "❌ Erro: Arquivo não encontrado: ebook-inutil.md"
+if [ ! -f "$LIVRO_DIR/ebook-inutil.md" ]; then
+    echo "❌ Erro: Arquivo não encontrado: $LIVRO_DIR/ebook-inutil.md"
     exit 1
 fi
 if [ ! -f "images/capa-base-oficial.png" ]; then
@@ -75,8 +78,8 @@ if [ ! -f "images/capa-base-oficial.png" ]; then
     exit 1
 fi
 for cap in "${CAPITULOS[@]}"; do
-    if [ ! -f "$cap" ]; then
-        echo "❌ Erro: Arquivo não encontrado: $cap"
+    if [ ! -f "$LIVRO_DIR/$cap" ]; then
+        echo "❌ Erro: Arquivo não encontrado: $LIVRO_DIR/$cap"
         exit 1
     fi
 done
@@ -87,14 +90,14 @@ echo ""
 echo "📝 Concatenando capítulos com quebras de página..."
 
 # Começa com o arquivo principal (capa + intro)
-cat ebook-inutil.md > ebook-completo-temp.md
+cat "$LIVRO_DIR/ebook-inutil.md" > ebook-completo-temp.md
 
 # Adiciona cada capítulo com quebra de página antes
 for cap in "${CAPITULOS[@]}"; do
     echo "" >> ebook-completo-temp.md
     echo "\\newpage" >> ebook-completo-temp.md
     echo "" >> ebook-completo-temp.md
-    cat "$cap" >> ebook-completo-temp.md
+    cat "$LIVRO_DIR/$cap" >> ebook-completo-temp.md
 done
 
 echo "✅ Capítulos concatenados"
@@ -108,7 +111,7 @@ echo ""
 # Gera o PDF
 echo "🔄 Gerando PDF (isso pode demorar alguns segundos)..."
 pandoc ebook-completo-temp.md \
-    -o a-classe-inutil.pdf \
+    -o "$LIVRO_DIR/a-classe-inutil.pdf" \
     --pdf-engine=xelatex \
     -f markdown+raw_tex \
     2>&1 | grep -v "Missing character" || true
@@ -117,14 +120,14 @@ pandoc ebook-completo-temp.md \
 rm ebook-completo-temp.md
 
 # Verifica se PDF foi criado
-if [ -f "a-classe-inutil.pdf" ]; then
-    TAMANHO=$(ls -lh a-classe-inutil.pdf | awk '{print $5}')
-    PAGINAS=$(mdls -name kMDItemNumberOfPages a-classe-inutil.pdf 2>/dev/null | awk '{print $3}' || echo "?")
+if [ -f "$LIVRO_DIR/a-classe-inutil.pdf" ]; then
+    TAMANHO=$(ls -lh "$LIVRO_DIR/a-classe-inutil.pdf" | awk '{print $5}')
+    PAGINAS=$(mdls -name kMDItemNumberOfPages "$LIVRO_DIR/a-classe-inutil.pdf" 2>/dev/null | awk '{print $3}' || echo "?")
     echo ""
     echo "==========================================================="
     echo "✅ PDF gerado com sucesso!"
     echo ""
-    echo "   Arquivo:  a-classe-inutil.pdf"
+    echo "   Arquivo:  $LIVRO_DIR/a-classe-inutil.pdf"
     echo "   Tamanho:  $TAMANHO"
     echo "   Palavras: $PALAVRAS"
     echo "   Páginas:  $PAGINAS"
