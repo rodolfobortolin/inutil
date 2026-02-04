@@ -73,8 +73,8 @@ if [ ! -f "$LIVRO_DIR/ebook-inutil.md" ]; then
     echo "❌ Erro: Arquivo não encontrado: $LIVRO_DIR/ebook-inutil.md"
     exit 1
 fi
-if [ ! -f "images/capa-base-oficial.png" ]; then
-    echo "❌ Erro: Imagem de capa não encontrada: images/capa-base-oficial.png"
+if [ ! -f "$LIVRO_DIR/capa-base-oficial.png" ]; then
+    echo "❌ Erro: Imagem de capa não encontrada: $LIVRO_DIR/capa-base-oficial.png"
     exit 1
 fi
 for cap in "${CAPITULOS[@]}"; do
