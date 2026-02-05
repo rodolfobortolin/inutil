@@ -687,9 +687,75 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        /* Urgency Banner */
+        .urgency-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(135deg, #00d4aa 0%, #00b4d8 100%);
+            color: #0f1923;
+            padding: 12px 20px;
+            z-index: 9999;
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.95rem;
+            box-shadow: 0 4px 20px rgba(0,212,170,0.4);
+        }
+        .urgency-banner .banner-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .urgency-banner .countdown {
+            display: flex;
+            gap: 8px;
+            font-family: 'IBM Plex Mono', monospace;
+        }
+        .urgency-banner .countdown-item {
+            background: rgba(0,0,0,0.15);
+            padding: 4px 8px;
+            border-radius: 4px;
+            min-width: 36px;
+        }
+        .urgency-banner .countdown-label {
+            font-size: 0.65rem;
+            opacity: 0.7;
+            display: block;
+        }
+        body {
+            padding-top: 52px;
+        }
+        @media (max-width: 600px) {
+            .urgency-banner {
+                font-size: 0.8rem;
+                padding: 10px 15px;
+            }
+            .urgency-banner .countdown-item {
+                padding: 3px 6px;
+                min-width: 30px;
+                font-size: 0.85rem;
+            }
+        }
     </style>
 </head>
 <body>
+    <!-- Urgency Banner -->
+    <div class="urgency-banner">
+        <div class="banner-content">
+            <span>🚀 PROMOÇÃO DE LANÇAMENTO | 60% OFF</span>
+            <div class="countdown">
+                <div class="countdown-item"><span id="days">00</span><span class="countdown-label">dias</span></div>
+                <div class="countdown-item"><span id="hours">00</span><span class="countdown-label">hrs</span></div>
+                <div class="countdown-item"><span id="minutes">00</span><span class="countdown-label">min</span></div>
+                <div class="countdown-item"><span id="seconds">00</span><span class="countdown-label">seg</span></div>
+            </div>
+        </div>
+    </div>
+
     <div class="gradient-bg"></div>
 
     <!-- Hero Section -->
@@ -897,9 +963,9 @@
                 <h3 class="pricing-title">A Classe Inútil</h3>
                 <p class="pricing-desc">O manual completo para prosperar na revolução da IA</p>
                 <div class="price-display">
-                    <div class="price-old">De R$ 97,00</div>
-                    <div class="price-current">R$ 39,90</div>
-                    <div class="price-installments">ou 4x de R$ 9,98 sem juros</div>
+                    <div class="price-old">De R$ 49,90</div>
+                    <div class="price-current">R$ 19,90</div>
+                    <div class="price-installments">ou 4x de R$ 4,98 sem juros</div>
                 </div>
                 <a href="https://pay.kiwify.com.br/RlL9y4D" class="cta-button" style="width: 100%; justify-content: center;">
                     GARANTIR MINHA CÓPIA AGORA
@@ -944,7 +1010,7 @@
     <!-- Footer -->
     <footer>
         <p>© 2026 A Classe Inútil — Todos os direitos reservados</p>
-        <p style="margin-top: 10px;">Este produto é vendido e entregue pela Hotmart.</p>
+        <p style="margin-top: 10px;">Este produto é vendido e entregue pela Kiwify.</p>
     </footer>
 
     <script>
@@ -957,6 +1023,42 @@
         }, { threshold: 0.1 });
 
         document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+    </script>
+
+    <!-- Countdown Timer -->
+    <script>
+        (function() {
+            const PROMO_DURATION = 3 * 24 * 60 * 60 * 1000; // 3 dias
+            let endTime = localStorage.getItem('promoEndTime');
+
+            if (!endTime || parseInt(endTime) < Date.now()) {
+                endTime = Date.now() + PROMO_DURATION;
+                localStorage.setItem('promoEndTime', endTime);
+            }
+
+            function updateCountdown() {
+                const now = Date.now();
+                const diff = parseInt(endTime) - now;
+
+                if (diff <= 0) {
+                    endTime = Date.now() + PROMO_DURATION;
+                    localStorage.setItem('promoEndTime', endTime);
+                }
+
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                document.getElementById('days').textContent = String(days).padStart(2, '0');
+                document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+                document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+            }
+
+            updateCountdown();
+            setInterval(updateCountdown, 1000);
+        })();
     </script>
 </body>
 </html>
