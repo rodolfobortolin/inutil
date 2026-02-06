@@ -1,2 +1,4 @@
 reels/
 scripts/
+.env*
+.vercel/
