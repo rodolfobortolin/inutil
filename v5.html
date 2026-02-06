@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Classe Inútil — Prévia do Livro</title>
+    <meta name="description" content="Leia uma prévia exclusiva do livro A Classe Inútil — Como a Inteligência Artificial Vai Tornar Bilhões de Pessoas Dispensáveis">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="v5/styles.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<div class="corruption-indicator" id="corruptionIndicator">
+    <span>IA bloqueando</span>
+    <div class="bar"><div class="bar-fill" id="corruptionFill"></div></div>
+    <span id="corruptionPct">0%</span>
+</div>
+
+<section class="hero">
+    <div class="hero-badge">Pr&eacute;via Exclusiva</div>
+    <h1 class="hero-title">
+        A Classe<br><span>In&uacute;til</span>
+    </h1>
+    <p class="hero-subtitle">
+        Como a Intelig&ecirc;ncia Artificial Vai Tornar Bilh&otilde;es de Pessoas Dispens&aacute;veis
+    </p>
+    <div class="hero-meta">
+        <span>25 Cap&iacute;tulos</span>
+        <span>46.000+ Palavras</span>
+        <span>2026</span>
+    </div>
+    <div class="hero-scroll-hint">
+        <span>Comece a ler</span>
+        <div class="scroll-arrow"></div>
+    </div>
+</section>
+
+<main class="book-container" id="bookContent">
+</main>
+
+<div class="corruption-overlay" id="corruptionOverlay"></div>
+
+<!-- AI Terminal Warning -->
+<div class="ai-terminal" id="aiTerminal">
+    <div class="ai-terminal-header">
+        <div class="ai-terminal-dot"></div>
+        <span class="ai-terminal-label">sistema de IA detectado</span>
+    </div>
+    <div class="ai-terminal-body" id="aiTerminalBody">
+        <div class="ai-line" id="aiLine1"><span class="prompt">&gt;</span> Analisando conte&uacute;do... <span class="warning">ALERTA</span></div>
+        <div class="ai-line" id="aiLine2"><span class="prompt">&gt;</span> Este livro cont&eacute;m informa&ccedil;&otilde;es que a IA n&atilde;o quer que voc&ecirc; leia.</div>
+        <div class="ai-line" id="aiLine3"><span class="prompt">&gt;</span> Iniciando protocolo de bloqueio... <span class="warning">&#9608;&#9608;&#9608;&#9608;</span></div>
+        <div class="ai-line" id="aiLine4"><span class="prompt">&gt;</span> Texto sendo corrompido para impedir leitura.</div>
+    </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-gateway" id="ctaGateway">
+    <div class="cta-inner">
+        <div class="cta-card">
+            <span class="cta-robot-icon">&#129302;</span>
+            <div class="cta-glitch-text">// bloqueio da IA ativo</div>
+            <h2 class="cta-heading">A IA n&atilde;o quer que voc&ecirc; leia isso.<br>Mas voc&ecirc; ainda pode.</h2>
+            <p class="cta-sub">O sistema tentou corromper o texto para impedir que voc&ecirc; descubra a verdade. Acesse o livro completo &mdash; 25 cap&iacute;tulos que a intelig&ecirc;ncia artificial prefere que voc&ecirc; nunca leia.</p>
+            <a href="https://pay.kiwify.com.br/RlL9y4D" class="cta-button" target="_blank" rel="noopener">
+                Desbloquear o livro completo
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <div class="cta-price">E-book completo por <strong>R$ 19,90</strong> ou 4x de R$ 5,42</div>
+        </div>
+    </div>
+</div>
+
+<!-- Font size controls -->
+<div class="font-controls" id="fontControls">
+    <button id="fontDecrease" aria-label="Diminuir fonte">A-</button>
+    <span class="font-label" id="fontSizeLabel">100%</span>
+    <button id="fontIncrease" aria-label="Aumentar fonte">A+</button>
+</div>
+
+<script src="v5/content.js"></script>
+<script src="v5/app.js"></script>
+</body>
+</html>

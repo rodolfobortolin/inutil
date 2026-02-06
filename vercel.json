@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/", "destination": "/v1.html", "permanent": false }
+    { "source": "/", "destination": "/v4.html", "permanent": false }
   ]
 }
