@@ -637,53 +637,6 @@ body::after {
     animation: wordTremble 0.25s ease-in-out infinite;
 }
 
-/* Font size controls */
-.font-controls {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    z-index: 99999;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background: rgba(22, 23, 30, 0.95);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 8px;
-    padding: 8px 12px;
-    backdrop-filter: blur(12px);
-}
-.font-controls button {
-    width: 34px;
-    height: 34px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background: rgba(255, 255, 255, 0.08);
-    color: #e8e6e1;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border-radius: 6px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease;
-    font-family: 'DM Sans', sans-serif;
-}
-.font-controls button:hover {
-    background: var(--accent-ember);
-    color: white;
-    border-color: var(--accent-ember);
-}
-.font-controls button:active {
-    transform: scale(0.93);
-}
-.font-controls .font-label {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.7rem;
-    color: #e8e6e1;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding: 0 6px;
-}
 
 /* Títulos de Parte (maiores que títulos de capítulo) */
 .chapter-title[data-ch="0"] {
@@ -712,6 +665,4 @@ h4.section-heading[data-ch="0"] {
     .epigraph { padding: 16px 20px; }
     .ai-terminal { width: calc(100% - 32px); bottom: 16px; }
     .ai-terminal-body { font-size: 0.65rem; }
-    .font-controls { bottom: 12px; left: 12px; padding: 6px 8px; }
-    .font-controls button { width: 30px; height: 30px; font-size: 1rem; }
 }

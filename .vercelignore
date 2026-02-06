@@ -7,8 +7,8 @@ instagram/
 # Scripts
 scripts/
 
-# Vídeos
-video/
+# Reels (clips, imagens e scripts de geração)
+reels/
 
 # Arquivos de configuração
 CLAUDE.md

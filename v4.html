@@ -114,11 +114,29 @@
         }
 
         .skip-link {
-            color: #5a6a7a;
-            font-size: 0.85rem;
-            margin-top: 25px;
-            text-decoration: underline;
+            color: #b0bec5;
+            font-size: 1rem;
+            margin-top: 20px;
+            text-decoration: none;
             cursor: pointer;
+            padding: 10px 24px;
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+        .skip-link:hover {
+            color: #fff;
+            border-color: rgba(255,255,255,0.5);
+            background: rgba(255,255,255,0.08);
+        }
+        .skip-link.buy-link {
+            color: #00d4aa;
+            border-color: rgba(0,212,170,0.4);
+        }
+        .skip-link.buy-link:hover {
+            background: rgba(0,212,170,0.1);
+            border-color: rgba(0,212,170,0.6);
         }
 
         /* ==================== TELA 2: LOCK SCREEN ==================== */
@@ -934,7 +952,8 @@
 
         <button class="start-btn" onclick="startExperience()">Começar</button>
 
-        <a class="skip-link" onclick="skipToSales()">Ir direto para o livro</a>
+        <a class="skip-link buy-link" href="https://pay.kiwify.com.br/RlL9y4D" target="_blank" rel="noopener">Comprar agora</a>
+        <a class="skip-link" href="v5.html">Ler prévia gratuita</a>
     </div>
 
     <!-- TELA 2: LOCK SCREEN -->
@@ -1079,6 +1098,8 @@
         </a>
 
         <p class="cta-guarantee">7 dias de garantia incondicional</p>
+
+        <a href="v5.html" class="cta-preview-link" style="display:inline-block;margin-top:20px;color:#b0bec5;font-size:15px;text-decoration:none;text-align:center;padding:10px 24px;border:1px solid rgba(255,255,255,0.25);border-radius:8px;transition:all 0.3s ease;">Ler prévia gratuita do livro</a>
     </div>
 
     <script>
@@ -1430,7 +1451,7 @@
         }
 
         function skipToSales() {
-            window.location.href = 'v1.html';
+            window.location.href = 'https://pay.kiwify.com.br/RlL9y4D';
         }
     </script>
 </body>

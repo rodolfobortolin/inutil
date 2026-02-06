@@ -235,33 +235,6 @@
         if (bc.contains(sel.anchorNode)) e.preventDefault();
     });
 
-    // Font size controls
-    var fontDecrease = document.getElementById('fontDecrease');
-    var fontIncrease = document.getElementById('fontIncrease');
-    var fontSizeLabel = document.getElementById('fontSizeLabel');
-    var bookContainer = document.getElementById('bookContent');
-
-    var currentFontSize = 100; // percentage
-    var MIN_FONT_SIZE = 70;
-    var MAX_FONT_SIZE = 150;
-    var STEP = 10;
-
-    function updateFontSize(newSize) {
-        currentFontSize = Math.max(MIN_FONT_SIZE, Math.min(MAX_FONT_SIZE, newSize));
-        bookContainer.style.fontSize = (currentFontSize / 100) * 1.08 + 'rem';
-        fontSizeLabel.textContent = currentFontSize + '%';
-        // Re-measure chapter 3 after font change
-        ch3Measured = false;
-    }
-
-    fontDecrease.addEventListener('click', function () {
-        updateFontSize(currentFontSize - STEP);
-    });
-
-    fontIncrease.addEventListener('click', function () {
-        updateFontSize(currentFontSize + STEP);
-    });
-
     // Initial setup
     setTimeout(function () { ch3Measured = false; measureCh3(); }, 1000);
     updateCorruption();
